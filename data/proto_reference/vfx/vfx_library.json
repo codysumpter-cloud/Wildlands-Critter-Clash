@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "vfx": [
+    {
+      "id": "hit_slash_small",
+      "channel": "HIT",
+      "type": "sprite_burst",
+      "spriteId": "vfx/slash_01",
+      "frames": 6,
+      "fps": 24,
+      "ttlMs": 220,
+      "scale": 1.0,
+      "screenShake": { "px": 1, "ms": 80 },
+      "blend": "alpha"
+    },
+    {
+      "id": "crit_spike",
+      "channel": "HIT",
+      "type": "sprite_burst",
+      "spriteId": "vfx/crit_star_01",
+      "frames": 8,
+      "fps": 30,
+      "ttlMs": 260,
+      "scale": 1.15,
+      "screenShake": { "px": 2, "ms": 110 },
+      "blend": "add"
+    },
+    {
+      "id": "kill_pop",
+      "channel": "KILL",
+      "type": "sprite_burst",
+      "spriteId": "vfx/pop_01",
+      "frames": 7,
+      "fps": 28,
+      "ttlMs": 240,
+      "scale": 1.0,
+      "screenShake": { "px": 1, "ms": 90 },
+      "blend": "alpha"
+    }
+  ]
+}

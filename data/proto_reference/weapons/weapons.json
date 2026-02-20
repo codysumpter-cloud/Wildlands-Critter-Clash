@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "weapons": [
+    {
+      "id": "tundrum_stomp",
+      "name": "STOMP",
+      "type": "aoe_pulse",
+      "cooldownMs": 900,
+      "damage": 18,
+      "radiusPx": 64,
+      "knockback": 0.9,
+      "critChance": 0.08,
+      "critMult": 1.8
+    },
+    {
+      "id": "tundrum_tidewake_charge",
+      "name": "TIDEWAKE CHARGE",
+      "type": "dash",
+      "cooldownMs": 1600,
+      "damage": 24,
+      "dashPx": 120,
+      "trailTicks": 6,
+      "critChance": 0.06,
+      "critMult": 2.0
+    }
+  ]
+}

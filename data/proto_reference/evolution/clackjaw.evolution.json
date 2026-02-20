@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "creatureId": "clackjaw",
+  "nodes": [
+    {
+      "id": "clackjaw_snapper_t1",
+      "name": "SNAPPER",
+      "description": "Pincer snaps knock targets back.",
+      "iconId": "icon_damage",
+      "tier": 1,
+      "exclusiveGroup": "clackjaw_primary",
+      "modules": [
+        { "type": "grant_weapon", "weaponId": "STONE" },
+        { "type": "proc_on_event", "event": "hit", "effect": "knockback", "chance": 0.25, "payload": { "mult": 1.15 } }
+      ],
+      "visuals": [
+        { "slot": "HEAD_SIDE", "attachmentSpriteId": "attach/jaw_plate", "priority": 10 }
+      ],
+      "vfx": [{ "hook": "on_hit", "vfxId": "hit_star" }],
+      "pvpTuning": { "knockbackMult": 0.85 }
+    },
+    {
+      "id": "clackjaw_shell_ridge_t2",
+      "name": "SHELL RIDGE",
+      "description": "Reflects damage and pulses on hit.",
+      "iconId": "icon_defense",
+      "tier": 2,
+      "prereqs": ["clackjaw_snapper_t1"],
+      "modules": [
+        { "type": "damage_reflect", "ratio": 0.12 },
+        { "type": "proc_on_event", "event": "damaged", "effect": "area_pulse", "chance": 0.35, "payload": { "radiusPx": 55, "damage": 7 } }
+      ],
+      "visuals": [
+        { "slot": "BACK", "attachmentSpriteId": "attach/shell_ridge", "priority": 20 }
+      ],
+      "vfx": [{ "hook": "on_damage", "vfxId": "shock_ring" }],
+      "pvpTuning": { "reflectMult": 0.8 }
+    },
+    {
+      "id": "clackjaw_ripper_combo_t3",
+      "name": "RIPPER COMBO",
+      "description": "Criticals fan out extra slashes.",
+      "iconId": "icon_damage",
+      "tier": 3,
+      "modules": [
+        { "type": "upgrade_weapon", "weaponId": "STONE", "upgradeId": "combo_chain" },
+        { "type": "proc_on_event", "event": "crit", "effect": "spawn_projectile", "chance": 1.0, "payload": { "pattern": "forward_cone", "count": 4, "damage": 6 } }
+      ],
+      "visuals": [
+        { "slot": "CHEST", "attachmentSpriteId": "attach/plates", "priority": 30 }
+      ],
+      "vfx": [{ "hook": "on_crit", "vfxId": "crit_star" }],
+      "pvpTuning": { "damageMult": 0.85 }
+    }
+  ]
+}

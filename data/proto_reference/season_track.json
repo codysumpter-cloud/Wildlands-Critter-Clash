@@ -1,0 +1,25 @@
+﻿{
+  "season": "Carnival Bloom",
+  "tiers": [
+    { "tier": 1, "reward": "Title: Meadow Friend" },
+    { "tier": 2, "reward": "Emote: Wave" },
+    { "tier": 3, "reward": "Banner: Pinecone" },
+    { "tier": 4, "reward": "Skin: Moss Trim" },
+    { "tier": 5, "reward": "Title: Cave Spark" },
+    { "tier": 6, "reward": "Emote: Spin" },
+    { "tier": 7, "reward": "Banner: Crystal" },
+    { "tier": 8, "reward": "Skin: Bog Bloom" },
+    { "tier": 9, "reward": "Title: Bubble Rider" },
+    { "tier": 10, "reward": "Emote: Hop" },
+    { "tier": 11, "reward": "Banner: Clockwork" },
+    { "tier": 12, "reward": "Skin: Carnival Lights" },
+    { "tier": 13, "reward": "Title: Grove Guardian" },
+    { "tier": 14, "reward": "Emote: Cheer" },
+    { "tier": 15, "reward": "Banner: Meadow Market" },
+    { "tier": 16, "reward": "Skin: Prism Edge" },
+    { "tier": 17, "reward": "Title: Relic Runner" },
+    { "tier": 18, "reward": "Emote: Bow" },
+    { "tier": 19, "reward": "Banner: Bubble Bog" },
+    { "tier": 20, "reward": "Skin: Clockwork Parade" }
+  ]
+}

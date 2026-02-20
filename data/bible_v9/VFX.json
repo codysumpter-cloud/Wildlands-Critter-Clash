@@ -1,0 +1,257 @@
+[
+  {
+    "vfxId": "vfx_barbed_ring",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_bog_splash",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_bubble_pulse",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_croakquake",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_ember_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_feather_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_foam_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_foxfire_orb",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_heavy_stomp",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_ink_cloud",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_ink_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_leaf_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_moon_ring",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_pollen_cloud",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_queen_pulse",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_ripple_wave",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_roll_dust",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_root_ring",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_sacred_circle",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_screech_cone",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_seafoam_stomp",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_shield_aura",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_slick_puddle",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_spark_burst",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_spore_puff",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_stomp_ring",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_tide_ring",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "vfx_tidewake_trail",
+    "notes": "Keep hard-edged pixel VFX; no blur/glow; budgeted.",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "aura_pulse",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "bounce_ring",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "burn_scorch",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "corrupt",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "corrupt_burst",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "dash_trail",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "explosion_pop",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "fear_ripple",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "frost_puff",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "heal_spark",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "hit_star",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "knock_wave",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "leaf_swoosh",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "pickup_glint",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "puff_smoke",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "root",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "root_snare",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "shield_flash",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "shock_ring",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "sparkle",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "stomp_crack",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "teleport_flash",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "vfxId": "trail",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  }
+]

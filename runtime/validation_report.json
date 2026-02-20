@@ -1,5 +1,19 @@
 {
-  "criticalErrors": [],
-  "schemaVersion": 1,
-  "warnings": []
+  "warnings": [
+    {
+      "code": "LAUNCH_SCOPE_EMPTY",
+      "kind": "weapon",
+      "note": "falling back to existing runtime weapons"
+    }
+  ],
+  "criticalErrors": [
+    {
+      "code": "LAUNCH_SCOPE_EMPTY",
+      "kind": "creature"
+    },
+    {
+      "code": "LAUNCH_SCOPE_EMPTY",
+      "kind": "stage"
+    }
+  ]
 }

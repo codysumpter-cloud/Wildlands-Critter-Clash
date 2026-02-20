@@ -1,0 +1,133 @@
+[
+  {
+    "creatureId": "tundrum",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 0}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP."
+  },
+  {
+    "creatureId": "rumblepaw",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP."
+  },
+  {
+    "creatureId": "thornhart",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP."
+  },
+  {
+    "creatureId": "sporeling",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP."
+  },
+  {
+    "creatureId": "clackjaw",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP."
+  },
+  {
+    "creatureId": "branchsnap",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "grugnar",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "emberpelt",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "venomcoil",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "shellspire",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "inkscourge",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "glimmerscale",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "buzzgrave",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "hollowhoot",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "bogbound",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "quillthorn",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "nightzip",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  },
+  {
+    "creatureId": "dreadrex",
+    "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+    "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+    "forbiddenSlotsJson": "[]",
+    "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+  }
+]

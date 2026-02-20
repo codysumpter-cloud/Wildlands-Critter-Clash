@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "identities": [
+    {
+      "weaponId": "tundrum_stomp",
+      "vfx": {
+        "cast": "hit_slash_small",
+        "hit": "hit_slash_small",
+        "crit": "crit_spike",
+        "kill": "kill_pop"
+      },
+      "sfx": {
+        "cast": "hit_flesh_01",
+        "hit": "hit_flesh_01",
+        "crit": "hit_crit_01",
+        "kill": "kill_pop_01"
+      }
+    },
+    {
+      "weaponId": "tundrum_tidewake_charge",
+      "vfx": { "cast": "hit_slash_small", "hit": "hit_slash_small", "crit": "crit_spike", "kill": "kill_pop" },
+      "sfx": { "cast": "hit_flesh_01", "hit": "hit_flesh_01", "crit": "hit_crit_01", "kill": "kill_pop_01" }
+    }
+  ]
+}

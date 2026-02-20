@@ -1,0 +1,147 @@
+[
+  {
+    "creatureId": "tundrum",
+    "displayName": "Tundrum",
+    "archetype": "mammoth quadruped",
+    "role": "bruiser / displacement",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true
+  },
+  {
+    "creatureId": "rumblepaw",
+    "displayName": "Rumblepaw",
+    "archetype": "bear quadruped front-heavy",
+    "role": "brawler",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true
+  },
+  {
+    "creatureId": "thornhart",
+    "displayName": "Thornhart",
+    "archetype": "stag quadruped antlers",
+    "role": "aura frontline",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true
+  },
+  {
+    "creatureId": "sporeling",
+    "displayName": "Sporeling",
+    "archetype": "fungus critter quadruped",
+    "role": "summoner / DoT",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true,
+    "aliases": "sporeling"
+  },
+  {
+    "creatureId": "clackjaw",
+    "displayName": "Clackjaw",
+    "archetype": "crab quadruped",
+    "role": "tank / guard pulse",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true
+  },
+  {
+    "creatureId": "branchsnap",
+    "displayName": "Branchsnap",
+    "archetype": "primal monkey acrobat",
+    "role": "mobility disruptor",
+    "releaseTrack": "Stage1 Launch",
+    "isLaunch": true
+  },
+  {
+    "creatureId": "grugnar",
+    "displayName": "Grugnar",
+    "archetype": "caveman brawler",
+    "role": "weapon chainer bruiser",
+    "releaseTrack": "Season 7",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "emberpelt",
+    "displayName": "Emberpelt",
+    "archetype": "fox skirmisher",
+    "role": "dash / afterimages",
+    "releaseTrack": "Season 7",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "venomcoil",
+    "displayName": "Venomcoil",
+    "archetype": "serpent assassin",
+    "role": "DoT duelist",
+    "releaseTrack": "Season 8",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "shellspire",
+    "displayName": "Shellspire",
+    "archetype": "turtle fortress",
+    "role": "defensive anchor",
+    "releaseTrack": "Season 9",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "inkscourge",
+    "displayName": "Inkscourge",
+    "archetype": "squid trick mage",
+    "role": "vision denial",
+    "releaseTrack": "Season 10",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "glimmerscale",
+    "displayName": "Glimmerscale",
+    "archetype": "lizard stance-swapper",
+    "role": "advanced duelist",
+    "releaseTrack": "Season 10",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "buzzgrave",
+    "displayName": "Buzzgrave",
+    "archetype": "bee swarm",
+    "role": "orbital-heavy zoner",
+    "releaseTrack": "Season 11",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "hollowhoot",
+    "displayName": "Hollowhoot",
+    "archetype": "owl rune caster",
+    "role": "rune zoning",
+    "releaseTrack": "Season 11",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "bogbound",
+    "displayName": "Bogbound",
+    "archetype": "frog controller",
+    "role": "leap control",
+    "releaseTrack": "Season 12",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "quillthorn",
+    "displayName": "Quillthorn",
+    "archetype": "hedgehog counter tank",
+    "role": "counter / thorns",
+    "releaseTrack": "Season 12",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "nightzip",
+    "displayName": "Nightzip",
+    "archetype": "bat/winged runner",
+    "role": "dash mobility",
+    "releaseTrack": "Future",
+    "isLaunch": false
+  },
+  {
+    "creatureId": "dreadrex",
+    "displayName": "Dreadrex",
+    "archetype": "tyrannosaur",
+    "role": "boss / prestige",
+    "releaseTrack": "Future",
+    "isLaunch": false
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "creatureId": "branchsnap",
+  "nodes": [
+    {
+      "id": "branchsnap_barkslam_t1",
+      "name": "BARKSLAM",
+      "description": "Pulse roots and slam damage.",
+      "iconId": "icon_damage",
+      "tier": 1,
+      "exclusiveGroup": "branchsnap_primary",
+      "modules": [
+        { "type": "area_pulse", "radiusPx": 70, "damage": 10 },
+        { "type": "status_apply", "status": "root", "durationMs": 1200, "chance": 0.2 }
+      ],
+      "visuals": [
+        { "slot": "CHEST", "attachmentSpriteId": "attach/bark_shield", "priority": 10 }
+      ],
+      "vfx": [{ "hook": "on_pulse", "vfxId": "shock_ring" }],
+      "pvpTuning": { "rootDurationMult": 0.7, "damageMult": 0.85 }
+    },
+    {
+      "id": "branchsnap_vine_whip_t2",
+      "name": "VINE WHIP",
+      "description": "Line lash with knockback.",
+      "iconId": "icon_utility",
+      "tier": 2,
+      "prereqs": ["branchsnap_barkslam_t1"],
+      "modules": [
+        { "type": "spawn_projectile_pattern", "pattern": "line", "count": 1, "damage": 12, "rangePx": 180 },
+        { "type": "knockback_mod", "mult": 1.2 }
+      ],
+      "visuals": [
+        { "slot": "BACK", "attachmentSpriteId": "attach/thorn_vines", "priority": 20 }
+      ],
+      "vfx": [{ "hook": "on_cast", "vfxId": "trail" }],
+      "pvpTuning": { "rangeMult": 0.9 }
+    },
+    {
+      "id": "branchsnap_canopy_guard_t3",
+      "name": "CANOPY GUARD",
+      "description": "Reflects damage and slows attackers.",
+      "iconId": "icon_defense",
+      "tier": 3,
+      "modules": [
+        { "type": "damage_reflect", "ratio": 0.16 },
+        { "type": "proc_on_event", "event": "damaged", "effect": "status_apply", "chance": 0.35, "payload": { "status": "slow", "durationMs": 1800 } }
+      ],
+      "visuals": [
+        { "slot": "HEAD_TOP", "attachmentSpriteId": "attach/root_crown", "priority": 30 }
+      ],
+      "vfx": [{ "hook": "on_damage", "vfxId": "root_snare" }],
+      "pvpTuning": { "reflectMult": 0.85 }
+    }
+  ]
+}

@@ -1,14 +1,25 @@
 {
-  "name": "wildlands-critter-clash",
-  "version": "0.1.0",
+  "name": "wildlands-web-demo",
   "private": true,
-  "description": "Bible-driven web game pipeline (v16)",
+  "version": "0.1.0",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  },
   "scripts": {
-    "build:bible": "python3 tools/bible_import.py --xlsx docs/Bible_v16.xlsx --out data/generated",
+    "dev": "python3 -m http.server 8000",
+    "build": "npm run bible:import && npm run assets:rebuild && npm run build:runtime",
+    "bible:import": "python3 tools/bible_import_optional.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated",
+    "bible:import:force": "python3 tools/bible_import.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated",
+    "assets:rebuild": "node tools/assets_rebuild.js && node tools/build_runtime.js",
+    "validate": "python3 tools/bible_import.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated --validate-only",
     "build:runtime": "node tools/build_runtime.js",
-    "validate": "python3 tools/validate.py",
-    "build:all": "npm run build:bible && npm run build:runtime && npm run validate",
-    "package:playable": "python3 tools/package_release.py",
-    "release:itch": "npm run package:playable"
+    "release": "node tools/release.js",
+    "itch:pack": "npm run release && python3 tools/itch_pack.py",
+
+    "validate:assets": "node tools/validateAssets.js",
+    "generate:mutations": "node tools/generateMutationParts.js",
+    "generate:weapons": "node tools/generateWeapons.js",
+    "generate:vfx": "node tools/generateVfx.js",
+    "generate:sfx": "node tools/generateSfx.js"
   }
 }

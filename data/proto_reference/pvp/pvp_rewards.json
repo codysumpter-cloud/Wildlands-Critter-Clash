@@ -1,0 +1,49 @@
+{
+  "currency": {
+    "win": 60,
+    "loss": 25
+  },
+  "ranks": [
+    {
+      "rank": "Bronze",
+      "minRating": 900,
+      "badgeId": "bronze",
+      "cosmeticId": "pvp_badge_bronze"
+    },
+    {
+      "rank": "Silver",
+      "minRating": 1100,
+      "badgeId": "silver",
+      "cosmeticId": "pvp_badge_silver"
+    },
+    {
+      "rank": "Gold",
+      "minRating": 1300,
+      "badgeId": "gold",
+      "cosmeticId": "pvp_badge_gold"
+    },
+    {
+      "rank": "Platinum",
+      "minRating": 1500,
+      "badgeId": "platinum",
+      "cosmeticId": "pvp_badge_platinum"
+    }
+  ],
+  "mastery": [
+    {
+      "creatureId": "clackjaw",
+      "level": 2,
+      "cosmeticId": "mastery_clackjaw_hide"
+    },
+    {
+      "creatureId": "nightzip",
+      "level": 2,
+      "cosmeticId": "mastery_nightzip_stream"
+    },
+    {
+      "creatureId": "sporeling",
+      "level": 2,
+      "cosmeticId": "mastery_sporeling_root"
+    }
+  ]
+}

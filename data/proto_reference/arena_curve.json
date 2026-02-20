@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "hazard_types": [
+    "root_patch",
+    "spore_pool",
+    "volatile_seed"
+  ],
+  "curve": [
+    {
+      "time_min": 0,
+      "spawn_density": 0.6,
+      "elite_chance": 0.0,
+      "hazard_rate": 0.0,
+      "event": "start"
+    },
+    {
+      "time_min": 5,
+      "spawn_density": 0.8,
+      "elite_chance": 0.05,
+      "hazard_rate": 0.1,
+      "event": "pressure"
+    },
+    {
+      "time_min": 10,
+      "spawn_density": 1.0,
+      "elite_chance": 0.08,
+      "hazard_rate": 0.15,
+      "event": "elite_intro"
+    },
+    {
+      "time_min": 15,
+      "spawn_density": 1.2,
+      "elite_chance": 0.12,
+      "hazard_rate": 0.18,
+      "event": "hazard_spike"
+    },
+    {
+      "time_min": 20,
+      "spawn_density": 1.35,
+      "elite_chance": 0.16,
+      "hazard_rate": 0.22,
+      "event": "elites_ramp"
+    },
+    {
+      "time_min": 25,
+      "spawn_density": 1.5,
+      "elite_chance": 0.2,
+      "hazard_rate": 0.25,
+      "event": "boss_warning"
+    },
+    {
+      "time_min": 28,
+      "spawn_density": 1.6,
+      "elite_chance": 0.22,
+      "hazard_rate": 0.28,
+      "event": "boss_spawn"
+    },
+    {
+      "time_min": 30,
+      "spawn_density": 1.7,
+      "elite_chance": 0.25,
+      "hazard_rate": 0.3,
+      "event": "finale"
+    }
+  ]
+}

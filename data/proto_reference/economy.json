@@ -1,0 +1,12 @@
+﻿{
+  "currencies": [
+    { "id": "PlayToken", "display": "Play Token" },
+    { "id": "FestivalToken", "display": "Festival Token" }
+  ],
+  "earnRates": {
+    "coop": { "min": 8, "max": 14 },
+    "pvp": { "playTokenMin": 3, "playTokenMax": 5, "festivalTokenLoss": 2, "festivalTokenWin": 4 }
+  },
+  "lossFriendly": true,
+  "cosmeticsOnly": true
+}

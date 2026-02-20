@@ -1,0 +1,6 @@
+{
+  "bossId": "haylord_bramblehoof",
+  "hpScale": 12.0,
+  "vulnDamageTakenBonus": 1.10,
+  "phase2DamageTakenMult": 1.05
+}

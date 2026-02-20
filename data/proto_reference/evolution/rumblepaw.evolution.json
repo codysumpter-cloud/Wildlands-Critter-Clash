@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "creatureId": "rumblepaw",
+  "nodes": [
+    {
+      "id": "rumblepaw_mauler_t1",
+      "name": "MAULER",
+      "description": "Heavy strikes can stagger.",
+      "iconId": "icon_damage",
+      "tier": 1,
+      "exclusiveGroup": "rumblepaw_primary",
+      "modules": [
+        { "type": "grant_weapon", "weaponId": "WOOD" },
+        { "type": "proc_on_event", "event": "hit", "effect": "stagger", "chance": 0.2 }
+      ],
+      "visuals": [
+        { "slot": "HEAD_SIDE", "attachmentSpriteId": "attach/tusks_small", "priority": 10 }
+      ],
+      "vfx": [{ "hook": "on_hit", "vfxId": "hit_spark" }],
+      "pvpTuning": { "staggerChanceMult": 0.75 }
+    },
+    {
+      "id": "rumblepaw_quake_slam_t2",
+      "name": "QUAKE SLAM",
+      "description": "Area slam with knockback.",
+      "iconId": "icon_damage",
+      "tier": 2,
+      "prereqs": ["rumblepaw_mauler_t1"],
+      "modules": [
+        { "type": "area_pulse", "radiusPx": 85, "damage": 18 },
+        { "type": "knockback_mod", "mult": 1.25 }
+      ],
+      "visuals": [
+        { "slot": "BACK", "attachmentSpriteId": "attach/shoulder_spikes", "priority": 20 }
+      ],
+      "vfx": [{ "hook": "on_pulse", "vfxId": "shock_ring" }],
+      "pvpTuning": { "damageMult": 0.85 }
+    },
+    {
+      "id": "rumblepaw_ironhide_t3",
+      "name": "IRONHIDE",
+      "description": "Reflects damage and pulses on hit.",
+      "iconId": "icon_defense",
+      "tier": 3,
+      "modules": [
+        { "type": "damage_reflect", "ratio": 0.18 },
+        { "type": "proc_on_event", "event": "damaged", "effect": "area_pulse", "chance": 0.35, "payload": { "radiusPx": 55, "damage": 7 } }
+      ],
+      "visuals": [
+        { "slot": "CHEST", "attachmentSpriteId": "attach/scrap_armor", "priority": 30 }
+      ],
+      "vfx": [{ "hook": "on_damage", "vfxId": "bounce_ring" }],
+      "pvpTuning": { "reflectMult": 0.85 }
+    }
+  ]
+}

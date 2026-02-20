@@ -1,0 +1,14 @@
+{
+  "bibleFile": "Wildlands_Data_Bible_v9_zip_verified.xlsx",
+  "bibleSha256": "686bec73b798ad1410932e6b1f979f5b58ca453da3851cdd30c817a9bc56932a",
+  "generatedAtUtc": "2026-02-18T17:27:41.740538+00:00",
+  "generator": "wildlands_web_demo_bible_sync_v5",
+  "outputs": {
+    "data/creatures.json": "JSON_Blocks: dict keys ['schemaVersion','creatures'] + Creatures sheet (isLaunch flags)",
+    "data/mutations.json": "JSON_Blocks: dict keys ['schemaVersion','mutations']",
+    "data/stages.json": "Stages sheet",
+    "data/weapon_families.json": "Weapons sheet (grouped by family)",
+    "data/evolution_nodes.json": "EvolutionNodes sheet (modulesJson, prereqs, exclusiveGroup)",
+    "data/asset_manifest_launch.json": "Derived from isLaunch flags (Creatures/Stages/Weapons) + creature launch for evo nodes"
+  }
+}

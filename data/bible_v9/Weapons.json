@@ -1,0 +1,74 @@
+[
+  {
+    "weaponId": "bogbound_tongue",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "branchsnap_clubs",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "buzzgrave_stinger",
+    "family": "projectile",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "clackjaw_claw",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "glimmerscale_tongue",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "grugnar_axe",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "grugnar_boulder",
+    "family": "projectile",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "hollowhoot_screech",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "inkscourge_lash",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "nightzip_slash",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "rumblepaw_uppercut",
+    "family": "melee",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  },
+  {
+    "weaponId": "shellspire_turret",
+    "family": "projectile",
+    "notes": "Provide projectile/trail/hit VFX + SFX ids; bind via weapon identity system.",
+    "isLaunch": true
+  }
+]

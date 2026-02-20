@@ -1,0 +1,20 @@
+﻿{
+  "modes": [
+    {
+      "id": "relic_rush",
+      "name": "Relic Rush",
+      "durationSeconds": 270,
+      "relicCarrierSlow": 0.9,
+      "pveWaveInterval": 45,
+      "scoreRules": { "relicDelivery": 1 }
+    },
+    {
+      "id": "king_of_the_grove",
+      "name": "King of the Grove",
+      "durationSeconds": 300,
+      "zoneRotateSeconds": 60,
+      "pointsPerSecond": 1,
+      "neutralSpawnInterval": 30
+    }
+  ]
+}

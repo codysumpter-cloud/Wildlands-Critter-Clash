@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "scopeId": "launch_v1",
+  "description": "Launch scope only: Meadow Market + Haylord + 6 creatures + required attachments/VFX/SFX/icons. Experimental content remains visible in menus but is not regenerated or overwritten by launch regen tasks.",
+  "include": {
+    "stages": ["meadow_market"],
+    "bosses": ["haylord_bramblehoof"],
+    "creatures": ["rumblepaw", "sporeling", "branchsnap", "clackjaw", "tundrum", "thornhart"],
+    "categories": [
+      "PLAYER_SHEET",
+      "BOSS_SHEET",
+      "ENEMY_SHEET_MINIMAL",
+      "ATTACHMENT",
+      "WEAPON",
+      "PROJECTILE",
+      "VFX",
+      "SFX",
+      "TILE",
+      "PROP",
+      "ICON_UI"
+    ],
+    "tiles": [
+      "tile_grass_meadow",
+      "tile_packed_dirt",
+      "tile_cobble_patch",
+      "tile_water_shallow",
+      "tile_bridge_planks",
+      "tile_fence_boundary"
+    ],
+    "props": [
+      "prop_market_stall_a",
+      "prop_market_stall_b",
+      "prop_fence_segment",
+      "prop_hay_bale",
+      "prop_wagon_cart",
+      "prop_crate_stack",
+      "prop_barrel_rolling",
+      "prop_lantern_post_breakable",
+      "prop_beehive_post",
+      "prop_decor_small_a",
+      "prop_decor_small_b"
+    ],
+    "vfx": [
+      "hit_spark",
+      "crit_spike",
+      "pickup_glint",
+      "levelup_burst_small",
+      "telegraph_arrow",
+      "telegraph_ring",
+      "boss_intro_burst_stage1",
+      "boss_phase_burst",
+      "stomp_dust",
+      "aura_ring_soft",
+      "heal_pulse_small",
+      "charge_trail_straw",
+      "water_splash_small",
+      "fire_puddle_small"
+    ],
+    "sfx": [
+      "ui_click",
+      "ui_confirm",
+      "pickup_mutation",
+      "levelup",
+      "hit_light",
+      "hit_heavy",
+      "crit",
+      "boss_roar_haylord",
+      "boss_slam_haylord",
+      "boss_charge_haylord",
+      "boss_phase_shift_haylord",
+      "boss_death_stinger_stage1",
+      "unlock_stinger_marketbreaker",
+      "ambience_market_light"
+    ],
+    "icons": [
+      "icon_creature_rumblepaw",
+      "icon_creature_sporeling",
+      "icon_creature_branchsnap",
+      "icon_creature_clackjaw",
+      "icon_creature_tundrum",
+      "icon_creature_thornhart",
+      "icon_boss_haylord_bramblehoof",
+      "icon_upgrade_buff",
+      "icon_upgrade_weapon",
+      "icon_upgrade_bodymod"
+    ],
+    "attachmentsByCreature": {
+      "rumblepaw": [
+        "att_rp_savage_claws_t1",
+        "att_rp_savage_claws_t2",
+        "att_rp_savage_claws_t3",
+        "att_rp_fury_pelt_t1",
+        "att_rp_fury_pelt_t2",
+        "att_rp_fury_pelt_t3"
+      ],
+      "sporeling": [
+        "att_sp_toxic_cap_t1",
+        "att_sp_toxic_cap_t2",
+        "att_sp_toxic_cap_t3",
+        "att_sp_bloom_trail_back_t1",
+        "att_sp_bloom_trail_back_t2",
+        "att_sp_bloom_trail_back_t3",
+        "att_sp_fungal_aura_t1",
+        "att_sp_fungal_aura_t2",
+        "att_sp_fungal_aura_t3"
+      ],
+      "branchsnap": [
+        "att_bs_tribal_mask_t1",
+        "att_bs_tribal_mask_t2",
+        "att_bs_tribal_mask_t3",
+        "att_bs_vine_grapple_arm_t1",
+        "att_bs_vine_grapple_arm_t2",
+        "att_bs_vine_grapple_arm_t3"
+      ],
+      "clackjaw": [
+        "att_cj_shell_fortify_back_t1",
+        "att_cj_shell_fortify_back_t2",
+        "att_cj_shell_fortify_back_t3",
+        "att_cj_spined_carapace_chest_t1",
+        "att_cj_spined_carapace_chest_t2",
+        "att_cj_spined_carapace_chest_t3",
+        "att_cj_coral_cannon_shoulder_t1",
+        "att_cj_coral_cannon_shoulder_t2",
+        "att_cj_coral_cannon_shoulder_t3"
+      ],
+      "tundrum": [
+        "att_td_tusks_inlaid_t1",
+        "att_td_tusks_inlaid_t2",
+        "att_td_tusks_inlaid_t3",
+        "att_td_bulk_back_t1",
+        "att_td_bulk_back_t2",
+        "att_td_bulk_back_t3"
+      ],
+      "thornhart": [
+        "att_th_crown_antlers_t1",
+        "att_th_crown_antlers_t2",
+        "att_th_crown_antlers_t3",
+        "att_th_rooted_standard_t1",
+        "att_th_rooted_standard_t2",
+        "att_th_rooted_standard_t3",
+        "att_th_thorn_bloom_t1",
+        "att_th_thorn_bloom_t2",
+        "att_th_thorn_bloom_t3"
+      ]
+    }
+  },
+  "protectExperimental": {
+    "doNotDelete": true,
+    "doNotOverwriteOutsideInclude": true,
+    "notes": "Generators must only touch IDs listed above. All other generated assets remain as-is (experimental) and stay visible in menus if UI chooses."
+  }
+}

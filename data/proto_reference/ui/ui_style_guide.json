@@ -1,0 +1,34 @@
+{
+  "palette": {
+    "background": "#141018",
+    "panelBase": "#2A1633",
+    "panelDark": "#1C0E22",
+    "borderPrimary": "#0B070F",
+    "borderHighlight": "#3B2A46",
+    "text": "#F2EDE3",
+    "textMuted": "#B9A8C3",
+    "accentPrimary": "#E3A83A",
+    "accentSecondary": "#7BC96F",
+    "danger": "#D44747",
+    "pvpAccent": "#B04CE1"
+  },
+  "borders": {
+    "outerPx": 3,
+    "innerPx": 1,
+    "radius": 2
+  },
+  "typography": {
+    "titleScale": 3,
+    "headerScale": 2,
+    "bodyScale": 2,
+    "metaScale": 1,
+    "buttonMajorScale": 2,
+    "buttonSecondaryScale": 2,
+    "buttonMetaScale": 1
+  },
+  "timings": {
+    "hoverMs": 120,
+    "snapMs": 160,
+    "pressScale": 0.97
+  }
+}

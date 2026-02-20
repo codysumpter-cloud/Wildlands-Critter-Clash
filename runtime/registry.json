@@ -366,12 +366,662 @@
       "type": "image"
     },
     {
+      "id": "attachment.orbital/original_blood.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/orbital/original_blood.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orbital/original_thin.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/orbital/original_thin.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
       "id": "attachment.orbital/thin.sprite",
       "meta": {
         "h": 64,
         "w": 64
       },
       "path": "assets/attachments/orbital/thin.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_back_plates.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_back_plates.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_banner_big.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_banner_big.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_banner.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_banner.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_bark_shield.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_bark_shield.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_bone_banner.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_bone_banner.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_chitin_fan.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_chitin_fan.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_claw_blade.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_claw_blade.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_coral_horns.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_coral_horns.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_corrupt_eye_core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_corrupt_eye_core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_corrupt.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_crystal_growth.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_crystal_growth.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_dorsal_fin.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_dorsal_fin.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_ear_tuft.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_ear_tuft.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_eye_stalks.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_eye_stalks.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_fungus_cap_glow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_fungus_cap_glow.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_glow_gem.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_glow_gem.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_halo_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_halo_ring.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_halo.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_halo.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_ice_frill.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_ice_frill.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_jaw_plate.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_jaw_plate.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_lantern.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_lantern.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_moss_growth.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_moss_growth.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_mud_pouch.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_mud_pouch.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_orb_cluster.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_orb_cluster.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_orbital_skull.sprite",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/attachments/original_orbital_skull.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_orbital_stone.sprite",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/attachments/original_orbital_stone.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_plates.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_plates.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_rib_cage.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_rib_cage.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_root_crown.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_root_crown.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_root.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_scrap_armor.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_scrap_armor.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shell_ridge.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shell_ridge.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shell_spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shell_spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shield.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shield.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shock_core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shock_core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shock.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shock.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_shoulder_spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_shoulder_spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_spore_pods.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_spore_pods.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_tail_spike.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_tail_spike.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_thorn_vines.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_thorn_vines.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_trail.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_tusks_large.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_tusks_large.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_tusks_small.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_tusks_small.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_tusks_t1.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_tusks_t1.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_tusks_t2.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_tusks_t2.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.original_wing_fins.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/original_wing_fins.png",
       "tags": [
         "attachment",
         "experimental"
@@ -645,6 +1295,45 @@
         "w": 64
       },
       "path": "assets/attachments/vfx/corrupt.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/original_corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/original_corrupt.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/original_root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/original_root.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/original_trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/original_trail.png",
       "tags": [
         "attachment",
         "experimental"
@@ -1050,6 +1739,261 @@
         "rows": 5
       },
       "path": "assets/enemies/enemy_voidroot_abomination.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_blight_howler.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_blight_howler.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_bog_strider.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_bog_strider.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_bonecrawler.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_bonecrawler.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_brambleguard.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_brambleguard.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_cinder_imp.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_cinder_imp.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_crypt_brute.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_crypt_brute.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_deepmaw_leviathan.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_deepmaw_leviathan.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_flame_husk.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_flame_husk.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_inferno_stalker.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_inferno_stalker.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_mirrling.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_mirrling.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_ossuary_titan.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_ossuary_titan.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_rootling.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_rootling.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_spore_wisp.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_spore_wisp.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_thorn_colossus.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_thorn_colossus.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.original_enemy_voidroot_abomination.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/original_enemy_voidroot_abomination.png",
       "tags": [
         "enemy",
         "launch"
@@ -1894,6 +2838,240 @@
         "w": 64
       },
       "path": "assets/props/monolith.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_bone_pile.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_bone_pile.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_boulder.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_boulder.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_crate.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_crate.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_fence_segment.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_fence_segment.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_monolith.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_monolith.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_market_stall.image",
+      "meta": {
+        "h": 96,
+        "w": 128
+      },
+      "path": "assets/props/original_prop_market_stall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_rock_large.image",
+      "meta": {
+        "h": 96,
+        "w": 96
+      },
+      "path": "assets/props/original_prop_rock_large.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_rock_small.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_prop_rock_small.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_ruin_pillar.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_prop_ruin_pillar.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_stump_blocker.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_prop_stump_blocker.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_prop_thorn_bramble_wall.image",
+      "meta": {
+        "h": 64,
+        "w": 128
+      },
+      "path": "assets/props/original_prop_thorn_bramble_wall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_rock.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_rock.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_ruin_pillar.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_ruin_pillar.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_ruin_wall.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_ruin_wall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_stump.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/original_stump.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_totem.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_totem.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_tree_oak.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_tree_oak.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.original_tree_pine.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/original_tree_pine.png",
       "tags": [
         "prop",
         "launch"
@@ -2946,6 +4124,510 @@
       "type": "audio"
     },
     {
+      "id": "sfx.sfx_bogbound_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_bogbound_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_bogbound_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_bogbound_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_branchsnap_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_branchsnap_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_branchsnap_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_branchsnap_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_buzzgrave_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_buzzgrave_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_buzzgrave_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_buzzgrave_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_clackjaw_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_clackjaw_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_clackjaw_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_clackjaw_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_dreadrex_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_dreadrex_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_dreadrex_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_dreadrex_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_emberpelt_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_emberpelt_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_emberpelt_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_emberpelt_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_fiber_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_fiber_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_fiber_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_fiber_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_glimmerscale_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_glimmerscale_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_glimmerscale_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_glimmerscale_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_grugnar_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_grugnar_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_grugnar_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_grugnar_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_hollowhoot_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_hollowhoot_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_hollowhoot_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_hollowhoot_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_inkscourge_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_inkscourge_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_inkscourge_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_inkscourge_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_nightzip_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_nightzip_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_nightzip_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_nightzip_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_quillthorn_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_quillthorn_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_quillthorn_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_quillthorn_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_rumblepaw_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_rumblepaw_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_rumblepaw_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_rumblepaw_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_shellspire_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_shellspire_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_shellspire_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_shellspire_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_sporeling_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_sporeling_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_sporeling_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_sporeling_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_stone_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_stone_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_stone_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_stone_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_thornhart_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_thornhart_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_thornhart_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_thornhart_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_tundrum_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_tundrum_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_tundrum_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_tundrum_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_venomcoil_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_venomcoil_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_venomcoil_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_venomcoil_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_wood_fire",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_wood_fire.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.sfx_wood_hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/sfx_wood_hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
       "id": "sfx.stage_unlock_0",
       "meta": {
         "ext": "wav"
@@ -3332,12 +5014,38 @@
       "type": "image"
     },
     {
+      "id": "ui.missing_asset.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/ui/missing_asset.png",
+      "tags": [
+        "ui",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
       "id": "ui.missing.image",
       "meta": {
         "h": 48,
         "w": 48
       },
       "path": "assets/ui/missing.png",
+      "tags": [
+        "ui",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "ui.original_missing.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/ui/original_missing.png",
       "tags": [
         "ui",
         "experimental"
@@ -3709,6 +5417,617 @@
       "type": "image"
     },
     {
+      "id": "vfx.original_arena_shockwave.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_arena_shockwave.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_aura_pulse.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_aura_pulse.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_boss_impact.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_boss_impact.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_boss_intro_burst_stage1.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_boss_intro_burst_stage1.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_boss_intro_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_boss_intro_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_boss_phase_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_boss_phase_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_boss_phase_shift.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_boss_phase_shift.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_bounce_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_bounce_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_burn_scorch.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_burn_scorch.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_chest_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_chest_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_corrupt_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_corrupt_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_corrupt.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_crit_star.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_crit_star.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_dash_trail.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_dash_trail.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_death_pop_big.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_death_pop_big.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_death_pop_small.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_death_pop_small.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_explosion_pop.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_explosion_pop.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_fear_ripple.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_fear_ripple.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_frost_puff.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_frost_puff.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_haylord_charge_arrow_yellow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_haylord_charge_arrow_yellow.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_haylord_phase_burst_amber.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_haylord_phase_burst_amber.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_haylord_slam_ring_orange.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_haylord_slam_ring_orange.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_heal_spark.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_heal_spark.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_hit_spark.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_hit_spark.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_hit_star.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_hit_star.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_knock_wave.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_knock_wave.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_leaf_swoosh.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_leaf_swoosh.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_levelup_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_levelup_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_pickup_glint.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_pickup_glint.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_puff_smoke.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_puff_smoke.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_relic_charge.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_relic_charge.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_root_snare.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_root_snare.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_root.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_shield_flash.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_shield_flash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_shock_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_shock_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_sparkle.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_sparkle.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_stomp_crack.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_stomp_crack.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_telegraph_arrow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_telegraph_arrow.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_telegraph_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_telegraph_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_teleport_flash.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_teleport_flash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/original_trail.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_vfx_dust.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_vfx_dust.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_vfx_hit.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_vfx_hit.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_vfx_muzzle.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_vfx_muzzle.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_vfx_ring.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_vfx_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_vfx_slash.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_vfx_slash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.original_wave_banner_pop.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/original_wave_banner_pop.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
       "id": "vfx.pickup_glint.sprite",
       "meta": {
         "h": 32,
@@ -3956,12 +6275,207 @@
       "type": "image"
     },
     {
+      "id": "weaponFamily.family_bogbound.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_bogbound.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_branchsnap.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_branchsnap.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_buzzgrave.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_buzzgrave.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_clackjaw.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_clackjaw.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_dreadrex.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_dreadrex.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_emberpelt.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_emberpelt.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
       "id": "weaponFamily.family_fiber.icon",
       "meta": {
         "h": 32,
         "w": 32
       },
       "path": "assets/weapons/family_fiber.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_glimmerscale.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_glimmerscale.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_grugnar.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_grugnar.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_hollowhoot.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_hollowhoot.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_inkscourge.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_inkscourge.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_nightzip.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_nightzip.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_quillthorn.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_quillthorn.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_rumblepaw.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_rumblepaw.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_shellspire.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_shellspire.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_sporeling.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_sporeling.png",
       "tags": [
         "weaponFamily",
         "launch"
@@ -3982,12 +6496,207 @@
       "type": "icon"
     },
     {
+      "id": "weaponFamily.family_thornhart.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_thornhart.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_tundrum.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_tundrum.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_venomcoil.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_venomcoil.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
       "id": "weaponFamily.family_wood.icon",
       "meta": {
         "h": 32,
         "w": 32
       },
       "path": "assets/weapons/family_wood.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_family_fiber.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/original_family_fiber.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_family_stone.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/original_family_stone.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_family_wood.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/original_family_wood.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_weapon_fiber.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/original_weapon_fiber.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_weapon_stone.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/original_weapon_stone.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.original_weapon_wood.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/original_weapon_wood.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_bogbound.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_bogbound.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_branchsnap.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_branchsnap.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_buzzgrave.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_buzzgrave.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_clackjaw.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_clackjaw.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_dreadrex.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_dreadrex.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_emberpelt.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_emberpelt.png",
       "tags": [
         "weaponFamily",
         "launch"
@@ -4008,12 +6717,168 @@
       "type": "icon"
     },
     {
+      "id": "weaponFamily.weapon_glimmerscale.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_glimmerscale.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_grugnar.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_grugnar.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_hollowhoot.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_hollowhoot.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_inkscourge.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_inkscourge.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_nightzip.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_nightzip.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_quillthorn.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_quillthorn.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_rumblepaw.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_rumblepaw.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_shellspire.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_shellspire.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_sporeling.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_sporeling.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
       "id": "weaponFamily.weapon_stone.icon",
       "meta": {
         "h": 48,
         "w": 48
       },
       "path": "assets/weapons/weapon_stone.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_thornhart.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_thornhart.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_tundrum.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_tundrum.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_venomcoil.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/weapon_venomcoil.png",
       "tags": [
         "weaponFamily",
         "launch"

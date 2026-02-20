@@ -1,0 +1,179 @@
+{
+    "version":  1,
+    "clips":  [
+                  {
+                      "id":  "ui_hover",
+                      "file":  "ui_hover.wav",
+                      "channel":  "UI",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "ui_click",
+                      "file":  "ui_click.wav",
+                      "channel":  "UI",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "hit",
+                      "file":  "hit.wav",
+                      "channel":  "SFX",
+                      "variants":  5
+                  },
+                  {
+                      "id":  "crit",
+                      "file":  "crit.wav",
+                      "channel":  "SFX",
+                      "variants":  4
+                  },
+                  {
+                      "id":  "pickup",
+                      "file":  "pickup.wav",
+                      "channel":  "SFX",
+                      "variants":  4
+                  },
+                  {
+                      "id":  "levelup",
+                      "file":  "levelup.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "death",
+                      "file":  "death.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "dash",
+                      "file":  "dash.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "kill_small",
+                      "file":  "kill_small.wav",
+                      "channel":  "SFX",
+                      "variants":  5
+                  },
+                  {
+                      "id":  "kill_big",
+                      "file":  "kill_big.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "chest_open",
+                      "file":  "chest_open.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "boss_spawn",
+                      "file":  "boss_spawn.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "boss_roar_haylord",
+                      "file":  "boss_roar_haylord.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "boss_intro_stinger",
+                      "file":  "boss_intro_stinger.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "boss_phase_burst",
+                      "file":  "boss_phase_burst.wav",
+                      "channel":  "SFX",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "boss_death_stinger_stage1",
+                      "file":  "boss_death_stinger_stage1.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "telegraph_arrow",
+                      "file":  "telegraph_arrow.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "telegraph_ring",
+                      "file":  "telegraph_ring.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "boss_phase_shift",
+                      "file":  "boss_phase_shift.wav",
+                      "channel":  "SFX",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "boss_slam",
+                      "file":  "boss_slam.wav",
+                      "channel":  "SFX",
+                      "variants":  4
+                  },
+                  {
+                      "id":  "boss_death",
+                      "file":  "boss_death.wav",
+                      "channel":  "SFX",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "relic_extract",
+                      "file":  "relic_extract.wav",
+                      "channel":  "SFX",
+                      "variants":  3
+                  },
+                  {
+                      "id":  "relic_fail",
+                      "file":  "relic_fail.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "stage_unlock",
+                      "file":  "stage_unlock.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "rarity_common",
+                      "file":  "rarity_common.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "rarity_rare",
+                      "file":  "rarity_rare.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "rarity_epic",
+                      "file":  "rarity_epic.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "wave_shift",
+                      "file":  "wave_shift.wav",
+                      "channel":  "SFX",
+                      "variants":  2
+                  },
+                  {
+                      "id":  "menu_ambience",
+                      "file":  "menu_ambience.wav",
+                      "channel":  "AMBIENT",
+                      "variants":  1
+                  }
+              ]
+}

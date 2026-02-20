@@ -1,0 +1,146 @@
+[
+  {
+    "creatureId": "tundrum",
+    "archetype": "MAMMOTH_QUADRUPED",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"tusks\", \"trunk\", \"four_legs\", \"front_mass\"]",
+    "forbiddenFeaturesJson": "[\"antlers\", \"biped_pose\", \"hands\", \"held_weapon\", \"helmet\"]",
+    "heuristicsJson": "{\"minTuskSpanRatio\": 1.2, \"minSilhouetteCoverage\": 0.35, \"maxSilhouetteCoverage\": 0.7}"
+  },
+  {
+    "creatureId": "thornhart",
+    "archetype": "STAG_QUADRUPED_ANTLERS",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"antlers\", \"long_neck\", \"four_legs\"]",
+    "forbiddenFeaturesJson": "[\"tusks\", \"biped_pose\", \"hands\", \"plate_armor\", \"helmet\", \"double_aura\"]",
+    "heuristicsJson": "{\"minAntlerHeightRatio\": 1.0, \"upperPixelDensityBias\": true, \"minSilhouetteCoverage\": 0.3, \"maxSilhouetteCoverage\": 0.65}"
+  },
+  {
+    "creatureId": "rumblepaw",
+    "archetype": "BEAR_QUADRUPED_FRONTHEAVY",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"four_legs\", \"front_heavy_mass\", \"big_forearms\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\", \"hands\", \"held_weapon\", \"shoulder_armor\", \"visible_humanoid_torso\"]",
+    "heuristicsJson": "{\"widthGreaterThanHeightRatio\": 1.05, \"frontMassGreaterThanRearMass\": true, \"minSilhouetteCoverage\": 0.35, \"maxSilhouetteCoverage\": 0.7}"
+  },
+  {
+    "creatureId": "sporeling",
+    "archetype": "FUNGUS_CRITTER_QUADRUPED",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "clackjaw",
+    "archetype": "CRAB_QUADRUPED",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "branchsnap",
+    "archetype": "PRIMAL_MONKEY_ACROBAT",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "grugnar",
+    "archetype": "CAVEMAN_BRAWLER",
+    "forbidHumanoid": false,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "emberpelt",
+    "archetype": "FOX_SKIRMISHER",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "venomcoil",
+    "archetype": "SERPENT_ASSASSIN",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "shellspire",
+    "archetype": "TURTLE_FORTRESS",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "inkscourge",
+    "archetype": "SQUID_TRICK_MAGE",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "glimmerscale",
+    "archetype": "LIZARD_STANCE-SWAPPER",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "buzzgrave",
+    "archetype": "BEE_SWARM",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "hollowhoot",
+    "archetype": "OWL_RUNE_CASTER",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "bogbound",
+    "archetype": "FROG_CONTROLLER",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "quillthorn",
+    "archetype": "HEDGEHOG_COUNTER_TANK",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "nightzip",
+    "archetype": "BAT/WINGED_RUNNER",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  },
+  {
+    "creatureId": "dreadrex",
+    "archetype": "TYRANNOSAUR",
+    "forbidHumanoid": true,
+    "requiredFeaturesJson": "[\"readable_silhouette\"]",
+    "forbiddenFeaturesJson": "[\"biped_pose\"]",
+    "heuristicsJson": "{\"minSilhouetteCoverage\": 0.28, \"maxSilhouetteCoverage\": 0.72}"
+  }
+]

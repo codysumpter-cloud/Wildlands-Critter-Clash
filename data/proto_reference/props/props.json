@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "props": [
+    {
+      "id": "TREE",
+      "spriteSheetId": "props/tree_oak",
+      "sizePx": [64, 96],
+      "anchorPx": [32, 96],
+      "collider": { "type": "circle", "radius": 18 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["tall", "tree", "blocker"]
+    },
+    {
+      "id": "STUMP",
+      "spriteSheetId": "props/stump",
+      "sizePx": [56, 56],
+      "anchorPx": [28, 56],
+      "collider": { "type": "circle", "radius": 14 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["wood", "low", "blocker"]
+    },
+    {
+      "id": "BOULDER",
+      "spriteSheetId": "props/boulder",
+      "sizePx": [64, 64],
+      "anchorPx": [32, 64],
+      "collider": { "type": "circle", "radius": 18 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["stone", "blocker"]
+    },
+    {
+      "id": "PILLAR",
+      "spriteSheetId": "props/ruin_pillar",
+      "sizePx": [64, 96],
+      "anchorPx": [32, 96],
+      "collider": { "type": "circle", "radius": 18 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["ruin", "tall", "blocker"]
+    },
+    {
+      "id": "RUIN_WALL",
+      "spriteSheetId": "props/ruin_wall",
+      "sizePx": [64, 64],
+      "anchorPx": [32, 64],
+      "collider": { "type": "box", "w": 48, "h": 28 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["ruin", "blocker"]
+    },
+    {
+      "id": "FENCE",
+      "spriteSheetId": "props/fence_segment",
+      "sizePx": [64, 40],
+      "anchorPx": [32, 40],
+      "collider": { "type": "box", "w": 48, "h": 20 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["wood", "low", "blocker"]
+    },
+    {
+      "id": "CRATE",
+      "spriteSheetId": "props/crate",
+      "sizePx": [56, 56],
+      "anchorPx": [28, 56],
+      "collider": { "type": "box", "w": 36, "h": 24 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["market", "blocker"]
+    },
+    {
+      "id": "GATE",
+      "spriteSheetId": "props/monolith",
+      "sizePx": [64, 96],
+      "anchorPx": [32, 96],
+      "collider": { "type": "circle", "radius": 18 },
+      "blocksMovement": true,
+      "blocksProjectiles": true,
+      "tags": ["stone", "tall", "blocker"]
+    },
+    {
+      "id": "HEDGE",
+      "spriteSheetId": "props/rock",
+      "sizePx": [56, 56],
+      "anchorPx": [28, 56],
+      "collider": { "type": "circle", "radius": 14 },
+      "blocksMovement": true,
+      "blocksProjectiles": false,
+      "tags": ["soft", "foliage"]
+    },
+    {
+      "id": "HAY_BALE",
+      "spriteSheetId": "props/rock",
+      "sizePx": [48, 40],
+      "anchorPx": [24, 40],
+      "collider": { "type": "circle", "radius": 12 },
+      "blocksMovement": true,
+      "blocksProjectiles": false,
+      "tags": ["soft", "market"]
+    },
+    {
+      "id": "LILY_PAD",
+      "spriteSheetId": "props/rock",
+      "sizePx": [48, 40],
+      "anchorPx": [24, 40],
+      "collider": { "type": "circle", "radius": 12 },
+      "blocksMovement": false,
+      "blocksProjectiles": false,
+      "tags": ["water", "soft"]
+    },
+    {
+      "id": "BUMPER",
+      "spriteSheetId": "props/rock",
+      "sizePx": [48, 48],
+      "anchorPx": [24, 48],
+      "collider": { "type": "circle", "radius": 12 },
+      "blocksMovement": false,
+      "blocksProjectiles": false,
+      "tags": ["soft", "hazard"]
+    },
+    {
+      "id": "BEEHIVE",
+      "spriteSheetId": "props/totem",
+      "sizePx": [48, 64],
+      "anchorPx": [24, 64],
+      "collider": { "type": "circle", "radius": 12 },
+      "blocksMovement": true,
+      "blocksProjectiles": false,
+      "tags": ["hazard", "tall"]
+    },
+    {
+      "id": "LANTERN",
+      "spriteSheetId": "props/totem",
+      "sizePx": [48, 64],
+      "anchorPx": [24, 64],
+      "collider": { "type": "circle", "radius": 12 },
+      "blocksMovement": true,
+      "blocksProjectiles": false,
+      "tags": ["decor", "tall"]
+    },
+    {
+      "id": "DECOR",
+      "spriteSheetId": "props/bone_pile",
+      "sizePx": [48, 40],
+      "anchorPx": [24, 40],
+      "collider": { "type": "circle", "radius": 10 },
+      "blocksMovement": false,
+      "blocksProjectiles": false,
+      "tags": ["decor"]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+﻿{
+  "stages": [
+    {
+      "id": "meadow_market",
+      "name": "Meadow Market",
+      "experimental": false,
+      "matchSelectable": true,
+      "stageScale": 1.0,
+      "lanes": [
+        { "id": "lane_north", "shape": "rect", "x": -12, "y": -6, "w": 24, "h": 4 },
+        { "id": "lane_mid", "shape": "rect", "x": -12, "y": -1, "w": 24, "h": 2 },
+        { "id": "lane_south", "shape": "rect", "x": -12, "y": 3, "w": 24, "h": 4 }
+      ],
+      "pockets": [
+        { "id": "pocket_west", "shape": "rect", "x": -16, "y": -2, "w": 4, "h": 4 },
+        { "id": "pocket_east", "shape": "rect", "x": 12, "y": -2, "w": 4, "h": 4 }
+      ],
+      "hazards": [
+        { "id": "barrel_roll", "type": "ROLLING_BARREL", "x": 0, "y": -8, "radius": 1.5, "cooldown": 8.0, "telegraph": 1.0 }
+      ],
+      "surfaces": [
+        { "surface": "SHALLOW_WATER", "shape": "rect", "x": -6, "y": -1.5, "w": 12, "h": 3 }
+      ],
+      "props": [
+        { "id": "hedge_01", "type": "HEDGE", "x": -6, "y": 6, "radius": 1.2, "blocker": "soft" },
+        { "id": "hedge_02", "type": "HEDGE", "x": 6, "y": -6, "radius": 1.2, "blocker": "soft" },
+        { "id": "stall_01", "type": "STALL", "x": -2, "y": 0, "radius": 1.6, "blocker": "hard" },
+        { "id": "stall_02", "type": "STALL", "x": 2, "y": 0, "radius": 1.6, "blocker": "hard" }
+      ],
+      "spawnRings": [
+        { "radius": 12.0, "count": 8 },
+        { "radius": 16.0, "count": 10 }
+      ]
+    },
+    {
+      "id": "treetop_glade",
+      "name": "Treetop Glade",
+      "experimental": true,
+      "matchSelectable": false,
+      "stageScale": 1.05,
+      "lanes": [
+        { "id": "glade_main", "shape": "rect", "x": -10, "y": -3, "w": 20, "h": 6 }
+      ],
+      "pockets": [
+        { "id": "north_pocket", "shape": "rect", "x": -6, "y": -10, "w": 12, "h": 3 },
+        { "id": "south_pocket", "shape": "rect", "x": -6, "y": 7, "w": 12, "h": 3 }
+      ],
+      "hazards": [
+        { "id": "pinecone_fall", "type": "PINECONE_FALL", "x": 0, "y": 0, "radius": 2.0, "cooldown": 10.0, "telegraph": 1.2 }
+      ],
+      "surfaces": [
+        { "surface": "SHALLOW_WATER", "shape": "rect", "x": -8, "y": -1, "w": 16, "h": 2 },
+        { "surface": "DEEP_WATER", "shape": "rect", "x": -4, "y": -7, "w": 8, "h": 2 },
+        { "surface": "LEAF_PILE", "shape": "rect", "x": -10, "y": 4, "w": 20, "h": 2 }
+      ],
+      "props": [
+        { "id": "tree_01", "type": "TREE", "x": -7, "y": -4, "radius": 1.6, "blocker": "hard" },
+        { "id": "tree_02", "type": "TREE", "x": -3, "y": -4, "radius": 1.6, "blocker": "hard" },
+        { "id": "tree_03", "type": "TREE", "x": 3, "y": -4, "radius": 1.6, "blocker": "hard" },
+        { "id": "tree_04", "type": "TREE", "x": 7, "y": -4, "radius": 1.6, "blocker": "hard" }
+      ],
+      "spawnRings": [
+        { "radius": 13.0, "count": 8 },
+        { "radius": 18.0, "count": 12 }
+      ]
+    },
+    {
+      "id": "crystal_caves",
+      "name": "Crystal Caves",
+      "experimental": true,
+      "matchSelectable": false,
+      "stageScale": 1.1,
+      "lanes": [
+        { "id": "cave_north", "shape": "rect", "x": -10, "y": -5, "w": 20, "h": 3 },
+        { "id": "cave_south", "shape": "rect", "x": -10, "y": 2, "w": 20, "h": 3 }
+      ],
+      "pockets": [
+        { "id": "crystal_pocket", "shape": "rect", "x": -3, "y": -1, "w": 6, "h": 2 }
+      ],
+      "hazards": [
+        { "id": "crystal_burst", "type": "CRYSTAL_BURST", "x": 0, "y": 0, "radius": 2.4, "cooldown": 9.0, "telegraph": 1.0 }
+      ],
+      "surfaces": [
+        { "surface": "BOUNCE_CRYSTAL", "shape": "rect", "x": -2, "y": -2, "w": 4, "h": 4 },
+        { "surface": "ICE", "shape": "rect", "x": -10, "y": -1, "w": 6, "h": 2 }
+      ],
+      "props": [
+        { "id": "crystal_wall_1", "type": "CRYSTAL_WALL", "x": -6, "y": 0, "radius": 1.4, "blocker": "hard" },
+        { "id": "crystal_wall_2", "type": "CRYSTAL_WALL", "x": 6, "y": 0, "radius": 1.4, "blocker": "hard" }
+      ],
+      "spawnRings": [
+        { "radius": 12.0, "count": 10 },
+        { "radius": 16.0, "count": 12 }
+      ]
+    },
+    {
+      "id": "bubble_bog",
+      "name": "Bubble Bog",
+      "experimental": true,
+      "matchSelectable": false,
+      "stageScale": 1.08,
+      "lanes": [
+        { "id": "bog_lane_left", "shape": "rect", "x": -12, "y": -2, "w": 6, "h": 4 },
+        { "id": "bog_lane_right", "shape": "rect", "x": 6, "y": -2, "w": 6, "h": 4 }
+      ],
+      "pockets": [
+        { "id": "bog_pool", "shape": "rect", "x": -4, "y": -4, "w": 8, "h": 8 }
+      ],
+      "hazards": [
+        { "id": "bubble_vent", "type": "BUBBLE_VENT", "x": 0, "y": 0, "radius": 2.0, "cooldown": 7.5, "telegraph": 0.8 }
+      ],
+      "surfaces": [
+        { "surface": "DEEP_WATER", "shape": "rect", "x": -12, "y": -2, "w": 6, "h": 4 },
+        { "surface": "DEEP_WATER", "shape": "rect", "x": 6, "y": -2, "w": 6, "h": 4 },
+        { "surface": "MUD", "shape": "rect", "x": -4, "y": 4, "w": 8, "h": 2 }
+      ],
+      "props": [
+        { "id": "lily_pad_1", "type": "LILY_PAD", "x": -2, "y": 0, "radius": 1.1, "blocker": "soft", "motion": "DRIFT" },
+        { "id": "lily_pad_2", "type": "LILY_PAD", "x": 2, "y": 0, "radius": 1.1, "blocker": "soft", "motion": "DRIFT" }
+      ],
+      "spawnRings": [
+        { "radius": 14.0, "count": 10 },
+        { "radius": 19.0, "count": 14 }
+      ]
+    },
+    {
+      "id": "clockwork_carnival",
+      "name": "Clockwork Carnival",
+      "experimental": true,
+      "matchSelectable": false,
+      "stageScale": 1.12,
+      "lanes": [
+        { "id": "carnival_lane", "shape": "rect", "x": -12, "y": -2, "w": 24, "h": 4 }
+      ],
+      "pockets": [
+        { "id": "carnival_pocket", "shape": "rect", "x": -6, "y": 4, "w": 12, "h": 3 }
+      ],
+      "hazards": [
+        { "id": "gear_sweep", "type": "GEAR_SWEEP", "x": 0, "y": 0, "radius": 2.6, "cooldown": 8.0, "telegraph": 1.0 }
+      ],
+      "surfaces": [
+        { "surface": "CONVEYOR_EAST", "shape": "rect", "x": -12, "y": -2, "w": 24, "h": 2 },
+        { "surface": "CONVEYOR_WEST", "shape": "rect", "x": -12, "y": 0, "w": 24, "h": 2 }
+      ],
+      "props": [
+        { "id": "gate_1", "type": "GATE", "x": -4, "y": -2, "radius": 1.3, "blocker": "hard", "motion": "OSCILLATE" },
+        { "id": "gate_2", "type": "GATE", "x": 4, "y": 2, "radius": 1.3, "blocker": "hard", "motion": "OSCILLATE" },
+        { "id": "bumper_1", "type": "BUMPER", "x": 0, "y": -6, "radius": 1.2, "blocker": "soft" }
+      ],
+      "spawnRings": [
+        { "radius": 15.0, "count": 12 },
+        { "radius": 20.0, "count": 16 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "mutations": [
+
+    {
+      "id": "TUN_TUSKS_T1",
+      "name": "Carved Tusks I",
+      "description": "Tusks extend your reach and increase impact.",
+      "rarity": "common",
+      "pvpCost": 2,
+      "kind": "BUFF",
+      "tags": ["offense", "brawler", "armor"],
+      "effects": [
+        {
+          "type": "projectile_mod",
+          "bonusRange": 0.4,
+          "bonusDamage": 0.5
+        }
+      ],
+      "visual_bindings": [
+        {
+          "type": "attachment",
+          "attachmentId": "tundrum_tusks_t1",
+          "anchor": "FRONT",
+          "layerOrder": 2,
+          "spriteKey": "attach/tundrum_tusks_t1",
+          "canStack": false,
+          "replacesGroup": "tusks",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": 2,
+          "scale": 1.0
+        }
+      ],
+      "type": "BODY_MOD",
+      "slot": "CHEST",
+      "attachmentSpriteId": "attach/tundrum_tusks_t1",
+      "weaponId": null,
+      "stacking": { "visualStacks": 1, "maxStacks": 1 }
+    },
+
+    {
+      "id": "TUN_TUSKS_T2",
+      "name": "Carved Tusks II",
+      "description": "Tusks widen and amplify knock impact.",
+      "rarity": "uncommon",
+      "pvpCost": 3,
+      "kind": "BUFF",
+      "tags": ["offense", "brawler", "armor"],
+      "effects": [
+        {
+          "type": "projectile_mod",
+          "bonusRange": 0.7,
+          "bonusDamage": 0.9
+        }
+      ],
+      "visual_bindings": [
+        {
+          "type": "attachment",
+          "attachmentId": "tundrum_tusks_t2",
+          "anchor": "FRONT",
+          "layerOrder": 2,
+          "spriteKey": "attach/tundrum_tusks_t2",
+          "canStack": false,
+          "replacesGroup": "tusks",
+          "tier": 2,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": 2,
+          "scale": 1.1
+        }
+      ],
+      "type": "BODY_MOD",
+      "slot": "CHEST",
+      "attachmentSpriteId": "attach/tundrum_tusks_t2",
+      "weaponId": null,
+      "stacking": { "visualStacks": 1, "maxStacks": 1 }
+    },
+
+    {
+      "id": "TUN_FROST_PLATES_T1",
+      "name": "Frost Inlay",
+      "description": "Back plates chill enemies on stomp.",
+      "rarity": "common",
+      "pvpCost": 2,
+      "kind": "BUFF",
+      "tags": ["defense", "armor"],
+      "effects": [
+        {
+          "type": "shield_wedge"
+        }
+      ],
+      "visual_bindings": [
+        {
+          "type": "attachment",
+          "attachmentId": "tundrum_frost_back",
+          "anchor": "BACK",
+          "layerOrder": 1,
+          "spriteKey": "attach/tundrum_frost_back",
+          "canStack": false,
+          "replacesGroup": "plates",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -6,
+          "scale": 1.0
+        }
+      ],
+      "type": "BODY_MOD",
+      "slot": "BACK",
+      "attachmentSpriteId": "attach/tundrum_frost_back",
+      "weaponId": null,
+      "stacking": { "visualStacks": 1, "maxStacks": 1 }
+    },
+
+    {
+      "id": "TUN_TIDEWAKE_CHARGE",
+      "name": "Tidewake Charge",
+      "description": "Charge forward leaving a clean frost trail.",
+      "rarity": "rare",
+      "pvpCost": 4,
+      "kind": "BUFF",
+      "tags": ["offense", "brawler", "hybrid"],
+      "effects": [
+        {
+          "type": "trail_hazard"
+        }
+      ],
+      "visual_bindings": [
+        {
+          "type": "attachment",
+          "attachmentId": "tundrum_charge_trail",
+          "anchor": "REAR",
+          "layerOrder": 4,
+          "spriteKey": "vfx/tidewake_trail",
+          "canStack": false,
+          "replacesGroup": "trail",
+          "tier": 1,
+          "vfxLayer": true,
+          "offsetX": 0,
+          "offsetY": 14,
+          "scale": 1.0
+        }
+      ],
+      "type": "BODY_MOD",
+      "slot": "WAIST",
+      "attachmentSpriteId": "vfx/tidewake_trail",
+      "weaponId": null,
+      "stacking": { "visualStacks": 1, "maxStacks": 1 }
+    },
+
+    {
+      "id": "TUN_AURORA_VEIL",
+      "name": "Aurora Veil",
+      "description": "A single cold ring surrounds you.",
+      "rarity": "uncommon",
+      "pvpCost": 3,
+      "kind": "BUFF",
+      "tags": ["utility", "armor"],
+      "effects": [
+        {
+          "type": "aura"
+        }
+      ],
+      "visual_bindings": [
+        {
+          "type": "aura",
+          "auraRadius": 30,
+          "spriteKey": "attach/aurora_ring"
+        }
+      ],
+      "type": "BODY_MOD",
+      "slot": "AURA",
+      "attachmentSpriteId": "attach/aurora_ring",
+      "weaponId": null,
+      "stacking": { "visualStacks": 1, "maxStacks": 1 }
+    }
+
+  ]
+}
+

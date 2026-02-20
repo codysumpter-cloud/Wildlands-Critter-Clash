@@ -1,0 +1,68 @@
+[
+  {
+    "propId": "rock_small",
+    "primaryStage": "meadow_market",
+    "spriteId": "prop_rock_small",
+    "sizePx": "64x64",
+    "collider": "AABB",
+    "blocking": "blocksMovement",
+    "renderLayer": "low",
+    "artBrief": "Readable boulder silhouette; chunky clusters; 3-tone stone; no circles.",
+    "isLaunch": true
+  },
+  {
+    "propId": "rock_large",
+    "primaryStage": "treetop_glade",
+    "spriteId": "prop_rock_large",
+    "sizePx": "96x96",
+    "collider": "AABB",
+    "blocking": "blocksMovement",
+    "renderLayer": "low",
+    "artBrief": "Big jagged rock; flat facets; moss accents.",
+    "isLaunch": true
+  },
+  {
+    "propId": "ruin_pillar",
+    "primaryStage": "crystal_caves",
+    "spriteId": "prop_ruin_pillar",
+    "sizePx": "64x128",
+    "collider": "AABB",
+    "blocking": "blocksMovement+LOS?",
+    "renderLayer": "tall",
+    "artBrief": "Stone pillar with runes; clear base footprint.",
+    "isLaunch": true
+  },
+  {
+    "propId": "stump_blocker",
+    "primaryStage": "treetop_glade",
+    "spriteId": "prop_stump_blocker",
+    "sizePx": "64x64",
+    "collider": "AABB",
+    "blocking": "blocksMovement",
+    "renderLayer": "low",
+    "artBrief": "Tree stump with rings + roots; distinct from rock.",
+    "isLaunch": true
+  },
+  {
+    "propId": "thorn_bramble_wall",
+    "primaryStage": "bubble_bog",
+    "spriteId": "prop_thorn_bramble_wall",
+    "sizePx": "128x64",
+    "collider": "AABB",
+    "blocking": "blocksMovement",
+    "renderLayer": "low",
+    "artBrief": "Dense bramble wall, thorn silhouette, readable gaps.",
+    "isLaunch": true
+  },
+  {
+    "propId": "market_stall",
+    "primaryStage": "meadow_market",
+    "spriteId": "prop_market_stall",
+    "sizePx": "128x96",
+    "collider": "AABB",
+    "blocking": "blocksMovement",
+    "renderLayer": "tall",
+    "artBrief": "Stall with awning + crates; occludes projectiles if supported.",
+    "isLaunch": true
+  }
+]

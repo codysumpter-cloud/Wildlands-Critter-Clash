@@ -1,0 +1,10 @@
+﻿{
+  "formations": [
+    { "id": "solo", "cost": 1.0, "spawns": [ { "type": "CHASER", "x": 0, "y": 0 } ] },
+    { "id": "pincer", "cost": 2.0, "spawns": [ { "type": "CHASER", "x": -1.2, "y": 0 }, { "type": "CHASER", "x": 1.2, "y": 0 } ] },
+    { "id": "ranged_pair", "cost": 2.2, "spawns": [ { "type": "RANGED", "x": -0.8, "y": 0 }, { "type": "RANGED", "x": 0.8, "y": 0 } ] },
+    { "id": "bomber_bait", "cost": 2.4, "spawns": [ { "type": "BOMBER", "x": 0, "y": 0 }, { "type": "SWARM", "x": -0.8, "y": -0.4 }, { "type": "SWARM", "x": 0.8, "y": 0.4 } ] },
+    { "id": "shield_wall", "cost": 2.6, "spawns": [ { "type": "SHIELDED", "x": -1.0, "y": 0 }, { "type": "SHIELDED", "x": 1.0, "y": 0 } ] },
+    { "id": "healer_screen", "cost": 2.8, "spawns": [ { "type": "HEALER", "x": 0, "y": -0.8 }, { "type": "CHASER", "x": -1.0, "y": 0.6 }, { "type": "CHASER", "x": 1.0, "y": 0.6 } ] }
+  ]
+}

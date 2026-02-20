@@ -1,0 +1,249 @@
+{
+  "mutations": [
+    {
+      "id": "tusks_plus",
+      "name": "Tusks+",
+      "description": "Tusks extend your reach for heavier strikes.",
+      "tags": ["offense"],
+      "scaleDelta": 0.02,
+      "attachments": [
+        {
+          "attachmentId": "tusks_t1",
+          "anchor": "FRONT",
+          "layerOrder": 2,
+          "spriteKey": "attach/tusks_t1",
+          "canStack": true,
+          "replacesGroup": "tusks",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": 3,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "back_plates",
+      "name": "Back Plates",
+      "description": "Layered plates offer frontal mitigation.",
+      "tags": ["defense"],
+      "attachments": [
+        {
+          "attachmentId": "back_plates",
+          "anchor": "BACK",
+          "layerOrder": -1,
+          "spriteKey": "attach/plates",
+          "canStack": false,
+          "replacesGroup": "plates",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -4,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "spikes",
+      "name": "Spikes",
+      "description": "Contact with enemies returns damage.",
+      "tags": ["offense"],
+      "attachments": [
+        {
+          "attachmentId": "spikes",
+          "anchor": "BACK",
+          "layerOrder": 2,
+          "spriteKey": "attach/spikes",
+          "canStack": true,
+          "replacesGroup": "spikes",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -6,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "aura_ring",
+      "name": "Aura Ring",
+      "description": "A close aura harms nearby foes.",
+      "tags": ["utility"],
+      "auraRadiusDelta": 28,
+      "attachments": [
+        {
+          "attachmentId": "aura_ring",
+          "anchor": "HEAD",
+          "layerOrder": 3,
+          "spriteKey": "attach/halo",
+          "canStack": false,
+          "replacesGroup": "halo",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -10,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "orbital_stone",
+      "name": "Orbital Stone",
+      "description": "A stone circles you, damaging enemies.",
+      "tags": ["offense"],
+      "orbitalsDelta": 1
+    },
+    {
+      "id": "ground_trail",
+      "name": "Ground Trail",
+      "description": "Leave a hazardous trail behind you.",
+      "tags": ["utility"],
+      "attachments": [
+        {
+          "attachmentId": "trail",
+          "anchor": "REAR",
+          "layerOrder": -2,
+          "spriteKey": "vfx/trail",
+          "canStack": true,
+          "replacesGroup": "trail",
+          "tier": 1,
+          "vfxLayer": true,
+          "offsetX": 0,
+          "offsetY": 8,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "knock_pulse",
+      "name": "Knock Pulse",
+      "description": "Periodically knocks enemies back.",
+      "tags": ["utility"],
+      "attachments": [
+        {
+          "attachmentId": "knock_core",
+          "anchor": "FRONT",
+          "layerOrder": 4,
+          "spriteKey": "attach/core",
+          "canStack": false,
+          "replacesGroup": "core",
+          "tier": 1,
+          "vfxLayer": true,
+          "offsetX": 0,
+          "offsetY": 0,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "fear_pulse",
+      "name": "Fear Pulse",
+      "description": "A banner pulse makes enemies hesitate.",
+      "tags": ["utility"],
+      "attachments": [
+        {
+          "attachmentId": "fear_banner",
+          "anchor": "BACK",
+          "layerOrder": -1,
+          "spriteKey": "attach/banner",
+          "canStack": false,
+          "replacesGroup": "banner",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -10,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "blood_orbital",
+      "name": "Blood Orbital",
+      "description": "A blood orb circles you for extra damage.",
+      "tags": ["offense"],
+      "orbitalsDelta": 1,
+      "orbitalSpriteKey": "orbital/blood",
+      "attachments": [
+        {
+          "attachmentId": "blood_core",
+          "anchor": "HEAD",
+          "layerOrder": 3,
+          "spriteKey": "attach/core",
+          "canStack": false,
+          "replacesGroup": "core",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 0,
+          "offsetY": -4,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shield_wedge",
+      "name": "Shield Wedge",
+      "description": "Adds a frontal wedge to blunt damage.",
+      "tags": ["defense"],
+      "attachments": [
+        {
+          "attachmentId": "shield_wedge",
+          "anchor": "FRONT",
+          "layerOrder": 2,
+          "spriteKey": "attach/shield",
+          "canStack": false,
+          "replacesGroup": "shield",
+          "tier": 1,
+          "vfxLayer": false,
+          "offsetX": 6,
+          "offsetY": 2,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "root_field",
+      "name": "Root Field",
+      "description": "Roots surge and slow nearby enemies.",
+      "tags": ["control"],
+      "auraRadiusDelta": 24,
+      "attachments": [
+        {
+          "attachmentId": "root_field",
+          "anchor": "AURA",
+          "layerOrder": -2,
+          "spriteKey": "vfx/root",
+          "canStack": true,
+          "replacesGroup": "root",
+          "tier": 1,
+          "vfxLayer": true,
+          "offsetX": 0,
+          "offsetY": 6,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "id": "corrupt_core",
+      "name": "Corrupt Core",
+      "description": "Unstable core boosts power but harms you.",
+      "tags": ["corruption"],
+      "scaleDelta": 0.05,
+      "selfRisk": true,
+      "attachments": [
+        {
+          "attachmentId": "corrupt_core",
+          "anchor": "FRONT",
+          "layerOrder": 4,
+          "spriteKey": "vfx/corrupt",
+          "canStack": false,
+          "replacesGroup": "corrupt",
+          "tier": 1,
+          "vfxLayer": true,
+          "offsetX": 0,
+          "offsetY": 0,
+          "scale": 1.0
+        }
+      ]
+    }
+  ]
+}

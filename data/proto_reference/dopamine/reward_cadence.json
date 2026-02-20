@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "micro": {
+    "onHit":   { "enabled": true, "minIntervalMs": 60, "intensity": 0.35 },
+    "onKill":  { "enabled": true, "minIntervalMs": 120, "intensity": 0.55 }
+  },
+  "spikes": {
+    "onCrit":     { "enabled": true, "minIntervalMs": 90, "intensity": 0.8 },
+    "onLevelUp":  { "enabled": true, "minIntervalMs": 0,  "intensity": 1.0 },
+    "onChest":    { "enabled": true, "minIntervalMs": 0,  "intensity": 1.0 }
+  },
+  "screenPulse": {
+    "enabled": true,
+    "maxAlpha": 0.22,
+    "decayMs": 140
+  }
+}

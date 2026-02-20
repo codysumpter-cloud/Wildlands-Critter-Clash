@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "events": {
+    "BUTTON_CLICK": { "sfx": "ui_click_heavy" },
+    "HOVER_START":  { "sfx": "ui_hover_tick" },
+    "PANEL_OPEN":   { "sfx": "ui_click_heavy" },
+    "PANEL_CLOSE":  { "sfx": "ui_click_heavy" }
+  }
+}

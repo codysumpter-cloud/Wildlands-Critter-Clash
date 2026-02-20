@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sfx": [
+    { "id": "ui_click_heavy", "path": "audio/sfx/ui_click_heavy.wav", "gain": 0.85, "pitchMin": 0.98, "pitchMax": 1.02 },
+    { "id": "ui_hover_tick",  "path": "audio/sfx/ui_hover_tick.wav",  "gain": 0.55, "pitchMin": 0.99, "pitchMax": 1.01 },
+
+    { "id": "hit_flesh_01",   "path": "audio/sfx/hit_flesh_01.wav",   "gain": 0.90, "pitchMin": 0.95, "pitchMax": 1.05 },
+    { "id": "hit_crit_01",    "path": "audio/sfx/hit_crit_01.wav",    "gain": 1.00, "pitchMin": 0.98, "pitchMax": 1.02 },
+    { "id": "kill_pop_01",    "path": "audio/sfx/kill_pop_01.wav",    "gain": 0.95, "pitchMin": 0.96, "pitchMax": 1.04 }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "stageId": "meadow_market",
+    "name": "Meadow Market",
+    "tone": "bright, playful, safe onboarding",
+    "layout": "Lane A: fence line + stalls; Lane B: open plaza; Lane C: creek + bridges; Pocket1: hay-bale courtyard; Pocket2: wagon loop",
+    "hazards": "Rolling barrels (knockback), Beehive posts (bee cloud slow), Market lanterns (fire puddle)",
+    "physicsProfile": "Water: shallow only; Props: high, low mass; Blocker density: low-medium; Projectile occlusion: medium",
+    "bossId": "haylord_bramblehoof",
+    "bossSpriteSheetId": "bosses/haylord_bramblehoof",
+    "isLaunch": true
+  },
+  {
+    "stageId": "treetop_glade",
+    "name": "Treetop Glade",
+    "tone": "cozy woodland, teaches pathing/LOS",
+    "layout": "Lane A: elevated boardwalk; Lane B: forest interior zig-zag; Lane C: streambed shallow\u2192deep; Pocket1: mushroom circle; Pocket2: hollow log cul-de-sac",
+    "hazards": "Falling pinecones (small stun), Spiderweb patches (sticky slow, burnable), Squirrel stampede (harmless shove)",
+    "physicsProfile": "Water: mixed shallow/deep; Props: medium, logs can roll (heavy); Blocker density: high; Turning friction: higher in leaf piles",
+    "bossId": "treetop_glade_boss",
+    "bossSpriteSheetId": "bosses/treetop_glade_boss",
+    "isLaunch": true
+  },
+  {
+    "stageId": "crystal_caves",
+    "name": "Crystal Caves",
+    "tone": "magical crystals, pinball movement",
+    "layout": "Lane A: left corridor narrow; Lane B: center chamber; Lane C: right corridor with timed crystal gates; Pocket1: bounce crystal alcove; Pocket2: loop tunnel",
+    "hazards": "Bounce crystals (reflect knockback/some projectiles), Cave drips (slippery 0.6s), Crystal burst (radial shards telegraph ring)",
+    "physicsProfile": "Water: puddles only; Props: low static blockers; Blocker density: medium-high; Special: bounce surfaces",
+    "bossId": "crystal_caves_boss",
+    "bossSpriteSheetId": "bosses/crystal_caves_boss",
+    "isLaunch": true
+  },
+  {
+    "stageId": "bubble_bog",
+    "name": "Bubble Bog",
+    "tone": "silly swamp bubbles, high drag",
+    "layout": "Lane A: boardwalk chain; Lane B: open bog deep water lanes with islands; Lane C: mud berm path; Pocket1: lily-pad island (moving); Pocket2: cattail thicket",
+    "hazards": "Bubble vents (displacement), Mud geyser (brief root), Leech swarm (drag tether slow)",
+    "physicsProfile": "Water: deep common; Props: medium floating pads/driftwood; Blocker density: medium; Dash scaling reduced in deep water",
+    "bossId": "bubble_bog_boss",
+    "bossSpriteSheetId": "bosses/bubble_bog_boss",
+    "isLaunch": true
+  },
+  {
+    "stageId": "clockwork_carnival",
+    "name": "Clockwork Carnival",
+    "tone": "bright carnival machines, whimsical danger",
+    "layout": "Lane A: conveyor lane; Lane B: central carousel rotating cover; Lane C: gate maze timed doors; Pocket1: ticket booth nook; Pocket2: bumper-car ring",
+    "hazards": "Conveyors (force fields), Pop-up mallets (telegraphed smash), Confetti cannons (VFX limited via caps)",
+    "physicsProfile": "Water: none; Props: high (bumper cars heavy); Blocker density: high dynamic; External forces high",
+    "bossId": "clockwork_carnival_boss",
+    "bossSpriteSheetId": "bosses/clockwork_carnival_boss",
+    "isLaunch": true
+  }
+]

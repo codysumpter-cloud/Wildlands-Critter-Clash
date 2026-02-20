@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "budgets": {
+    "globalParticlesMax": 220,
+    "globalDecalsMax": 40,
+    "globalLightsMax": 0
+  },
+  "tiers": [
+    { "name": "FULL", "particleScale": 1.0, "spawnRateScale": 1.0, "ttlScale": 1.0, "screenShakeScale": 1.0 },
+    { "name": "MED",  "particleScale": 0.75, "spawnRateScale": 0.7, "ttlScale": 0.85, "screenShakeScale": 0.7 },
+    { "name": "LOW",  "particleScale": 0.55, "spawnRateScale": 0.45, "ttlScale": 0.75, "screenShakeScale": 0.45 },
+    { "name": "MIN",  "particleScale": 0.35, "spawnRateScale": 0.25, "ttlScale": 0.6, "screenShakeScale": 0.25 }
+  ],
+  "degradePolicy": {
+    "overBudgetTierStep": 1,
+    "recoverMs": 650,
+    "hardDropOnBoss": false
+  },
+  "channels": {
+    "UI": { "priority": 100, "maxConcurrent": 40 },
+    "HIT": { "priority": 90, "maxConcurrent": 60 },
+    "KILL": { "priority": 80, "maxConcurrent": 35 },
+    "WEAPON": { "priority": 70, "maxConcurrent": 80 },
+    "ENV": { "priority": 40, "maxConcurrent": 30 }
+  }
+}

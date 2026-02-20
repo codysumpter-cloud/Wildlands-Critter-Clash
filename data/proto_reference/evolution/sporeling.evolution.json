@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "creatureId": "sporeling",
+  "nodes": [
+    {
+      "id": "sporeling_sporeburst_t1",
+      "name": "SPOREBURST",
+      "description": "Radial spores that poison on hit.",
+      "iconId": "icon_damage",
+      "tier": 1,
+      "exclusiveGroup": "sporeling_primary",
+      "modules": [
+        { "type": "spawn_projectile_pattern", "pattern": "radial", "count": 6, "damage": 6 },
+        { "type": "status_apply", "status": "poison", "durationMs": 2500, "chance": 0.25 }
+      ],
+      "visuals": [
+        { "slot": "AURA", "attachmentSpriteId": "attach/halo_ring", "priority": 10 }
+      ],
+      "vfx": [{ "hook": "on_cast", "vfxId": "shock_ring" }],
+      "pvpTuning": { "damageMult": 0.85, "durationMult": 0.75 }
+    },
+    {
+      "id": "sporeling_parasitic_bloom_t2",
+      "name": "PARASITIC BLOOM",
+      "description": "On hit, arc spores and slow targets.",
+      "iconId": "icon_utility",
+      "tier": 2,
+      "prereqs": ["sporeling_sporeburst_t1"],
+      "modules": [
+        { "type": "proc_on_event", "event": "hit", "effect": "spawn_projectile", "chance": 0.2, "payload": { "pattern": "arc", "count": 3, "damage": 5 } },
+        { "type": "status_apply", "status": "slow", "durationMs": 1800, "chance": 0.2 }
+      ],
+      "visuals": [
+        { "slot": "BACK", "attachmentSpriteId": "attach/spore_pods", "priority": 20 }
+      ],
+      "vfx": [{ "hook": "on_hit", "vfxId": "hit_spark" }],
+      "pvpTuning": { "chanceMult": 0.85 }
+    },
+    {
+      "id": "sporeling_overgrowth_thicket_t3",
+      "name": "OVERGROWTH THICKET",
+      "description": "Periodic thicket pulse with heal-on-kill.",
+      "iconId": "icon_sustain",
+      "tier": 3,
+      "modules": [
+        { "type": "area_pulse", "radiusPx": 85, "damage": 9, "intervalMs": 900 },
+        { "type": "proc_on_event", "event": "kill", "effect": "heal", "ratio": 0.08 }
+      ],
+      "visuals": [
+        { "slot": "CHEST", "attachmentSpriteId": "attach/core", "priority": 30 }
+      ],
+      "vfx": [{ "hook": "on_pulse", "vfxId": "root_snare" }],
+      "pvpTuning": { "damageMult": 0.8, "healMult": 0.6 }
+    }
+  ]
+}

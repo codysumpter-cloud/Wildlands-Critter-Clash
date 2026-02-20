@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "weaponFamilies": [
+    {
+      "id": "STONE",
+      "displayName": "Stone",
+      "isLaunch": true,
+      "experimental": false,
+      "projectile": {
+        "damage": 12,
+        "speed": 480,
+        "fireRateMul": 0.85,
+        "pierce": 0,
+        "spread": 0.2
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_stone_fire",
+        "hit": "sfx_stone_hit"
+      }
+    },
+    {
+      "id": "WOOD",
+      "displayName": "Wood",
+      "isLaunch": true,
+      "experimental": false,
+      "projectile": {
+        "damage": 9,
+        "speed": 560,
+        "fireRateMul": 1.05,
+        "pierce": 0,
+        "spread": 0.22
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_wood_fire",
+        "hit": "sfx_wood_hit"
+      }
+    },
+    {
+      "id": "FIBER",
+      "displayName": "Fiber",
+      "isLaunch": true,
+      "experimental": false,
+      "projectile": {
+        "damage": 7,
+        "speed": 600,
+        "fireRateMul": 1.15,
+        "pierce": 1,
+        "spread": 0.18
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_fiber_fire",
+        "hit": "sfx_fiber_hit"
+      }
+    },
+    {
+      "id": "BOGBOUND",
+      "displayName": "Bogbound",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "bogbound_weapon",
+      "projectile": {
+        "damage": 7,
+        "speed": 475,
+        "fireRateMul": 0.8,
+        "pierce": 0,
+        "spread": 0.27,
+        "kind": "bogbound"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_bogbound_fire",
+        "hit": "sfx_bogbound_hit"
+      }
+    },
+    {
+      "id": "BRANCHSNAP",
+      "displayName": "Branchsnap",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "branchsnap_weapon",
+      "projectile": {
+        "damage": 5,
+        "speed": 560,
+        "fireRateMul": 1.14,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "branchsnap"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_branchsnap_fire",
+        "hit": "sfx_branchsnap_hit"
+      }
+    },
+    {
+      "id": "BUZZGRAVE",
+      "displayName": "Buzzgrave",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "buzzgrave_weapon",
+      "projectile": {
+        "damage": 4,
+        "speed": 620,
+        "fireRateMul": 1.23,
+        "pierce": 0,
+        "spread": 0.16,
+        "kind": "buzzgrave"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_buzzgrave_fire",
+        "hit": "sfx_buzzgrave_hit"
+      }
+    },
+    {
+      "id": "CLACKJAW",
+      "displayName": "Clackjaw",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "clackjaw_weapon",
+      "projectile": {
+        "damage": 7,
+        "speed": 0,
+        "fireRateMul": 0.89,
+        "pierce": 0,
+        "spread": 0,
+        "kind": "clackjaw"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_clackjaw_fire",
+        "hit": "sfx_clackjaw_hit"
+      },
+      "attack": {
+        "type": "CLAMP",
+        "range": 3.0,
+        "width": 2.2,
+        "height": 1.6,
+        "duration": 0.16
+      }
+    },
+    {
+      "id": "DREADREX",
+      "displayName": "Dreadrex",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "dreadrex_weapon",
+      "projectile": {
+        "damage": 9,
+        "speed": 588,
+        "fireRateMul": 1.07,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "dreadrex"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_dreadrex_fire",
+        "hit": "sfx_dreadrex_hit"
+      }
+    },
+    {
+      "id": "EMBERPELT",
+      "displayName": "Emberpelt",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "emberpelt_weapon",
+      "projectile": {
+        "damage": 5,
+        "speed": 560,
+        "fireRateMul": 1.33,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "emberpelt"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_emberpelt_fire",
+        "hit": "sfx_emberpelt_hit"
+      }
+    },
+    {
+      "id": "GLIMMERSCALE",
+      "displayName": "Glimmerscale",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "glimmerscale_weapon",
+      "projectile": {
+        "damage": 7,
+        "speed": 588,
+        "fireRateMul": 1.0,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "glimmerscale"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_glimmerscale_fire",
+        "hit": "sfx_glimmerscale_hit"
+      }
+    },
+    {
+      "id": "GRUGNAR",
+      "displayName": "Grugnar",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "grugnar_weapon",
+      "projectile": {
+        "damage": 6,
+        "speed": 560,
+        "fireRateMul": 0.84,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "grugnar"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_grugnar_fire",
+        "hit": "sfx_grugnar_hit"
+      }
+    },
+    {
+      "id": "HOLLOWHOOT",
+      "displayName": "Hollowhoot",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "hollowhoot_weapon",
+      "projectile": {
+        "damage": 4,
+        "speed": 620,
+        "fireRateMul": 1.07,
+        "pierce": 0,
+        "spread": 0.17,
+        "kind": "hollowhoot"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_hollowhoot_fire",
+        "hit": "sfx_hollowhoot_hit"
+      }
+    },
+    {
+      "id": "INKSCOURGE",
+      "displayName": "Inkscourge",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "inkscourge_weapon",
+      "projectile": {
+        "damage": 3,
+        "speed": 620,
+        "fireRateMul": 1.0,
+        "pierce": 0,
+        "spread": 0.17,
+        "kind": "inkscourge"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_inkscourge_fire",
+        "hit": "sfx_inkscourge_hit"
+      }
+    },
+    {
+      "id": "NIGHTZIP",
+      "displayName": "Nightzip",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "nightzip_weapon",
+      "projectile": {
+        "damage": 5,
+        "speed": 651,
+        "fireRateMul": 1.45,
+        "pierce": 0,
+        "spread": 0.16,
+        "kind": "nightzip"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_nightzip_fire",
+        "hit": "sfx_nightzip_hit"
+      }
+    },
+    {
+      "id": "QUILLTHORN",
+      "displayName": "Quillthorn",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "quillthorn_weapon",
+      "projectile": {
+        "damage": 5,
+        "speed": 560,
+        "fireRateMul": 0.89,
+        "pierce": 0,
+        "spread": 0.22,
+        "kind": "quillthorn"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_quillthorn_fire",
+        "hit": "sfx_quillthorn_hit"
+      }
+    },
+    {
+      "id": "RUMBLEPAW",
+      "displayName": "Rumblepaw",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "rumblepaw_weapon",
+      "projectile": {
+        "damage": 6,
+        "speed": 0,
+        "fireRateMul": 1.0,
+        "pierce": 0,
+        "spread": 0,
+        "kind": "rumblepaw"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_rumblepaw_fire",
+        "hit": "sfx_rumblepaw_hit"
+      },
+      "attack": {
+        "type": "BEAR_CLAW",
+        "range": 3.4,
+        "radius": 3.2,
+        "arc": 110,
+        "duration": 0.18
+      }
+    },
+    {
+      "id": "SHELLSPIRE",
+      "displayName": "Shellspire",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "shellspire_weapon",
+      "projectile": {
+        "damage": 7,
+        "speed": 500,
+        "fireRateMul": 0.7,
+        "pierce": 0,
+        "spread": 0.26,
+        "kind": "shellspire"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_shellspire_fire",
+        "hit": "sfx_shellspire_hit"
+      }
+    },
+    {
+      "id": "SPORELING",
+      "displayName": "Sporeling",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "sporeling_weapon",
+      "projectile": {
+        "damage": 4,
+        "speed": 651,
+        "fireRateMul": 0.94,
+        "pierce": 0,
+        "spread": 0.17,
+        "kind": "sporeling"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_sporeling_fire",
+        "hit": "sfx_sporeling_hit"
+      }
+    },
+    {
+      "id": "THORNHART",
+      "displayName": "Thornhart",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "thornhart_weapon",
+      "projectile": {
+        "damage": 6,
+        "speed": 0,
+        "fireRateMul": 0.94,
+        "pierce": 0,
+        "spread": 0,
+        "kind": "thornhart"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_thornhart_fire",
+        "hit": "sfx_thornhart_hit"
+      },
+      "attack": {
+        "type": "THORN_WHIP",
+        "range": 4.6,
+        "width": 1.4,
+        "duration": 0.2
+      }
+    },
+    {
+      "id": "TUNDRUM",
+      "displayName": "Tundrum",
+      "isLaunch": true,
+      "experimental": false,
+      "baseWeaponId": "tundrum_weapon",
+      "projectile": {
+        "damage": 7,
+        "speed": 0,
+        "fireRateMul": 0.73,
+        "pierce": 0,
+        "spread": 0,
+        "kind": "tundrum"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_tundrum_fire",
+        "hit": "sfx_tundrum_hit"
+      },
+      "attack": {
+        "type": "STOMP_AURA",
+        "radius": 3.6,
+        "duration": 0.22
+      }
+    },
+    {
+      "id": "VENOMCOIL",
+      "displayName": "Venomcoil",
+      "isLaunch": false,
+      "experimental": true,
+      "baseWeaponId": "venomcoil_weapon",
+      "projectile": {
+        "damage": 4,
+        "speed": 620,
+        "fireRateMul": 1.07,
+        "pierce": 0,
+        "spread": 0.16,
+        "kind": "venomcoil"
+      },
+      "vfx": {
+        "muzzle": "vfx_muzzle",
+        "hit": "vfx_hit"
+      },
+      "sfx": {
+        "fire": "sfx_venomcoil_fire",
+        "hit": "sfx_venomcoil_hit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "corruptionFloor": 0.25,
+  "weights": {
+    "crab": {
+      "defense": 1.6,
+      "utility": 1.2,
+      "offense": 0.9,
+      "hybrid": 1.0,
+      "anchor": 1.4,
+      "armor": 1.3,
+      "corruption": 0.5
+    },
+    "bat": {
+      "offense": 1.4,
+      "utility": 1.1,
+      "defense": 0.8,
+      "hybrid": 1.0,
+      "flight": 1.5,
+      "feral": 1.1,
+      "corruption": 0.55
+    },
+    "fungus": {
+      "utility": 1.5,
+      "offense": 1.0,
+      "defense": 1.0,
+      "hybrid": 1.1,
+      "spore": 1.6,
+      "ground": 1.1,
+      "corruption": 0.5
+    },
+    "mammoth": {
+      "defense": 1.4,
+      "offense": 1.1,
+      "utility": 1.0,
+      "hybrid": 1.1,
+      "brawler": 1.3,
+      "armor": 1.2,
+      "corruption": 0.45
+    },
+    "trex": {
+      "offense": 1.6,
+      "utility": 1.0,
+      "defense": 0.9,
+      "hybrid": 1.1,
+      "apex": 1.6,
+      "feral": 1.2,
+      "corruption": 0.6
+    },
+    "bear": {
+      "defense": 1.2,
+      "offense": 1.2,
+      "utility": 1.1,
+      "hybrid": 1.1,
+      "brawler": 1.4,
+      "hide": 1.2,
+      "corruption": 0.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tileSizePx": 32,
+  "footprintTiles": { "w": 96, "h": 64 },
+  "distBandsTiles": {
+    "meleeMax": 3.25,
+    "closeMax": 5.5,
+    "midMax": 9.0,
+    "farMin": 9.0
+  },
+  "haylordAbilityRangesTiles": {
+    "slamMaxRange": 4.75,
+    "chargeMinRange": 6.0,
+    "chargeMaxRange": 14.0,
+    "tossMinRange": 3.5,
+    "tossMaxRange": 12.5,
+    "cyclonePrefMin": 4.5,
+    "cyclonePrefMax": 8.5
+  },
+  "bridgeSafety": {
+    "bridgeEndRadius": 6.0,
+    "bridgeCorridorHalfWidth": 2.5,
+    "creekPullDampRadius": 7.0,
+    "chargeCorridorHalfWidth": 1.25,
+    "chargeRayMax": 16.0
+  },
+  "leapRules": {
+    "leapMinDist": 5.0,
+    "leapMaxDist": 10.0,
+    "leapMinClearRadius": 2.0,
+    "leapAvoidCreek": true,
+    "leapAvoidFences": true,
+    "leapAvoidBridgeEndRadius": 4.0
+  },
+  "hazardCaps": {
+    "slowPatchesMax": 6,
+    "firePuddlesMax": 6,
+    "debrisZonesMax": 4
+  },
+  "bossCC": {
+    "bossCcImmunityMs": 900
+  },
+  "bridgeEnds": [
+    { "id": "bridge_north", "a": { "x": -4.0, "y": -1.5 }, "b": { "x": -4.0, "y": 1.5 } },
+    { "id": "bridge_south", "a": { "x": 4.0, "y": -1.5 }, "b": { "x": 4.0, "y": 1.5 } }
+  ]
+}

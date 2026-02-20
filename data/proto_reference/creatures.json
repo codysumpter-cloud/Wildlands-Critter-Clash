@@ -1,0 +1,1589 @@
+{
+  "schemaVersion": 2,
+  "creatures": [
+    {
+      "id": "clackjaw",
+      "displayName": "Clackjaw",
+      "gimmick": "Anchor with wide sweeps and stagger control.",
+      "experimental": false,
+      "unlockedByDefault": true,
+      "unlockId": null,
+      "roleTags": [
+        "Tank",
+        "Control"
+      ],
+      "baseMoveSpeed": 3.6,
+      "baseTurnRate": 6.5,
+      "baseMaxHp": 140,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.9,
+        "range": 2.6,
+        "arc": 80,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 6.0
+      },
+      "activeAbilitySpec": {
+        "type": "KNOCK_PULSE",
+        "cooldown": 7.5,
+        "windup": 0.2,
+        "radius": 3.2,
+        "range": 0,
+        "arc": 0,
+        "damage": 3.5,
+        "heal": 0
+      },
+      "autoDescription": "Wide claw sweep.",
+      "activeDescription": "Knock pulse to create space.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "anchor",
+        "armor"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "nightzip",
+      "displayName": "Nightzip",
+      "gimmick": "Fast skirmisher with steady bolts.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "DPS",
+        "Sustain"
+      ],
+      "baseMoveSpeed": 5.2,
+      "baseTurnRate": 9.0,
+      "baseMaxHp": 95,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.55,
+        "range": 7.2,
+        "arc": 6,
+        "projectileSpeed": 7.2,
+        "projectileCount": 1,
+        "damage": 4.0
+      },
+      "activeAbilitySpec": {
+        "type": "FEAR_PULSE",
+        "cooldown": 9.0,
+        "windup": 0.2,
+        "radius": 3.6,
+        "range": 0,
+        "arc": 0,
+        "damage": 0.0,
+        "heal": 6.0
+      },
+      "autoDescription": "Rapid sonic bolt.",
+      "activeDescription": "Fear pulse with a small heal.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "offense",
+        "flight",
+        "feral"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -24 },
+        { "anchor": "BACK", "x": 0, "y": -13 },
+        { "anchor": "LEFT_SIDE", "x": -24, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 24, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 19 },
+        { "anchor": "REAR", "x": 0, "y": 27 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "sporeling",
+      "displayName": "Sporeling",
+      "gimmick": "Spore control with multi-bolt spread.",
+      "experimental": false,
+      "unlockedByDefault": true,
+      "unlockId": null,
+      "roleTags": [
+        "Control",
+        "Support DPS"
+      ],
+      "baseMoveSpeed": 4.0,
+      "baseTurnRate": 7.5,
+      "baseMaxHp": 115,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.85,
+        "range": 6.5,
+        "arc": 18,
+        "projectileSpeed": 6.5,
+        "projectileCount": 3,
+        "damage": 3.2
+      },
+      "activeAbilitySpec": {
+        "type": "ROOT_PULSE",
+        "cooldown": 9.5,
+        "windup": 0.25,
+        "radius": 3.2,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.0,
+        "heal": 0
+      },
+      "autoDescription": "Spore fan.",
+      "activeDescription": "Root pulse for control.",
+      "startingWeapons": [
+        "FIBER",
+        "STONE"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "spore",
+        "ground"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -32 },
+        { "anchor": "BACK", "x": 0, "y": -19 },
+        { "anchor": "LEFT_SIDE", "x": -19, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 19, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 29 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "tundrum",
+      "displayName": "Tundrum",
+      "gimmick": "Heavy stomp with area pressure.",
+      "experimental": false,
+      "unlockedByDefault": false,
+      "unlockId": "unlock_haylord_bramblehoof",
+      "roleTags": [
+        "Bruiser",
+        "Zone Control"
+      ],
+      "baseMoveSpeed": 3.4,
+      "baseTurnRate": 6.0,
+      "baseMaxHp": 165,
+      "autoAttackSpec": {
+        "type": "NOVA",
+        "cadence": 1.1,
+        "range": 2.6,
+        "arc": 0,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 6.5
+      },
+      "activeAbilitySpec": {
+        "type": "NOVA",
+        "cooldown": 10.0,
+        "windup": 0.3,
+        "radius": 3.6,
+        "range": 0,
+        "arc": 0,
+        "damage": 7.0,
+        "heal": 0
+      },
+      "autoDescription": "Stomp shock.",
+      "activeDescription": "Heavy ground nova.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "armor"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 0
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "dreadrex",
+      "displayName": "Dreadrex",
+      "gimmick": "High-damage bites with fear bursts.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Apex DPS",
+        "Fear"
+      ],
+      "baseMoveSpeed": 4.6,
+      "baseTurnRate": 7.0,
+      "baseMaxHp": 125,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.75,
+        "range": 3.0,
+        "arc": 70,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 7.5
+      },
+      "activeAbilitySpec": {
+        "type": "ROAR",
+        "cooldown": 12.0,
+        "windup": 0.35,
+        "radius": 4.0,
+        "range": 0,
+        "arc": 0,
+        "damage": 1.5,
+        "heal": 0
+      },
+      "autoDescription": "Heavy bite arc.",
+      "activeDescription": "Fear roar.",
+      "startingWeapons": [
+        "WOOD",
+        "STONE"
+      ],
+      "favoredMutationTags": [
+        "offense",
+        "apex",
+        "feral"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 5, "y": -21 },
+        { "anchor": "BACK", "x": -5, "y": -13 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 3 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 3 },
+        { "anchor": "FRONT", "x": 8, "y": 21 },
+        { "anchor": "REAR", "x": -11, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "rumblepaw",
+      "displayName": "Rumblepaw",
+      "gimmick": "Sustain bruiser with wide cleave.",
+      "experimental": false,
+      "unlockedByDefault": true,
+      "unlockId": null,
+      "roleTags": [
+        "Sustain",
+        "Brawler"
+      ],
+      "baseMoveSpeed": 4.2,
+      "baseTurnRate": 7.2,
+      "baseMaxHp": 135,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.8,
+        "range": 2.8,
+        "arc": 100,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 6.2
+      },
+      "activeAbilitySpec": {
+        "type": "SLASH",
+        "cooldown": 8.0,
+        "windup": 0.25,
+        "radius": 0,
+        "range": 3.2,
+        "arc": 110,
+        "damage": 6.0,
+        "heal": 0
+      },
+      "autoDescription": "Wide paw swipe.",
+      "activeDescription": "Frenzied cleave.",
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "hide"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -24 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 29 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "glimmerscale",
+      "displayName": "Glimmerscale",
+      "gimmick": "Adaptive duelist with stance feints.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "DPS",
+        "Utility"
+      ],
+      "baseMoveSpeed": 4.8,
+      "baseTurnRate": 8.5,
+      "baseMaxHp": 115,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.8,
+        "range": 2.7,
+        "arc": 70,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 5.6
+      },
+      "activeAbilitySpec": {
+        "type": "KNOCK_PULSE",
+        "cooldown": 8.0,
+        "windup": 0.2,
+        "radius": 3.0,
+        "range": 0,
+        "arc": 0,
+        "damage": 3.0,
+        "heal": 0
+      },
+      "autoDescription": "Quick stance slash.",
+      "activeDescription": "Feint pulse to reset spacing.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "hybrid",
+        "stance"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "buzzgrave",
+      "displayName": "Buzzgrave",
+      "gimmick": "Swarm commander with orbital pressure.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Utility",
+        "Offense"
+      ],
+      "baseMoveSpeed": 4.6,
+      "baseTurnRate": 8.8,
+      "baseMaxHp": 100,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.65,
+        "range": 6.8,
+        "arc": 8,
+        "projectileSpeed": 7.0,
+        "projectileCount": 2,
+        "damage": 3.6
+      },
+      "activeAbilitySpec": {
+        "type": "FEAR_PULSE",
+        "cooldown": 9.0,
+        "windup": 0.2,
+        "radius": 3.4,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.5,
+        "heal": 0
+      },
+      "autoDescription": "Twin stingers.",
+      "activeDescription": "Swarm shriek pulse.",
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "offense",
+        "orbitals"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "bogbound",
+      "displayName": "Bogbound",
+      "gimmick": "Leap control bruiser.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Control",
+        "Bruiser"
+      ],
+      "baseMoveSpeed": 3.8,
+      "baseTurnRate": 7.2,
+      "baseMaxHp": 135,
+      "autoAttackSpec": {
+        "type": "NOVA",
+        "cadence": 1.0,
+        "range": 2.6,
+        "arc": 0,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 5.8
+      },
+      "activeAbilitySpec": {
+        "type": "ROOT_PULSE",
+        "cooldown": 9.0,
+        "windup": 0.25,
+        "radius": 3.4,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.5,
+        "heal": 0
+      },
+      "autoDescription": "Bog stomp.",
+      "activeDescription": "Root pulse to pin foes.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "control",
+        "utility",
+        "impact"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "hollowhoot",
+      "displayName": "Hollowhoot",
+      "gimmick": "Rune zoning controller.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Utility",
+        "Control"
+      ],
+      "baseMoveSpeed": 4.3,
+      "baseTurnRate": 8.0,
+      "baseMaxHp": 105,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.75,
+        "range": 6.8,
+        "arc": 10,
+        "projectileSpeed": 6.8,
+        "projectileCount": 1,
+        "damage": 3.8
+      },
+      "activeAbilitySpec": {
+        "type": "FEAR_PULSE",
+        "cooldown": 10.0,
+        "windup": 0.25,
+        "radius": 3.8,
+        "range": 0,
+        "arc": 0,
+        "damage": 1.5,
+        "heal": 3.0
+      },
+      "autoDescription": "Hollow bolts.",
+      "activeDescription": "Rune pulse with minor heal.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "control",
+        "rune"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "quillthorn",
+      "displayName": "Quillthorn",
+      "gimmick": "Retaliation counter tank.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Defense",
+        "Hybrid"
+      ],
+      "baseMoveSpeed": 3.5,
+      "baseTurnRate": 6.2,
+      "baseMaxHp": 170,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.9,
+        "range": 2.6,
+        "arc": 90,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 5.4
+      },
+      "activeAbilitySpec": {
+        "type": "KNOCK_PULSE",
+        "cooldown": 8.5,
+        "windup": 0.25,
+        "radius": 3.2,
+        "range": 0,
+        "arc": 0,
+        "damage": 3.0,
+        "heal": 0
+      },
+      "autoDescription": "Quill sweep.",
+      "activeDescription": "Counter pulse.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "retaliation",
+        "shield"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "emberpelt",
+      "displayName": "Emberpelt",
+      "gimmick": "Trail burst trickster.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Offense",
+        "Hybrid"
+      ],
+      "baseMoveSpeed": 5.0,
+      "baseTurnRate": 9.2,
+      "baseMaxHp": 95,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.6,
+        "range": 2.5,
+        "arc": 80,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 4.6
+      },
+      "activeAbilitySpec": {
+        "type": "SLASH",
+        "cooldown": 7.0,
+        "windup": 0.2,
+        "radius": 0,
+        "range": 3.3,
+        "arc": 120,
+        "damage": 5.8,
+        "heal": 0
+      },
+      "autoDescription": "Quick ember slash.",
+      "activeDescription": "Flare cleave.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "offense",
+        "hybrid",
+        "dash"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "grugnar",
+      "displayName": "Grugnar",
+      "gimmick": "Relic brawler with heavy swings.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Offense",
+        "Utility"
+      ],
+      "baseMoveSpeed": 3.6,
+      "baseTurnRate": 6.0,
+      "baseMaxHp": 160,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.95,
+        "range": 2.8,
+        "arc": 100,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 6.4
+      },
+      "activeAbilitySpec": {
+        "type": "KNOCK_PULSE",
+        "cooldown": 8.5,
+        "windup": 0.25,
+        "radius": 3.4,
+        "range": 0,
+        "arc": 0,
+        "damage": 3.5,
+        "heal": 0
+      },
+      "autoDescription": "Relic club arc.",
+      "activeDescription": "Ground slam pulse.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "offense",
+        "utility",
+        "relic"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "venomcoil",
+      "displayName": "Venomcoil",
+      "gimmick": "Constrictor with venom spread.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Offense",
+        "Corruption"
+      ],
+      "baseMoveSpeed": 4.4,
+      "baseTurnRate": 8.3,
+      "baseMaxHp": 110,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.75,
+        "range": 6.8,
+        "arc": 12,
+        "projectileSpeed": 7.0,
+        "projectileCount": 1,
+        "damage": 3.5
+      },
+      "activeAbilitySpec": {
+        "type": "ROOT_PULSE",
+        "cooldown": 9.0,
+        "windup": 0.25,
+        "radius": 3.0,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.5,
+        "heal": 0
+      },
+      "autoDescription": "Venom bolt.",
+      "activeDescription": "Constricting pulse.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "offense",
+        "corruption",
+        "dot"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "shellspire",
+      "displayName": "Shellspire",
+      "gimmick": "Stationary fortress with shell bursts.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Defense",
+        "Utility"
+      ],
+      "baseMoveSpeed": 3.0,
+      "baseTurnRate": 5.5,
+      "baseMaxHp": 190,
+      "autoAttackSpec": {
+        "type": "NOVA",
+        "cadence": 1.2,
+        "range": 2.4,
+        "arc": 0,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 6.8
+      },
+      "activeAbilitySpec": {
+        "type": "NOVA",
+        "cooldown": 11.0,
+        "windup": 0.35,
+        "radius": 3.8,
+        "range": 0,
+        "arc": 0,
+        "damage": 7.2,
+        "heal": 0
+      },
+      "autoDescription": "Shell shock.",
+      "activeDescription": "Fortress nova.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "utility",
+        "fortify"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "branchsnap",
+      "displayName": "Branchsnap",
+      "gimmick": "Acrobat disruptor with quick feints.",
+      "experimental": false,
+      "unlockedByDefault": true,
+      "unlockId": null,
+      "roleTags": [
+        "Utility",
+        "Offense"
+      ],
+      "baseMoveSpeed": 5.2,
+      "baseTurnRate": 9.4,
+      "baseMaxHp": 105,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.7,
+        "range": 2.6,
+        "arc": 80,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 4.8
+      },
+      "activeAbilitySpec": {
+        "type": "KNOCK_PULSE",
+        "cooldown": 7.8,
+        "windup": 0.2,
+        "radius": 3.0,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.8,
+        "heal": 0
+      },
+      "autoDescription": "Snap slash.",
+      "activeDescription": "Disrupting pulse.",
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "offense",
+        "mobility"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "thornhart",
+      "displayName": "Thornhart",
+      "gimmick": "Aura frontline with rallying roar.",
+      "experimental": false,
+      "unlockedByDefault": false,
+      "unlockId": "unlock_haylord_bramblehoof",
+      "roleTags": [
+        "Defense",
+        "Utility"
+      ],
+      "baseMoveSpeed": 3.9,
+      "baseTurnRate": 6.8,
+      "baseMaxHp": 150,
+      "autoAttackSpec": {
+        "type": "SLASH",
+        "cadence": 0.85,
+        "range": 2.8,
+        "arc": 90,
+        "projectileSpeed": 0,
+        "projectileCount": 0,
+        "damage": 5.6
+      },
+      "activeAbilitySpec": {
+        "type": "ROAR",
+        "cooldown": 10.5,
+        "windup": 0.3,
+        "radius": 3.4,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.0,
+        "heal": 4.0
+      },
+      "autoDescription": "Antler sweep.",
+      "activeDescription": "Rallying roar.",
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "defense",
+        "utility",
+        "aura"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    },
+    {
+      "id": "inkscourge",
+      "displayName": "Inkscourge",
+      "gimmick": "Vision denial zoner with inky bolts.",
+      "experimental": true,
+      "unlockedByDefault": false,
+      "unlockId": null,
+      "roleTags": [
+        "Utility",
+        "Control"
+      ],
+      "baseMoveSpeed": 4.1,
+      "baseTurnRate": 7.8,
+      "baseMaxHp": 120,
+      "autoAttackSpec": {
+        "type": "PROJECTILE",
+        "cadence": 0.8,
+        "range": 6.4,
+        "arc": 10,
+        "projectileSpeed": 6.8,
+        "projectileCount": 2,
+        "damage": 3.2
+      },
+      "activeAbilitySpec": {
+        "type": "FEAR_PULSE",
+        "cooldown": 9.5,
+        "windup": 0.25,
+        "radius": 3.6,
+        "range": 0,
+        "arc": 0,
+        "damage": 2.0,
+        "heal": 0
+      },
+      "autoDescription": "Ink bolts.",
+      "activeDescription": "Inky pulse.",
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "favoredMutationTags": [
+        "utility",
+        "control",
+        "corruption"
+      ],
+      "rigAnchors": [
+        { "anchor": "HEAD", "x": 0, "y": -27 },
+        { "anchor": "BACK", "x": 0, "y": -16 },
+        { "anchor": "LEFT_SIDE", "x": -21, "y": 0 },
+        { "anchor": "RIGHT_SIDE", "x": 21, "y": 0 },
+        { "anchor": "FRONT", "x": 0, "y": 21 },
+        { "anchor": "REAR", "x": 0, "y": 32 },
+        { "anchor": "AURA", "x": 0, "y": 0 },
+        { "anchor": "ORBITALS", "x": 0, "y": 0 }
+      ],
+      "slotContract": {
+        "allowedSlots": [
+          "HEAD",
+          "BACK",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ],
+        "forbiddenSlots": [],
+        "slotCaps": {
+          "HEAD": 1,
+          "BACK": 1,
+          "LEFT_SIDE": 1,
+          "RIGHT_SIDE": 1,
+          "FRONT": 1,
+          "REAR": 1,
+          "AURA": 1,
+          "ORBITALS": 3
+        },
+        "visualPriorityOrder": [
+          "HEAD",
+          "LEFT_SIDE",
+          "RIGHT_SIDE",
+          "BACK",
+          "FRONT",
+          "REAR",
+          "AURA",
+          "ORBITALS"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "Sheet": "Creatures",
+    "Field": "creatureId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "lower_snake_case, unique",
+    "Notes": "Primary key used across all data."
+  },
+  {
+    "Sheet": "Creatures",
+    "Field": "displayName",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "Title Case",
+    "Notes": "UI name."
+  },
+  {
+    "Sheet": "Creatures",
+    "Field": "role",
+    "Type": "enum",
+    "Required": "YES",
+    "Constraint/Enum": "bruiser|assassin|tank|control|support|hybrid",
+    "Notes": "Used for matchmaking + UI tags."
+  },
+  {
+    "Sheet": "Creatures",
+    "Field": "isLaunch",
+    "Type": "bool",
+    "Required": "YES",
+    "Constraint/Enum": "true/false",
+    "Notes": "Launch scope gating."
+  },
+  {
+    "Sheet": "Creatures",
+    "Field": "isExperimental",
+    "Type": "bool",
+    "Required": "YES",
+    "Constraint/Enum": "true/false",
+    "Notes": "Never regenerated if true."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "nodeId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "Directed Evolution node id."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "creatureId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "FK -> Creatures.creatureId",
+    "Notes": "Owner creature."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "tier",
+    "Type": "enum",
+    "Required": "YES",
+    "Constraint/Enum": "I|II|III",
+    "Notes": "Progress tier."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "exclusiveGroup",
+    "Type": "string",
+    "Required": "NO",
+    "Constraint/Enum": "optional",
+    "Notes": "Locks alternatives."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "prereqs",
+    "Type": "csv",
+    "Required": "NO",
+    "Constraint/Enum": "nodeIds",
+    "Notes": "Prerequisite nodes."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "modules",
+    "Type": "json",
+    "Required": "YES",
+    "Constraint/Enum": "Allowed module set",
+    "Notes": "Gameplay effect modules."
+  },
+  {
+    "Sheet": "EvolutionNodes",
+    "Field": "visuals",
+    "Type": "json",
+    "Required": "YES",
+    "Constraint/Enum": "slot+spriteId+priority",
+    "Notes": "Attachments emitted by node."
+  },
+  {
+    "Sheet": "SlotContracts",
+    "Field": "allowedSlots",
+    "Type": "csv",
+    "Required": "YES",
+    "Constraint/Enum": "slot ids",
+    "Notes": "Allowed attachment slots."
+  },
+  {
+    "Sheet": "SlotContracts",
+    "Field": "slotCaps",
+    "Type": "json",
+    "Required": "YES",
+    "Constraint/Enum": "{slot:max}",
+    "Notes": "Hard cap per slot."
+  },
+  {
+    "Sheet": "SilhouetteBible",
+    "Field": "forbidHumanoid",
+    "Type": "bool",
+    "Required": "YES",
+    "Constraint/Enum": "true/false",
+    "Notes": "Auto-reject biped/hands/held-weapon silhouettes."
+  },
+  {
+    "Sheet": "Weapons",
+    "Field": "weaponId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "Weapon registry id."
+  },
+  {
+    "Sheet": "Weapons",
+    "Field": "family",
+    "Type": "enum",
+    "Required": "YES",
+    "Constraint/Enum": "melee|projectile|aoe|status|utility",
+    "Notes": "For VFX/SFX + balance."
+  },
+  {
+    "Sheet": "VFX",
+    "Field": "vfxId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "VFX registry id."
+  },
+  {
+    "Sheet": "SFX",
+    "Field": "sfxId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "SFX registry id."
+  },
+  {
+    "Sheet": "Props",
+    "Field": "propId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "Prop registry id."
+  },
+  {
+    "Sheet": "Stages",
+    "Field": "stageId",
+    "Type": "string",
+    "Required": "YES",
+    "Constraint/Enum": "unique",
+    "Notes": "Stage registry id."
+  }
+]

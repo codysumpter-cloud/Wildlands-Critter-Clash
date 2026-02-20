@@ -1,0 +1,10 @@
+{
+  "creatures": [
+    { "creatureId": "rumblepaw", "baseDpsEstimate": 14.0, "burstBias": 0.40, "rangeReliance": 0.20 },
+    { "creatureId": "sporeling", "baseDpsEstimate": 12.5, "burstBias": 0.60, "rangeReliance": 0.50 },
+    { "creatureId": "branchsnap", "baseDpsEstimate": 13.0, "burstBias": 0.50, "rangeReliance": 0.30 },
+    { "creatureId": "clackjaw", "baseDpsEstimate": 13.5, "burstBias": 0.30, "rangeReliance": 0.20 },
+    { "creatureId": "tundrum", "baseDpsEstimate": 15.0, "burstBias": 0.40, "rangeReliance": 0.30 },
+    { "creatureId": "thornhart", "baseDpsEstimate": 12.0, "burstBias": 0.70, "rangeReliance": 0.40 }
+  ]
+}

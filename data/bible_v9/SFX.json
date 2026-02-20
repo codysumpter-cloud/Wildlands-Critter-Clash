@@ -1,0 +1,101 @@
+[
+  {
+    "sfxId": "ui_button_click",
+    "category": "ui",
+    "path": "sfx/ui/button_click.wav",
+    "notes": "routed via UI event bus",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "ui_panel_open",
+    "category": "ui",
+    "path": "sfx/ui/panel_open.wav",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "ui_panel_close",
+    "category": "ui",
+    "path": "sfx/ui/panel_close.wav",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "chest_open",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "crit",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "dash",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "death",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "hit",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "kill_big",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "kill_small",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "levelup",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "menu_ambience",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "pickup",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "rarity_common",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "rarity_epic",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "rarity_rare",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "ui_click",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "ui_hover",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  },
+  {
+    "sfxId": "wave_shift",
+    "category": "legacy_alpha",
+    "isLaunch": true
+  }
+]

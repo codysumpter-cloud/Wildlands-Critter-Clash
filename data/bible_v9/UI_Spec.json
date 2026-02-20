@@ -1,0 +1,30 @@
+[
+  {
+    "Section": "Core Identity",
+    "Spec": "Dark foundation; framed panels; high-contrast pixel typography; organic accents; heavy borders; no glass; no blur; only subtle inner bevels."
+  },
+  {
+    "Section": "Palette Lock",
+    "Spec": "Background #141018; PanelBase #2A1633; PanelDark #1C0E22; BorderPrimary #0B070F; BorderHighlight #3B2A46; Accent(Action) #E3A83A; Secondary #7BC96F; Danger #D44747; PvP #B04CE1. One dominant accent per screen."
+  },
+  {
+    "Section": "Borders",
+    "Spec": "3px outer Iron Black + 1px inner Soft Ash highlight; square or 2px radius; no soft drop shadows."
+  },
+  {
+    "Section": "Typography",
+    "Spec": "Title uppercase heavy pixel font (1.6x); major buttons 1.2x; secondary 1.0x; meta 0.85x; no thin weights."
+  },
+  {
+    "Section": "Buttons",
+    "Spec": "Slab: Deep Plum bg; 3px border; hover border pulses to amber + 1px lift; press scale 0.97 + darken + click SFX; no bounce/gradient anim."
+  },
+  {
+    "Section": "Motion",
+    "Spec": "Snap transitions 120\u2013180ms; mechanical weighted pulses; avoid floaty easing."
+  },
+  {
+    "Section": "Enforcement",
+    "Spec": "data/ui/ui_style_guide.json + wildlands_theme.css; NO inline styles; lint/log once on violation; base components apply classes."
+  }
+]

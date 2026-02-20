@@ -1,0 +1,930 @@
+{
+    "schemaVersion":  2,
+    "mutations":  [
+                      {
+                          "id":  "MUT_TEST_01",
+                          "name":  "Tusks+",
+                          "description":  "Longer reach and heavier hits.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "ground"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "projectile_mod",
+                                              "bonusRange":  0.5,
+                                              "bonusDamage":  0.6
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "tusks_t1",
+                                                      "anchor":  "FRONT",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/tusks_t1",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "tusks",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  0,
+                                                      "scale":  1.0
+                                                  },
+                                                  {
+                                                      "type":  "scale",
+                                                      "scaleDelta":  0.02
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "CHEST",
+                          "attachmentSpriteId":  "attach/tusks_t1",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_02",
+                          "name":  "Tusks++",
+                          "description":  "Massive tusks amplify range and damage.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  3,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "ground",
+                                       "armor"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "projectile_mod",
+                                              "bonusRange":  0.9,
+                                              "bonusDamage":  0.9
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "tusks_t2",
+                                                      "anchor":  "FRONT",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/tusks_t2",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "tusks",
+                                                      "tier":  2,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  0,
+                                                      "scale":  1.0
+                                                  },
+                                                  {
+                                                      "type":  "scale",
+                                                      "scaleDelta":  0.04
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "CHEST",
+                          "attachmentSpriteId":  "attach/tusks_t2",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_03",
+                          "name":  "Hide Plates",
+                          "description":  "Front plates deflect incoming hits.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "defense",
+                                       "armor"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "shield_wedge"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "plates",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  1,
+                                                      "spriteKey":  "attach/plates",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "plates",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -5,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/plates",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_04",
+                          "name":  "Rage Spikes",
+                          "description":  "Spikes retaliate on contact.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "defense",
+                                       "brawler"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "spiked_hide"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "spikes",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/spikes",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "spikes",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -8,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/spikes",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_05",
+                          "name":  "Spore Aura",
+                          "description":  "A spore ring damages nearby foes.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "spore"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "aura"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "aura",
+                                                      "auraRadius":  28,
+                                                      "spriteKey":  "attach/halo"
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "AURA",
+                          "attachmentSpriteId":  "attach/halo",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_06",
+                          "name":  "Orbital Stone",
+                          "description":  "A protective stone circles you.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "defense",
+                                       "anchor"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "orbital"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "orbital",
+                                                      "orbitals":  1,
+                                                      "spriteKey":  "orbital/thin"
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "ORBIT",
+                          "attachmentSpriteId":  "orbital/thin",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_07",
+                          "name":  "Shell Ring",
+                          "description":  "Two orbitals keep enemies at bay.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  3,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "defense",
+                                       "anchor"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "orbital"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "orbital",
+                                                      "orbitals":  2,
+                                                      "spriteKey":  "orbital/thin"
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "ORBIT",
+                          "attachmentSpriteId":  "orbital/thin",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_08",
+                          "name":  "Ground Trail",
+                          "description":  "Leave a burning trail behind you.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "ground"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "trail_hazard"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "trail",
+                                                      "anchor":  "REAR",
+                                                      "layerOrder":  5,
+                                                      "spriteKey":  "vfx/trail",
+                                                      "canStack":  true,
+                                                      "replacesGroup":  "trail",
+                                                      "tier":  1,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  16,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "WAIST",
+                          "attachmentSpriteId":  "vfx/trail",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_09",
+                          "name":  "Fear Banner",
+                          "description":  "A banner terrifies nearby enemies.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "pack"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "fear_pulse"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "banner",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  3,
+                                                      "spriteKey":  "attach/banner",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "banner",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -16,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/banner",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_10",
+                          "name":  "Knock Pulse",
+                          "description":  "Release periodic knockback waves.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  3,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "brawler"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "knock_pulse"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "shock_core",
+                                                      "anchor":  "HEAD",
+                                                      "layerOrder":  4,
+                                                      "spriteKey":  "attach/core",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "core",
+                                                      "tier":  1,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -16,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "HEAD_TOP",
+                          "attachmentSpriteId":  "attach/core",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_11",
+                          "name":  "Root Field",
+                          "description":  "Roots pulse to stagger enemies.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  3,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "spore"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "root_field"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "root",
+                                                      "anchor":  "AURA",
+                                                      "layerOrder":  5,
+                                                      "spriteKey":  "vfx/root",
+                                                      "canStack":  true,
+                                                      "replacesGroup":  "root",
+                                                      "tier":  1,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  0,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "AURA",
+                          "attachmentSpriteId":  "vfx/root",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_12",
+                          "name":  "Blood Orbital",
+                          "description":  "A volatile orb circles you.",
+                          "rarity":  "rare",
+                          "pvpCost":  4,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "corruption"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "blood_orbital"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "orbital",
+                                                      "orbitals":  1,
+                                                      "spriteKey":  "orbital/blood"
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "ORBIT",
+                          "attachmentSpriteId":  "orbital/blood",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_13",
+                          "name":  "Shield Wedge",
+                          "description":  "Front wedge reduces incoming damage.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "defense",
+                                       "hide"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "shield_wedge"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "shield",
+                                                      "anchor":  "FRONT",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/shield",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "shield",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  11,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "CHEST",
+                          "attachmentSpriteId":  "attach/shield",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_14",
+                          "name":  "Rally Halo",
+                          "description":  "A halo boosts your presence.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "pack"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "aura"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "aura",
+                                                      "auraRadius":  22,
+                                                      "spriteKey":  "attach/halo"
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "AURA",
+                          "attachmentSpriteId":  "attach/halo",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_15",
+                          "name":  "Shock Core",
+                          "description":  "Shock pulses stagger close enemies.",
+                          "rarity":  "rare",
+                          "pvpCost":  4,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "brawler"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "shock_core"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "shock",
+                                                      "anchor":  "HEAD",
+                                                      "layerOrder":  4,
+                                                      "spriteKey":  "attach/core",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "core",
+                                                      "tier":  2,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -13,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "HEAD_TOP",
+                          "attachmentSpriteId":  "attach/core",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_16",
+                          "name":  "Corrupt Core",
+                          "description":  "Unstable power with self-risk.",
+                          "rarity":  "corrupt",
+                          "pvpCost":  4,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "corruption",
+                                       "hybrid"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "corruption_risk",
+                                              "bonusDamage":  1.4
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "corrupt",
+                                                      "anchor":  "HEAD",
+                                                      "layerOrder":  5,
+                                                      "spriteKey":  "vfx/corrupt",
+                                                      "canStack":  true,
+                                                      "replacesGroup":  "corrupt",
+                                                      "tier":  1,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -16,
+                                                      "scale":  1.0
+                                                  },
+                                                  {
+                                                      "type":  "scale",
+                                                      "scaleDelta":  0.05
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "HEAD_TOP",
+                          "attachmentSpriteId":  "vfx/corrupt",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_17",
+                          "name":  "Rapid Bolts",
+                          "description":  "Extra projectile in your volley.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "flight"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "projectile_mod",
+                                              "extraProjectiles":  1,
+                                              "bonusDamage":  0.4
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "core",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/core",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "core",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -11,
+                                                      "scale":  0.9
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/core",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_18",
+                          "name":  "Wide Cleave",
+                          "description":  "Boost your close-range arc.",
+                          "rarity":  "common",
+                          "pvpCost":  2,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "brawler"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "cone_cleave",
+                                              "bonusRange":  0.4,
+                                              "bonusDamage":  0.4
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "spikes",
+                                                      "anchor":  "LEFT_SIDE",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/spikes",
+                                                      "canStack":  true,
+                                                      "replacesGroup":  "cleave",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  -11,
+                                                      "offsetY":  0,
+                                                      "scale":  0.8
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "SHOULDER_L",
+                          "attachmentSpriteId":  "attach/spikes",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_19",
+                          "name":  "Banner of Fear",
+                          "description":  "A taller banner widens fear pulses.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  3,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "utility",
+                                       "pack",
+                                       "hybrid"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "fear_pulse"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "banner_big",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  3,
+                                                      "spriteKey":  "attach/banner",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "banner",
+                                                      "tier":  2,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -21,
+                                                      "scale":  1.2
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/banner",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_TEST_20",
+                          "name":  "Blood Halo",
+                          "description":  "A risky halo damages you but empowers attacks.",
+                          "rarity":  "corrupt",
+                          "pvpCost":  4,
+                          "kind":  "BUFF",
+                          "tags":  [
+                                       "offense",
+                                       "corruption"
+                                   ],
+                          "effects":  [
+                                          {
+                                              "type":  "corruption_risk",
+                                              "bonusDamage":  1.0
+                                          },
+                                          {
+                                              "type":  "aura"
+                                          }
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "aura",
+                                                      "auraRadius":  34,
+                                                      "spriteKey":  "attach/halo"
+                                                  },
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "corrupt",
+                                                      "anchor":  "HEAD",
+                                                      "layerOrder":  5,
+                                                      "spriteKey":  "vfx/corrupt",
+                                                      "canStack":  true,
+                                                      "replacesGroup":  "corrupt",
+                                                      "tier":  1,
+                                                      "vfxLayer":  true,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -16,
+                                                      "scale":  1.0
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "AURA",
+                          "attachmentSpriteId":  "attach/halo",
+                          "weaponId":  null,
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_WPN_WOOD_ARM",
+                          "name":  "Knife Arm",
+                          "description":  "Bone-mounted blade for close fights.",
+                          "rarity":  "common",
+                          "pvpCost":  4,
+                          "kind":  "WEAPON",
+                          "tags":  [
+                                       "weapon",
+                                       "offense"
+                                   ],
+                          "effects":  [
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "core",
+                                                      "anchor":  "RIGHT_SIDE",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/core",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "arm_weapon",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  8,
+                                                      "offsetY":  0,
+                                                      "scale":  0.9
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "ARM_R",
+                          "attachmentSpriteId":  "attach/core",
+                          "weaponId":  "WOOD",
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_WPN_STONE_HAMMER",
+                          "name":  "Axe Arm",
+                          "description":  "Stone cleaver mounted on the forearm.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  4,
+                          "kind":  "WEAPON",
+                          "tags":  [
+                                       "weapon",
+                                       "offense"
+                                   ],
+                          "effects":  [
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "shield",
+                                                      "anchor":  "LEFT_SIDE",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/shield",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "arm_weapon",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  -10,
+                                                      "offsetY":  2,
+                                                      "scale":  0.9
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "ARM_L",
+                          "attachmentSpriteId":  "attach/shield",
+                          "weaponId":  "STONE",
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      },
+                      {
+                          "id":  "MUT_WPN_FIBER_WHIP",
+                          "name":  "Whip Spine",
+                          "description":  "Fiber lash that whips from the back.",
+                          "rarity":  "uncommon",
+                          "pvpCost":  4,
+                          "kind":  "WEAPON",
+                          "tags":  [
+                                       "weapon",
+                                       "utility"
+                                   ],
+                          "effects":  [
+                                      ],
+                          "visual_bindings":  [
+                                                  {
+                                                      "type":  "attachment",
+                                                      "attachmentId":  "banner",
+                                                      "anchor":  "BACK",
+                                                      "layerOrder":  2,
+                                                      "spriteKey":  "attach/banner",
+                                                      "canStack":  false,
+                                                      "replacesGroup":  "whip",
+                                                      "tier":  1,
+                                                      "vfxLayer":  false,
+                                                      "offsetX":  0,
+                                                      "offsetY":  -10,
+                                                      "scale":  0.9
+                                                  }
+                                              ],
+                          "type":  "BODY_MOD",
+                          "slot":  "BACK",
+                          "attachmentSpriteId":  "attach/banner",
+                          "weaponId":  "FIBER",
+                          "stacking":  {
+                                           "visualStacks":  1,
+                                           "maxStacks":  1
+                                       }
+                      }
+                  ]
+}
+
+
+

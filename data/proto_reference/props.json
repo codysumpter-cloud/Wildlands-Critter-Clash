@@ -1,0 +1,24 @@
+﻿{
+  "propTypes": [
+    { "id": "HEDGE", "massTier": 1, "friction": 0.7, "restitution": 0.1, "softBlocker": true, "hardBlocker": false },
+    { "id": "STALL", "massTier": 3, "friction": 0.9, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "TREE", "massTier": 4, "friction": 0.95, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "CRYSTAL_WALL", "massTier": 4, "friction": 0.9, "restitution": 0.2, "softBlocker": false, "hardBlocker": true },
+    { "id": "LILY_PAD", "massTier": 1, "friction": 0.4, "restitution": 0.2, "softBlocker": true, "hardBlocker": false },
+    { "id": "GATE", "massTier": 3, "friction": 0.8, "restitution": 0.1, "softBlocker": false, "hardBlocker": true },
+    { "id": "BUMPER", "massTier": 2, "friction": 0.3, "restitution": 0.6, "softBlocker": true, "hardBlocker": false },
+    { "id": "PILLAR", "massTier": 3, "friction": 0.9, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "BOULDER", "massTier": 3, "friction": 0.85, "restitution": 0.1, "softBlocker": false, "hardBlocker": true },
+    { "id": "STUMP", "massTier": 2, "friction": 0.8, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "RUIN_WALL", "massTier": 4, "friction": 0.92, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "MARKET_STALL", "massTier": 3, "friction": 0.9, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "FENCE", "massTier": 2, "friction": 0.85, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "HAY_BALE", "massTier": 1, "friction": 0.7, "restitution": 0.1, "softBlocker": true, "hardBlocker": false },
+    { "id": "WAGON", "massTier": 4, "friction": 0.92, "restitution": 0.05, "softBlocker": false, "hardBlocker": true },
+    { "id": "CRATE", "massTier": 2, "friction": 0.8, "restitution": 0.1, "softBlocker": false, "hardBlocker": true },
+    { "id": "BARREL", "massTier": 2, "friction": 0.6, "restitution": 0.2, "softBlocker": false, "hardBlocker": true },
+    { "id": "BEEHIVE", "massTier": 1, "friction": 0.7, "restitution": 0.05, "softBlocker": true, "hardBlocker": false },
+    { "id": "LANTERN", "massTier": 1, "friction": 0.6, "restitution": 0.05, "softBlocker": true, "hardBlocker": false },
+    { "id": "DECOR", "massTier": 1, "friction": 0.6, "restitution": 0.05, "softBlocker": true, "hardBlocker": false }
+  ]
+}

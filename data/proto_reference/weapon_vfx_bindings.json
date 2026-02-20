@@ -1,0 +1,26 @@
+[
+  {
+    "weaponId": "WOOD",
+    "projectileSpriteId": "projectile/fang_bolt",
+    "trailVfxId": "dash_trail",
+    "hitVfxId": "hit_spark",
+    "impactSfxId": "hit",
+    "paletteFamily": "NEUTRAL"
+  },
+  {
+    "weaponId": "STONE",
+    "projectileSpriteId": "vfx/bounce_ring",
+    "trailVfxId": null,
+    "hitVfxId": "hit_spark",
+    "impactSfxId": "hit",
+    "paletteFamily": "HAZARD_ORANGE"
+  },
+  {
+    "weaponId": "FIBER",
+    "projectileSpriteId": "projectile/claw_slash_arc",
+    "trailVfxId": null,
+    "hitVfxId": "hit_spark",
+    "impactSfxId": "hit",
+    "paletteFamily": "CORRUPTION_VIOLET"
+  }
+]

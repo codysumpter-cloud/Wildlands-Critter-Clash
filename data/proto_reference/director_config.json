@@ -1,0 +1,25 @@
+﻿{
+  "baseCurve": [
+    { "t": 0, "budget": 1.0, "spawnPerSec": 0.9 },
+    { "t": 5, "budget": 1.4, "spawnPerSec": 1.3 },
+    { "t": 10, "budget": 1.8, "spawnPerSec": 1.8 },
+    { "t": 20, "budget": 2.5, "spawnPerSec": 2.6 },
+    { "t": 30, "budget": 3.2, "spawnPerSec": 3.2 }
+  ],
+  "playerCountScale": [1.0, 1.15, 1.3, 1.45],
+  "performanceWeights": { "killRate": 0.2, "damageTaken": -0.18, "downs": -0.2 },
+  "stageScale": {
+    "meadow_market": 1.0,
+    "treetop_glade": 1.05,
+    "crystal_caves": 1.1,
+    "bubble_bog": 1.08,
+    "clockwork_carnival": 1.12
+  },
+  "counterDraft": {
+    "maxInfluence": 0.3,
+    "projectileHeavyShielded": 0.22,
+    "clumpBomber": 0.25,
+    "kitePincer": 0.2,
+    "controlRanged": 0.2
+  }
+}

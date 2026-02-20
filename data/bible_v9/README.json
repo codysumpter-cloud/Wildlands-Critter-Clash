@@ -1,0 +1,35 @@
+[
+  {},
+  {
+    "Wildlands Data Bible (v1)": "Purpose:"
+  },
+  {
+    "Wildlands Data Bible (v1)": "- Single source of truth for launch + planned roster, Directed Evolution nodes, slot contracts, silhouette locks, stages, props, weapons, VFX/SFX placeholders."
+  },
+  {},
+  {
+    "Wildlands Data Bible (v1)": "How to use in IntelliJ/Gradle pipeline (recommended):"
+  },
+  {
+    "Wildlands Data Bible (v1)": "1) Export Creatures + EvolutionNodes + SlotContracts to JSON in tools (asset-tools) via a spreadsheet->json task."
+  },
+  {
+    "Wildlands Data Bible (v1)": "2) Use SilhouetteBible + SlotContracts during sprite regen acceptance."
+  },
+  {
+    "Wildlands Data Bible (v1)": "3) Use Stages + Props to drive arena generation and readable prop art briefs."
+  },
+  {},
+  {
+    "Wildlands Data Bible (v1)": "Conventions:"
+  },
+  {
+    "Wildlands Data Bible (v1)": "- IDs are lowercase snake/camel with dots for nodeIds (creature.node)."
+  },
+  {
+    "Wildlands Data Bible (v1)": "- Any spriteId starting with 'vfx_' is a VFX atlas sprite placeholder."
+  },
+  {
+    "Wildlands Data Bible (v1)": "- Any prop art brief explicitly forbids circles/squares as final silhouettes."
+  }
+]

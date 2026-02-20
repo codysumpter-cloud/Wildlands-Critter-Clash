@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "creatureId": "thornhart",
+  "nodes": [
+    {
+      "id": "thornhart_antlers_t1",
+      "name": "ANTLER ARC",
+      "description": "Arc shots apply bleed.",
+      "iconId": "icon_damage",
+      "tier": 1,
+      "exclusiveGroup": "thornhart_primary",
+      "modules": [
+        { "type": "spawn_projectile_pattern", "pattern": "arc", "count": 3, "damage": 7 },
+        { "type": "status_apply", "status": "bleed", "durationMs": 2200, "chance": 0.2 }
+      ],
+      "visuals": [
+        { "slot": "HEAD_TOP", "attachmentSpriteId": "attach/coral_horns", "priority": 10 }
+      ],
+      "vfx": [{ "hook": "on_cast", "vfxId": "hit_star" }],
+      "pvpTuning": { "damageMult": 0.85 }
+    },
+    {
+      "id": "thornhart_bramble_gore_t2",
+      "name": "BRAMBLE GORE",
+      "description": "Charge that bleeds targets.",
+      "iconId": "icon_damage",
+      "tier": 2,
+      "prereqs": ["thornhart_antlers_t1"],
+      "modules": [
+        { "type": "dash_or_charge", "damage": 16, "distancePx": 140 },
+        { "type": "status_apply", "status": "bleed", "durationMs": 2600, "chance": 0.35 }
+      ],
+      "visuals": [
+        { "slot": "CHEST", "attachmentSpriteId": "attach/rib_cage", "priority": 20 }
+      ],
+      "vfx": [{ "hook": "on_cast", "vfxId": "dash_trail" }],
+      "pvpTuning": { "damageMult": 0.85, "durationMult": 0.8 }
+    },
+    {
+      "id": "thornhart_thorn_crown_t3",
+      "name": "THORN CROWN",
+      "description": "On hit, thorn pulse knocks back.",
+      "iconId": "icon_defense",
+      "tier": 3,
+      "modules": [
+        { "type": "proc_on_event", "event": "hit", "effect": "area_pulse", "chance": 0.25, "payload": { "radiusPx": 60, "damage": 8 } },
+        { "type": "knockback_mod", "mult": 1.15 }
+      ],
+      "visuals": [
+        { "slot": "BACK", "attachmentSpriteId": "attach/thorn_vines", "priority": 30 }
+      ],
+      "vfx": [{ "hook": "on_proc", "vfxId": "bounce_ring" }],
+      "pvpTuning": { "chanceMult": 0.85 }
+    }
+  ]
+}

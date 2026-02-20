@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "event": "HIT",
+      "play": { "vfx": "hit_slash_small", "sfx": "hit_flesh_01" }
+    },
+    {
+      "event": "CRIT",
+      "play": { "vfx": "crit_spike", "sfx": "hit_crit_01", "pulse": "crit" }
+    },
+    {
+      "event": "KILL",
+      "play": { "vfx": "kill_pop", "sfx": "kill_pop_01", "pulse": "kill" }
+    },
+    {
+      "event": "LEVEL_UP",
+      "play": { "sfx": "ui_click_heavy", "pulse": "level" }
+    }
+  ],
+  "pulses": {
+    "crit":  { "alpha": 0.18, "ms": 120 },
+    "kill":  { "alpha": 0.12, "ms": 100 },
+    "level": { "alpha": 0.22, "ms": 160 }
+  }
+}

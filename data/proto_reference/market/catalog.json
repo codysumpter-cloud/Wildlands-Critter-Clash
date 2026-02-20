@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "palette_meadow_wash",
+      "name": "Meadow Wash",
+      "description": "Warm greens and golds.",
+      "slot": "palette",
+      "type": "tint",
+      "price": 120,
+      "previewColor": "#86C96F",
+      "previewAttachmentKey": null,
+      "pvpReward": false
+    },
+    {
+      "id": "palette_glade_mist",
+      "name": "Glade Mist",
+      "description": "Cool canopy blues.",
+      "slot": "palette",
+      "type": "tint",
+      "price": 120,
+      "previewColor": "#7FB2D8",
+      "previewAttachmentKey": null,
+      "pvpReward": false
+    },
+    {
+      "id": "palette_caves_prism",
+      "name": "Prism Vein",
+      "description": "Crystal shimmer accents.",
+      "slot": "palette",
+      "type": "tint",
+      "price": 140,
+      "previewColor": "#B79BE5",
+      "previewAttachmentKey": null,
+      "pvpReward": false
+    },
+    {
+      "id": "palette_bog_ooze",
+      "name": "Bog Ooze",
+      "description": "Swampy greens and peat.",
+      "slot": "palette",
+      "type": "tint",
+      "price": 120,
+      "previewColor": "#5E9A6B",
+      "previewAttachmentKey": null,
+      "pvpReward": false
+    },
+    {
+      "id": "palette_carnival_brass",
+      "name": "Carnival Brass",
+      "description": "Brass and ember trim.",
+      "slot": "palette",
+      "type": "tint",
+      "price": 140,
+      "previewColor": "#D1A256",
+      "previewAttachmentKey": null,
+      "pvpReward": false
+    },
+    {
+      "id": "cosmetic_halo_ring",
+      "name": "Halo Ring",
+      "description": "Glowing halo attachment.",
+      "slot": "aura",
+      "type": "attachment",
+      "price": 180,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/halo",
+      "pvpReward": false
+    },
+    {
+      "id": "cosmetic_banner_spike",
+      "name": "Banner Spike",
+      "description": "Back banner flare.",
+      "slot": "back",
+      "type": "attachment",
+      "price": 160,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/banner",
+      "pvpReward": false
+    },
+    {
+      "id": "cosmetic_core_crown",
+      "name": "Core Crown",
+      "description": "Head-mounted core.",
+      "slot": "head",
+      "type": "attachment",
+      "price": 150,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/core",
+      "pvpReward": false
+    },
+    {
+      "id": "cosmetic_tusk_trim",
+      "name": "Tusk Trim",
+      "description": "Front tusk highlight.",
+      "slot": "front",
+      "type": "attachment",
+      "price": 200,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/tusks_t1",
+      "pvpReward": false
+    },
+    {
+      "id": "pvp_badge_bronze",
+      "name": "Bronze Badge",
+      "description": "Ranked bronze badge.",
+      "slot": "badge",
+      "type": "pvp",
+      "price": 0,
+      "previewColor": "#B46B3D",
+      "previewAttachmentKey": "attach/shield",
+      "pvpReward": true
+    },
+    {
+      "id": "pvp_badge_silver",
+      "name": "Silver Badge",
+      "description": "Ranked silver badge.",
+      "slot": "badge",
+      "type": "pvp",
+      "price": 0,
+      "previewColor": "#C8C8C8",
+      "previewAttachmentKey": "attach/plates",
+      "pvpReward": true
+    },
+    {
+      "id": "pvp_badge_gold",
+      "name": "Gold Badge",
+      "description": "Ranked gold badge.",
+      "slot": "badge",
+      "type": "pvp",
+      "price": 0,
+      "previewColor": "#E2B34A",
+      "previewAttachmentKey": "attach/core",
+      "pvpReward": true
+    },
+    {
+      "id": "pvp_badge_platinum",
+      "name": "Platinum Badge",
+      "description": "Ranked platinum badge.",
+      "slot": "badge",
+      "type": "pvp",
+      "price": 0,
+      "previewColor": "#90D1E7",
+      "previewAttachmentKey": "attach/tusks_t2",
+      "pvpReward": true
+    },
+    {
+      "id": "mastery_clackjaw_hide",
+      "name": "Clackjaw Hide",
+      "description": "Mastery hide plates.",
+      "slot": "back",
+      "type": "mastery",
+      "price": 0,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/plates",
+      "pvpReward": true
+    },
+    {
+      "id": "mastery_nightzip_stream",
+      "name": "Nightzip Stream",
+      "description": "Mastery aura trail.",
+      "slot": "aura",
+      "type": "mastery",
+      "price": 0,
+      "previewColor": null,
+      "previewAttachmentKey": "attach/halo",
+      "pvpReward": true
+    },
+    {
+      "id": "mastery_sporeling_root",
+      "name": "Sporeling Root",
+      "description": "Mastery root pulse.",
+      "slot": "aura",
+      "type": "mastery",
+      "price": 0,
+      "previewColor": null,
+      "previewAttachmentKey": "vfx/root",
+      "pvpReward": true
+    }
+  ]
+}

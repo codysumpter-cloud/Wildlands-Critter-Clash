@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "buses": {
+    "MASTER": { "gain": 1.0 },
+    "UI":     { "gain": 0.9 },
+    "COMBAT": { "gain": 1.0 },
+    "VFX":    { "gain": 1.0 }
+  },
+  "routing": {
+    "ui_click_heavy": "UI",
+    "ui_hover_tick": "UI",
+    "hit_flesh_01": "COMBAT",
+    "hit_crit_01": "COMBAT",
+    "kill_pop_01": "COMBAT"
+  }
+}

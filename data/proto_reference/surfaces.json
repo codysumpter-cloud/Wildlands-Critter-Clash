@@ -1,0 +1,15 @@
+{
+  "surfaces": [
+    { "id": "GROUND", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "SHALLOW_WATER", "moveSpeedMult": 0.82, "accelMult": 0.9, "turnRateMult": 0.9, "dashMult": 0.9, "knockbackMult": 0.85, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "DEEP_WATER", "moveSpeedMult": 0.65, "accelMult": 0.7, "turnRateMult": 0.75, "dashMult": 0.7, "knockbackMult": 0.7, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "MUD", "moveSpeedMult": 0.85, "accelMult": 0.7, "turnRateMult": 0.8, "dashMult": 0.6, "knockbackMult": 0.9, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "ICE", "moveSpeedMult": 1.05, "accelMult": 0.6, "turnRateMult": 0.6, "dashMult": 1.0, "knockbackMult": 1.1, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "LEAF_PILE", "moveSpeedMult": 0.85, "accelMult": 0.85, "turnRateMult": 0.85, "dashMult": 0.85, "knockbackMult": 1.0, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "BOUNCE_CRYSTAL", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": 0.0, "externalForceY": 0.0, "projectileBehavior": "BOUNCE" },
+    { "id": "CONVEYOR_NORTH", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": 0.0, "externalForceY": -1.4, "projectileBehavior": "NONE" },
+    { "id": "CONVEYOR_SOUTH", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": 0.0, "externalForceY": 1.4, "projectileBehavior": "NONE" },
+    { "id": "CONVEYOR_EAST", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": 1.4, "externalForceY": 0.0, "projectileBehavior": "NONE" },
+    { "id": "CONVEYOR_WEST", "moveSpeedMult": 1.0, "accelMult": 1.0, "turnRateMult": 1.0, "dashMult": 1.0, "knockbackMult": 1.0, "externalForceX": -1.4, "externalForceY": 0.0, "projectileBehavior": "NONE" }
+  ]
+}

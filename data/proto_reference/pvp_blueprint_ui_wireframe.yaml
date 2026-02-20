@@ -1,0 +1,39 @@
+version: 1
+screen: pvp_blueprint_builder
+layout:
+  columns:
+    left:
+      width: 0.26
+      components:
+        - blueprint_list
+        - actions_new_delete
+        - budget_readout
+    center:
+      width: 0.38
+      components:
+        - base_creature_selector
+        - slot_grid
+    right:
+      width: 0.36
+      components:
+        - preview_canvas
+        - tabs: [Summary, Stats, Synergies, Export]
+modals:
+  slot_picker:
+    components:
+      - filter_text
+      - eligible_list
+      - select_cancel
+states:
+  blueprint_selected:
+    budget_updates: true
+    slot_grid_updates: true
+  slot_picker_open:
+    filter_applies: true
+    eligibility_gate: true
+events:
+  create_blueprint: updates list, selects new
+  delete_blueprint: removes selected
+  pick_slot: opens slot_picker
+  choose_part: updates selection, recompute budget/synergies
+  equip_blueprint: saves profile

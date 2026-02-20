@@ -1,0 +1,9 @@
+{
+  "targetAvgTtkSec": 90,
+  "allowedTtkRatioMax": 1.35,
+  "desiredVulnFractionMin": 0.36,
+  "desiredVulnFractionMax": 0.42,
+  "assumedDamageableUptime": 0.72,
+  "initialVulnBonus": 0.10,
+  "phase2DamageTakenMult": 1.05
+}

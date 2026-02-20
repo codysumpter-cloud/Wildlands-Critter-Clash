@@ -17,3 +17,6 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+
+# Runtime build metadata (generated per build)
+runtime/build_meta.json

@@ -28,7 +28,7 @@ def main():
         ]
     }
 
-    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     base = {
         "creatures": [],
@@ -36,7 +36,7 @@ def main():
         "damage_types": [],
         "status_effects": []
     }
-    (out_dir / "core_data.json").write_text(json.dumps(base, indent=2) + "\n", encoding="utf-8")
+    (out_dir / "core_data.json").write_text(json.dumps(base, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     print(f"[bible_import] wrote {out_dir / 'manifest.json'} and core_data.json")
 

@@ -2,6 +2,13 @@
 
 Web-based game project with a Bible-driven data pipeline (v16 schema) for deterministic content generation and runtime packaging.
 
+## Production Status
+
+- Branch protection enabled (configure in GitHub UI)
+- CI required on `main`
+- Deterministic release packaging
+- Model B generated-content policy (version what ships)
+
 ## Repository Structure
 
 - `assets/` - source art/audio/design assets
@@ -13,21 +20,18 @@ Web-based game project with a Bible-driven data pipeline (v16 schema) for determ
 
 ## Build Pipeline
 
-### 1) Import Bible data (v16)
+Canonical commands:
+
+```bash
+npm run build:all
+npm run release:itch
+```
+
+Equivalent direct steps:
 
 ```bash
 python3 tools/bible_import.py --xlsx docs/Bible_v16.xlsx --out data/generated
-```
-
-### 2) Build runtime bundles
-
-```bash
 node tools/build_runtime.js
-```
-
-### 3) Validate generated and runtime outputs
-
-```bash
 python3 tools/validate.py
 ```
 
@@ -41,10 +45,10 @@ Bible v16 introduces/normalizes:
 
 ## CI Behavior
 
-On push to `main`, CI:
+On push/PR, CI:
 1. Sets up Python + Node
-2. Installs Node dependencies if `package.json` exists
-3. Runs Bible import → runtime build → validation
-4. Fails on critical validation errors
+2. Installs dependencies if `package.json` exists
+3. Runs `npm run build:all`
+4. Enforces deterministic generated artifacts (`git diff --exit-code`)
 
 No manual secrets are required for CI.

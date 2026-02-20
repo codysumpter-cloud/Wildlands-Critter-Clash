@@ -29,9 +29,19 @@ const runtimeManifest = {
   deterministic: true
 };
 
+const sha = (process.env.GITHUB_SHA || '').trim();
+const shortSha = sha ? sha.slice(0, 7) : 'local';
+const buildMeta = {
+  version: runtimeManifest.runtimeVersion,
+  commit: shortSha,
+  fullCommit: sha || null,
+  generatedBy: 'tools/build_runtime.js'
+};
+
 fs.writeFileSync(path.join(runtimeDir, 'manifest.json'), JSON.stringify(runtimeManifest, null, 2) + '\n');
 fs.writeFileSync(path.join(runtimeDir, 'weapons.json'), JSON.stringify(core.weapons || [], null, 2) + '\n');
 fs.writeFileSync(path.join(runtimeDir, 'damage_types.json'), JSON.stringify(core.damage_types || [], null, 2) + '\n');
 fs.writeFileSync(path.join(runtimeDir, 'status_effects.json'), JSON.stringify(core.status_effects || [], null, 2) + '\n');
+fs.writeFileSync(path.join(runtimeDir, 'build_meta.json'), JSON.stringify(buildMeta, null, 2) + '\n');
 
-console.log('[build_runtime] runtime files generated');
+console.log(`[build_runtime] runtime files generated (commit: ${shortSha})`);

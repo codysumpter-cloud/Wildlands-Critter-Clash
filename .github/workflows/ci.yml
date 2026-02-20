@@ -32,11 +32,9 @@ jobs:
             echo "No package.json found; skipping npm install"
           fi
 
-      - name: Run Bible import
-        run: python3 tools/bible_import.py --xlsx docs/Bible_v16.xlsx --out data/generated
+      - name: Build all
+        run: npm run build:all
 
-      - name: Build runtime
-        run: node tools/build_runtime.js
-
-      - name: Validate
-        run: python3 tools/validate.py
+      - name: Enforce deterministic generated artifacts (Model B)
+        run: |
+          git diff --exit-code || (echo "Generated artifacts are out of date. Run build:all and commit." && exit 1)

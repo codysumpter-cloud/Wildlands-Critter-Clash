@@ -1,0 +1,6 @@
+{
+  "version": "v16-runtime",
+  "commit": "local",
+  "fullCommit": null,
+  "generatedBy": "tools/build_runtime.js"
+}

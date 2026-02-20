@@ -1,6 +1,4 @@
 {
-  "schemaVersion": "v16",
-  "sourceWorkbook": "docs/Bible_v16.xlsx",
   "datasets": [
     "creatures",
     "weapons",
@@ -12,6 +10,8 @@
     "vfx",
     "sfx"
   ],
+  "schemaVersion": "v16",
+  "sourceWorkbook": "docs/Bible_v16.xlsx",
   "runtimeVersion": "v16-runtime",
   "deterministic": true
 }

@@ -1,6 +1,4 @@
 {
-  "schemaVersion": "v16",
-  "sourceWorkbook": "docs/Bible_v16.xlsx",
   "datasets": [
     "creatures",
     "weapons",
@@ -11,5 +9,7 @@
     "props",
     "vfx",
     "sfx"
-  ]
+  ],
+  "schemaVersion": "v16",
+  "sourceWorkbook": "docs/Bible_v16.xlsx"
 }

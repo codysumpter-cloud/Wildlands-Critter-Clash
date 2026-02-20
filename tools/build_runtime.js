@@ -31,11 +31,13 @@ const runtimeManifest = {
 
 const sha = (process.env.GITHUB_SHA || '').trim();
 const shortSha = sha ? sha.slice(0, 7) : 'local';
+const tag = (process.env.GITHUB_REF_NAME || '').trim() || null;
+const builtAt = new Date().toISOString();
 const buildMeta = {
-  version: runtimeManifest.runtimeVersion,
-  commit: shortSha,
-  fullCommit: sha || null,
-  generatedBy: 'tools/build_runtime.js'
+  shaShort: shortSha,
+  sha: sha || null,
+  tag,
+  builtAt
 };
 
 fs.writeFileSync(path.join(runtimeDir, 'manifest.json'), JSON.stringify(runtimeManifest, null, 2) + '\n');

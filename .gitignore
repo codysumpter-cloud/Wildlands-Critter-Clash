@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archives
+*.zip
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/

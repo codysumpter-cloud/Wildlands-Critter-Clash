@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node dependencies (if present)
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          elif [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json found; skipping npm install"
+          fi
+
+      - name: Run Bible import
+        run: python3 tools/bible_import.py --xlsx docs/Bible_v16.xlsx --out data/generated
+
+      - name: Build runtime
+        run: node tools/build_runtime.js
+
+      - name: Validate
+        run: python3 tools/validate.py

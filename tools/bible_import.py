@@ -2,7 +2,6 @@
 import argparse
 import json
 from pathlib import Path
-from datetime import datetime, timezone
 
 def main():
     p = argparse.ArgumentParser(description="Import Bible v16 data into generated JSON stubs")
@@ -16,7 +15,6 @@ def main():
     manifest = {
         "schemaVersion": "v16",
         "sourceWorkbook": args.xlsx,
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
         "datasets": [
             "creatures",
             "weapons",

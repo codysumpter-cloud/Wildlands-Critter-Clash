@@ -1,7 +1,6 @@
 {
   "schemaVersion": "v16",
   "sourceWorkbook": "docs/Bible_v16.xlsx",
-  "generatedAt": "2026-02-20T14:13:21.111529+00:00",
   "datasets": [
     "creatures",
     "weapons",

@@ -1,0 +1,13 @@
+{
+  "name": "wildlands-critter-clash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bible-driven web game pipeline (v16)",
+  "scripts": {
+    "build:bible": "python3 tools/bible_import.py --xlsx docs/Bible_v16.xlsx --out data/generated",
+    "build:runtime": "node tools/build_runtime.js",
+    "validate": "python3 tools/validate.py",
+    "build:all": "npm run build:bible && npm run build:runtime && npm run validate",
+    "release:itch": "python3 tools/package_release.py"
+  }
+}

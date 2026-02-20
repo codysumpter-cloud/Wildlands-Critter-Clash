@@ -1,0 +1,661 @@
+{
+  "creatures": [
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 7.8,
+        "damage": 2.8,
+        "heal": 0,
+        "radius": 3,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Disrupting pulse.",
+      "autoAttackSpec": {
+        "arc": 80,
+        "cadence": 0.7,
+        "damage": 4.8,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "SLASH"
+      },
+      "autoDescription": "Snap slash.",
+      "baseMaxHp": 105,
+      "baseMoveSpeed": 5.2,
+      "baseTurnRate": 9.4,
+      "displayName": "Branchsnap",
+      "experimental": false,
+      "favoredMutationTags": [
+        "utility",
+        "offense",
+        "mobility"
+      ],
+      "gimmick": "Acrobat disruptor with quick feints.",
+      "id": "branchsnap",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Utility",
+        "Offense"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 7.5,
+        "damage": 3.5,
+        "heal": 0,
+        "radius": 3.2,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Knock pulse to create space.",
+      "autoAttackSpec": {
+        "arc": 80,
+        "cadence": 0.9,
+        "damage": 6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "SLASH"
+      },
+      "autoDescription": "Wide claw sweep.",
+      "baseMaxHp": 140,
+      "baseMoveSpeed": 3.6,
+      "baseTurnRate": 6.5,
+      "displayName": "Clackjaw",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "anchor",
+        "armor"
+      ],
+      "gimmick": "Anchor with wide sweeps and stagger control.",
+      "id": "clackjaw",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Tank",
+        "Control"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 110,
+        "cooldown": 8,
+        "damage": 6,
+        "heal": 0,
+        "radius": 0,
+        "range": 3.2,
+        "type": "SLASH",
+        "windup": 0.25
+      },
+      "activeDescription": "Frenzied cleave.",
+      "autoAttackSpec": {
+        "arc": 100,
+        "cadence": 0.8,
+        "damage": 6.2,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.8,
+        "type": "SLASH"
+      },
+      "autoDescription": "Wide paw swipe.",
+      "baseMaxHp": 135,
+      "baseMoveSpeed": 4.2,
+      "baseTurnRate": 7.2,
+      "displayName": "Rumblepaw",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "hide"
+      ],
+      "gimmick": "Sustain bruiser with wide cleave.",
+      "id": "rumblepaw",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -24
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 29
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Sustain",
+        "Brawler"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9.5,
+        "damage": 2,
+        "heal": 0,
+        "radius": 3.2,
+        "range": 0,
+        "type": "ROOT_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Root pulse for control.",
+      "autoAttackSpec": {
+        "arc": 18,
+        "cadence": 0.85,
+        "damage": 3.2,
+        "projectileCount": 3,
+        "projectileSpeed": 6.5,
+        "range": 6.5,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Spore fan.",
+      "baseMaxHp": 115,
+      "baseMoveSpeed": 4,
+      "baseTurnRate": 7.5,
+      "displayName": "Sporeling",
+      "experimental": false,
+      "favoredMutationTags": [
+        "utility",
+        "spore",
+        "ground"
+      ],
+      "gimmick": "Spore control with multi-bolt spread.",
+      "id": "sporeling",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -32
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -19
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -19,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 19,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 29
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Control",
+        "Support DPS"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "STONE"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 10.5,
+        "damage": 2,
+        "heal": 4,
+        "radius": 3.4,
+        "range": 0,
+        "type": "ROAR",
+        "windup": 0.3
+      },
+      "activeDescription": "Rallying roar.",
+      "autoAttackSpec": {
+        "arc": 90,
+        "cadence": 0.85,
+        "damage": 5.6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.8,
+        "type": "SLASH"
+      },
+      "autoDescription": "Antler sweep.",
+      "baseMaxHp": 150,
+      "baseMoveSpeed": 3.9,
+      "baseTurnRate": 6.8,
+      "displayName": "Thornhart",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "utility",
+        "aura"
+      ],
+      "gimmick": "Aura frontline with rallying roar.",
+      "id": "thornhart",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Defense",
+        "Utility"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": "unlock_haylord_bramblehoof",
+      "unlockedByDefault": false
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 10,
+        "damage": 7,
+        "heal": 0,
+        "radius": 3.6,
+        "range": 0,
+        "type": "NOVA",
+        "windup": 0.3
+      },
+      "activeDescription": "Heavy ground nova.",
+      "autoAttackSpec": {
+        "arc": 0,
+        "cadence": 1.1,
+        "damage": 6.5,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "NOVA"
+      },
+      "autoDescription": "Stomp shock.",
+      "baseMaxHp": 165,
+      "baseMoveSpeed": 3.4,
+      "baseTurnRate": 6,
+      "displayName": "Tundrum",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "armor"
+      ],
+      "gimmick": "Heavy stomp with area pressure.",
+      "id": "tundrum",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Bruiser",
+        "Zone Control"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": "unlock_haylord_bramblehoof",
+      "unlockedByDefault": false
+    }
+  ],
+  "schemaVersion": 1,
+  "stages": [
+    {
+      "bossId": "bubble_bog_boss",
+      "hazardsText": "Bubble vents (displacement), Mud geyser (brief root), Leech swarm (drag tether slow)",
+      "id": "bubble_bog",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: boardwalk chain; Lane B: open bog deep water lanes with islands; Lane C: mud berm path; Pocket1: lily-pad island (moving); Pocket2: cattail thicket",
+      "name": "Bubble Bog",
+      "physicsProfile": "Water: deep common; Props: medium floating pads/driftwood; Blocker density: medium; Dash scaling reduced in deep water",
+      "tone": "silly swamp bubbles, high drag"
+    },
+    {
+      "bossId": "clockwork_carnival_boss",
+      "hazardsText": "Conveyors (force fields), Pop-up mallets (telegraphed smash), Confetti cannons (VFX limited via caps)",
+      "id": "clockwork_carnival",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: conveyor lane; Lane B: central carousel rotating cover; Lane C: gate maze timed doors; Pocket1: ticket booth nook; Pocket2: bumper-car ring",
+      "name": "Clockwork Carnival",
+      "physicsProfile": "Water: none; Props: high (bumper cars heavy); Blocker density: high dynamic; External forces high",
+      "tone": "bright carnival machines, whimsical danger"
+    },
+    {
+      "bossId": "crystal_caves_boss",
+      "hazardsText": "Bounce crystals (reflect knockback/some projectiles), Cave drips (slippery 0.6s), Crystal burst (radial shards telegraph ring)",
+      "id": "crystal_caves",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: left corridor narrow; Lane B: center chamber; Lane C: right corridor with timed crystal gates; Pocket1: bounce crystal alcove; Pocket2: loop tunnel",
+      "name": "Crystal Caves",
+      "physicsProfile": "Water: puddles only; Props: low static blockers; Blocker density: medium-high; Special: bounce surfaces",
+      "tone": "magical crystals, pinball movement"
+    },
+    {
+      "bossId": "haylord_bramblehoof",
+      "hazardsText": "Rolling barrels (knockback), Beehive posts (bee cloud slow), Market lanterns (fire puddle)",
+      "id": "meadow_market",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: fence line + stalls; Lane B: open plaza; Lane C: creek + bridges; Pocket1: hay-bale courtyard; Pocket2: wagon loop",
+      "name": "Meadow Market",
+      "physicsProfile": "Water: shallow only; Props: high, low mass; Blocker density: low-medium; Projectile occlusion: medium",
+      "tone": "bright, playful, safe onboarding"
+    },
+    {
+      "bossId": "treetop_glade_boss",
+      "hazardsText": "Falling pinecones (small stun), Spiderweb patches (sticky slow, burnable), Squirrel stampede (harmless shove)",
+      "id": "treetop_glade",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: elevated boardwalk; Lane B: forest interior zig-zag; Lane C: streambed shallow→deep; Pocket1: mushroom circle; Pocket2: hollow log cul-de-sac",
+      "name": "Treetop Glade",
+      "physicsProfile": "Water: mixed shallow/deep; Props: medium, logs can roll (heavy); Blocker density: high; Turning friction: higher in leaf piles",
+      "tone": "cozy woodland, teaches pathing/LOS"
+    }
+  ],
+  "weaponFamilies": [
+    {
+      "displayName": "Fiber",
+      "experimental": false,
+      "id": "FIBER",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 7,
+        "fireRateMul": 1.15,
+        "pierce": 1,
+        "speed": 600,
+        "spread": 0.18
+      },
+      "sfx": {
+        "fire": "sfx_fiber_fire",
+        "hit": "sfx_fiber_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    },
+    {
+      "displayName": "Stone",
+      "experimental": false,
+      "id": "STONE",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 12,
+        "fireRateMul": 0.85,
+        "pierce": 0,
+        "speed": 480,
+        "spread": 0.2
+      },
+      "sfx": {
+        "fire": "sfx_stone_fire",
+        "hit": "sfx_stone_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    },
+    {
+      "displayName": "Wood",
+      "experimental": false,
+      "id": "WOOD",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 9,
+        "fireRateMul": 1.05,
+        "pierce": 0,
+        "speed": 560,
+        "spread": 0.22
+      },
+      "sfx": {
+        "fire": "sfx_wood_fire",
+        "hit": "sfx_wood_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    }
+  ]
+}

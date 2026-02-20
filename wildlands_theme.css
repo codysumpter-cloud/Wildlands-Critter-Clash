@@ -1,0 +1,15 @@
+:root{
+  /* Defaults (overridden at runtime by runtime/ui_style_guide.json when present) */
+  --wl-bg: #141018;
+  --wl-panel: #2a1633;
+  --wl-panel-dark: #1c0e22;
+  --wl-border: #0b070f;
+  --wl-border-hi: #3b2a46;
+  --wl-text: #e8e7ef;
+  --wl-muted: rgba(232,231,239,0.85);
+  --wl-accent: #e3a83a;
+  --wl-secondary: #7bc96f;
+  --wl-danger: #d44747;
+  --wl-pvp: #b04ce1;
+  --wl-canvas: #0f1018;
+}

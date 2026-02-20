@@ -1,0 +1,5994 @@
+{
+  "creatures": [
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9,
+        "damage": 2.5,
+        "heal": 0,
+        "radius": 3.4,
+        "range": 0,
+        "type": "ROOT_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Root pulse to pin foes.",
+      "autoAttackSpec": {
+        "arc": 0,
+        "cadence": 1,
+        "damage": 5.8,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "NOVA"
+      },
+      "autoDescription": "Bog stomp.",
+      "baseMaxHp": 135,
+      "baseMoveSpeed": 3.8,
+      "baseTurnRate": 7.2,
+      "displayName": "Bogbound",
+      "experimental": true,
+      "favoredMutationTags": [
+        "control",
+        "utility",
+        "impact"
+      ],
+      "gimmick": "Leap control bruiser.",
+      "id": "bogbound",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Control",
+        "Bruiser"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "bogbound_weapon",
+      "startingWeaponName": "Bogbound Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 7.8,
+        "damage": 2.8,
+        "heal": 0,
+        "radius": 3,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Disrupting pulse.",
+      "autoAttackSpec": {
+        "arc": 80,
+        "cadence": 0.7,
+        "damage": 4.8,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "SLASH"
+      },
+      "autoDescription": "Snap slash.",
+      "baseMaxHp": 105,
+      "baseMoveSpeed": 5.2,
+      "baseTurnRate": 9.4,
+      "displayName": "Branchsnap",
+      "experimental": false,
+      "favoredMutationTags": [
+        "utility",
+        "offense",
+        "mobility"
+      ],
+      "gimmick": "Acrobat disruptor with quick feints.",
+      "id": "branchsnap",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Utility",
+        "Offense"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true,
+      "startingWeaponId": "branchsnap_weapon",
+      "startingWeaponName": "Branchsnap Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9,
+        "damage": 2.5,
+        "heal": 0,
+        "radius": 3.4,
+        "range": 0,
+        "type": "FEAR_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Swarm shriek pulse.",
+      "autoAttackSpec": {
+        "arc": 8,
+        "cadence": 0.65,
+        "damage": 3.6,
+        "projectileCount": 2,
+        "projectileSpeed": 7,
+        "range": 6.8,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Twin stingers.",
+      "baseMaxHp": 100,
+      "baseMoveSpeed": 4.6,
+      "baseTurnRate": 8.8,
+      "displayName": "Buzzgrave",
+      "experimental": true,
+      "favoredMutationTags": [
+        "utility",
+        "offense",
+        "orbitals"
+      ],
+      "gimmick": "Swarm commander with orbital pressure.",
+      "id": "buzzgrave",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Utility",
+        "Offense"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "buzzgrave_weapon",
+      "startingWeaponName": "Buzzgrave Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 7.5,
+        "damage": 3.5,
+        "heal": 0,
+        "radius": 3.2,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Knock pulse to create space.",
+      "autoAttackSpec": {
+        "arc": 80,
+        "cadence": 0.9,
+        "damage": 6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "SLASH"
+      },
+      "autoDescription": "Wide claw sweep.",
+      "baseMaxHp": 140,
+      "baseMoveSpeed": 3.6,
+      "baseTurnRate": 6.5,
+      "displayName": "Clackjaw",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "anchor",
+        "armor"
+      ],
+      "gimmick": "Anchor with wide sweeps and stagger control.",
+      "id": "clackjaw",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Tank",
+        "Control"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true,
+      "startingWeaponId": "clackjaw_weapon",
+      "startingWeaponName": "Clackjaw Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 12,
+        "damage": 1.5,
+        "heal": 0,
+        "radius": 4,
+        "range": 0,
+        "type": "ROAR",
+        "windup": 0.35
+      },
+      "activeDescription": "Fear roar.",
+      "autoAttackSpec": {
+        "arc": 70,
+        "cadence": 0.75,
+        "damage": 7.5,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 3,
+        "type": "SLASH"
+      },
+      "autoDescription": "Heavy bite arc.",
+      "baseMaxHp": 125,
+      "baseMoveSpeed": 4.6,
+      "baseTurnRate": 7,
+      "displayName": "Dreadrex",
+      "experimental": true,
+      "favoredMutationTags": [
+        "offense",
+        "apex",
+        "feral"
+      ],
+      "gimmick": "High-damage bites with fear bursts.",
+      "id": "dreadrex",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 5,
+          "y": -21
+        },
+        {
+          "anchor": "BACK",
+          "x": -5,
+          "y": -13
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 3
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 3
+        },
+        {
+          "anchor": "FRONT",
+          "x": 8,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": -11,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Apex DPS",
+        "Fear"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "STONE"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "dreadrex_weapon",
+      "startingWeaponName": "Dreadrex Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 120,
+        "cooldown": 7,
+        "damage": 5.8,
+        "heal": 0,
+        "radius": 0,
+        "range": 3.3,
+        "type": "SLASH",
+        "windup": 0.2
+      },
+      "activeDescription": "Flare cleave.",
+      "autoAttackSpec": {
+        "arc": 80,
+        "cadence": 0.6,
+        "damage": 4.6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.5,
+        "type": "SLASH"
+      },
+      "autoDescription": "Quick ember slash.",
+      "baseMaxHp": 95,
+      "baseMoveSpeed": 5,
+      "baseTurnRate": 9.2,
+      "displayName": "Emberpelt",
+      "experimental": true,
+      "favoredMutationTags": [
+        "offense",
+        "hybrid",
+        "dash"
+      ],
+      "gimmick": "Trail burst trickster.",
+      "id": "emberpelt",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Offense",
+        "Hybrid"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "emberpelt_weapon",
+      "startingWeaponName": "Emberpelt Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 8,
+        "damage": 3,
+        "heal": 0,
+        "radius": 3,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Feint pulse to reset spacing.",
+      "autoAttackSpec": {
+        "arc": 70,
+        "cadence": 0.8,
+        "damage": 5.6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.7,
+        "type": "SLASH"
+      },
+      "autoDescription": "Quick stance slash.",
+      "baseMaxHp": 115,
+      "baseMoveSpeed": 4.8,
+      "baseTurnRate": 8.5,
+      "displayName": "Glimmerscale",
+      "experimental": true,
+      "favoredMutationTags": [
+        "utility",
+        "hybrid",
+        "stance"
+      ],
+      "gimmick": "Adaptive duelist with stance feints.",
+      "id": "glimmerscale",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "DPS",
+        "Utility"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "glimmerscale_weapon",
+      "startingWeaponName": "Glimmerscale Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 8.5,
+        "damage": 3.5,
+        "heal": 0,
+        "radius": 3.4,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Ground slam pulse.",
+      "autoAttackSpec": {
+        "arc": 100,
+        "cadence": 0.95,
+        "damage": 6.4,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.8,
+        "type": "SLASH"
+      },
+      "autoDescription": "Relic club arc.",
+      "baseMaxHp": 160,
+      "baseMoveSpeed": 3.6,
+      "baseTurnRate": 6,
+      "displayName": "Grugnar",
+      "experimental": true,
+      "favoredMutationTags": [
+        "offense",
+        "utility",
+        "relic"
+      ],
+      "gimmick": "Relic brawler with heavy swings.",
+      "id": "grugnar",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Offense",
+        "Utility"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "grugnar_weapon",
+      "startingWeaponName": "Grugnar Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 10,
+        "damage": 1.5,
+        "heal": 3,
+        "radius": 3.8,
+        "range": 0,
+        "type": "FEAR_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Rune pulse with minor heal.",
+      "autoAttackSpec": {
+        "arc": 10,
+        "cadence": 0.75,
+        "damage": 3.8,
+        "projectileCount": 1,
+        "projectileSpeed": 6.8,
+        "range": 6.8,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Hollow bolts.",
+      "baseMaxHp": 105,
+      "baseMoveSpeed": 4.3,
+      "baseTurnRate": 8,
+      "displayName": "Hollowhoot",
+      "experimental": true,
+      "favoredMutationTags": [
+        "utility",
+        "control",
+        "rune"
+      ],
+      "gimmick": "Rune zoning controller.",
+      "id": "hollowhoot",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Utility",
+        "Control"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "hollowhoot_weapon",
+      "startingWeaponName": "Hollowhoot Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9.5,
+        "damage": 2,
+        "heal": 0,
+        "radius": 3.6,
+        "range": 0,
+        "type": "FEAR_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Inky pulse.",
+      "autoAttackSpec": {
+        "arc": 10,
+        "cadence": 0.8,
+        "damage": 3.2,
+        "projectileCount": 2,
+        "projectileSpeed": 6.8,
+        "range": 6.4,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Ink bolts.",
+      "baseMaxHp": 120,
+      "baseMoveSpeed": 4.1,
+      "baseTurnRate": 7.8,
+      "displayName": "Inkscourge",
+      "experimental": true,
+      "favoredMutationTags": [
+        "utility",
+        "control",
+        "corruption"
+      ],
+      "gimmick": "Vision denial zoner with inky bolts.",
+      "id": "inkscourge",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Utility",
+        "Control"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9,
+        "damage": 0,
+        "heal": 6,
+        "radius": 3.6,
+        "range": 0,
+        "type": "FEAR_PULSE",
+        "windup": 0.2
+      },
+      "activeDescription": "Fear pulse with a small heal.",
+      "autoAttackSpec": {
+        "arc": 6,
+        "cadence": 0.55,
+        "damage": 4,
+        "projectileCount": 1,
+        "projectileSpeed": 7.2,
+        "range": 7.2,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Rapid sonic bolt.",
+      "baseMaxHp": 95,
+      "baseMoveSpeed": 5.2,
+      "baseTurnRate": 9,
+      "displayName": "Nightzip",
+      "experimental": true,
+      "favoredMutationTags": [
+        "offense",
+        "flight",
+        "feral"
+      ],
+      "gimmick": "Fast skirmisher with steady bolts.",
+      "id": "nightzip",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -24
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -13
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -24,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 24,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 19
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 27
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "DPS",
+        "Sustain"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "nightzip_weapon",
+      "startingWeaponName": "Nightzip Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 8.5,
+        "damage": 3,
+        "heal": 0,
+        "radius": 3.2,
+        "range": 0,
+        "type": "KNOCK_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Counter pulse.",
+      "autoAttackSpec": {
+        "arc": 90,
+        "cadence": 0.9,
+        "damage": 5.4,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "SLASH"
+      },
+      "autoDescription": "Quill sweep.",
+      "baseMaxHp": 170,
+      "baseMoveSpeed": 3.5,
+      "baseTurnRate": 6.2,
+      "displayName": "Quillthorn",
+      "experimental": true,
+      "favoredMutationTags": [
+        "defense",
+        "retaliation",
+        "shield"
+      ],
+      "gimmick": "Retaliation counter tank.",
+      "id": "quillthorn",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Defense",
+        "Hybrid"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "quillthorn_weapon",
+      "startingWeaponName": "Quillthorn Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 110,
+        "cooldown": 8,
+        "damage": 6,
+        "heal": 0,
+        "radius": 0,
+        "range": 3.2,
+        "type": "SLASH",
+        "windup": 0.25
+      },
+      "activeDescription": "Frenzied cleave.",
+      "autoAttackSpec": {
+        "arc": 100,
+        "cadence": 0.8,
+        "damage": 6.2,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.8,
+        "type": "SLASH"
+      },
+      "autoDescription": "Wide paw swipe.",
+      "baseMaxHp": 135,
+      "baseMoveSpeed": 4.2,
+      "baseTurnRate": 7.2,
+      "displayName": "Rumblepaw",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "hide"
+      ],
+      "gimmick": "Sustain bruiser with wide cleave.",
+      "id": "rumblepaw",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -24
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 29
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Sustain",
+        "Brawler"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true,
+      "startingWeaponId": "rumblepaw_weapon",
+      "startingWeaponName": "Rumblepaw Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 11,
+        "damage": 7.2,
+        "heal": 0,
+        "radius": 3.8,
+        "range": 0,
+        "type": "NOVA",
+        "windup": 0.35
+      },
+      "activeDescription": "Fortress nova.",
+      "autoAttackSpec": {
+        "arc": 0,
+        "cadence": 1.2,
+        "damage": 6.8,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.4,
+        "type": "NOVA"
+      },
+      "autoDescription": "Shell shock.",
+      "baseMaxHp": 190,
+      "baseMoveSpeed": 3,
+      "baseTurnRate": 5.5,
+      "displayName": "Shellspire",
+      "experimental": true,
+      "favoredMutationTags": [
+        "defense",
+        "utility",
+        "fortify"
+      ],
+      "gimmick": "Stationary fortress with shell bursts.",
+      "id": "shellspire",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Defense",
+        "Utility"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "shellspire_weapon",
+      "startingWeaponName": "Shellspire Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9.5,
+        "damage": 2,
+        "heal": 0,
+        "radius": 3.2,
+        "range": 0,
+        "type": "ROOT_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Root pulse for control.",
+      "autoAttackSpec": {
+        "arc": 18,
+        "cadence": 0.85,
+        "damage": 3.2,
+        "projectileCount": 3,
+        "projectileSpeed": 6.5,
+        "range": 6.5,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Spore fan.",
+      "baseMaxHp": 115,
+      "baseMoveSpeed": 4,
+      "baseTurnRate": 7.5,
+      "displayName": "Sporeling",
+      "experimental": false,
+      "favoredMutationTags": [
+        "utility",
+        "spore",
+        "ground"
+      ],
+      "gimmick": "Spore control with multi-bolt spread.",
+      "id": "sporeling",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -32
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -19
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -19,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 19,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 29
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Control",
+        "Support DPS"
+      ],
+      "startingWeapons": [
+        "FIBER",
+        "STONE"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": true,
+      "startingWeaponId": "sporeling_weapon",
+      "startingWeaponName": "Sporeling Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 10.5,
+        "damage": 2,
+        "heal": 4,
+        "radius": 3.4,
+        "range": 0,
+        "type": "ROAR",
+        "windup": 0.3
+      },
+      "activeDescription": "Rallying roar.",
+      "autoAttackSpec": {
+        "arc": 90,
+        "cadence": 0.85,
+        "damage": 5.6,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.8,
+        "type": "SLASH"
+      },
+      "autoDescription": "Antler sweep.",
+      "baseMaxHp": 150,
+      "baseMoveSpeed": 3.9,
+      "baseTurnRate": 6.8,
+      "displayName": "Thornhart",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "utility",
+        "aura"
+      ],
+      "gimmick": "Aura frontline with rallying roar.",
+      "id": "thornhart",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Defense",
+        "Utility"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": "unlock_haylord_bramblehoof",
+      "unlockedByDefault": false,
+      "startingWeaponId": "thornhart_weapon",
+      "startingWeaponName": "Thornhart Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 10,
+        "damage": 7,
+        "heal": 0,
+        "radius": 3.6,
+        "range": 0,
+        "type": "NOVA",
+        "windup": 0.3
+      },
+      "activeDescription": "Heavy ground nova.",
+      "autoAttackSpec": {
+        "arc": 0,
+        "cadence": 1.1,
+        "damage": 6.5,
+        "projectileCount": 0,
+        "projectileSpeed": 0,
+        "range": 2.6,
+        "type": "NOVA"
+      },
+      "autoDescription": "Stomp shock.",
+      "baseMaxHp": 165,
+      "baseMoveSpeed": 3.4,
+      "baseTurnRate": 6,
+      "displayName": "Tundrum",
+      "experimental": false,
+      "favoredMutationTags": [
+        "defense",
+        "brawler",
+        "armor"
+      ],
+      "gimmick": "Heavy stomp with area pressure.",
+      "id": "tundrum",
+      "isExperimental": false,
+      "isLaunch": true,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Bruiser",
+        "Zone Control"
+      ],
+      "startingWeapons": [
+        "STONE",
+        "WOOD"
+      ],
+      "unlockId": "unlock_haylord_bramblehoof",
+      "unlockedByDefault": false,
+      "startingWeaponId": "tundrum_weapon",
+      "startingWeaponName": "Tundrum Signature Weapon"
+    },
+    {
+      "activeAbilitySpec": {
+        "arc": 0,
+        "cooldown": 9,
+        "damage": 2.5,
+        "heal": 0,
+        "radius": 3,
+        "range": 0,
+        "type": "ROOT_PULSE",
+        "windup": 0.25
+      },
+      "activeDescription": "Constricting pulse.",
+      "autoAttackSpec": {
+        "arc": 12,
+        "cadence": 0.75,
+        "damage": 3.5,
+        "projectileCount": 1,
+        "projectileSpeed": 7,
+        "range": 6.8,
+        "type": "PROJECTILE"
+      },
+      "autoDescription": "Venom bolt.",
+      "baseMaxHp": 110,
+      "baseMoveSpeed": 4.4,
+      "baseTurnRate": 8.3,
+      "displayName": "Venomcoil",
+      "experimental": true,
+      "favoredMutationTags": [
+        "offense",
+        "corruption",
+        "dot"
+      ],
+      "gimmick": "Constrictor with venom spread.",
+      "id": "venomcoil",
+      "isExperimental": true,
+      "isLaunch": false,
+      "rigAnchors": [
+        {
+          "anchor": "HEAD",
+          "x": 0,
+          "y": -27
+        },
+        {
+          "anchor": "BACK",
+          "x": 0,
+          "y": -16
+        },
+        {
+          "anchor": "LEFT_SIDE",
+          "x": -21,
+          "y": 0
+        },
+        {
+          "anchor": "RIGHT_SIDE",
+          "x": 21,
+          "y": 0
+        },
+        {
+          "anchor": "FRONT",
+          "x": 0,
+          "y": 21
+        },
+        {
+          "anchor": "REAR",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "anchor": "AURA",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "anchor": "ORBITALS",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "roleTags": [
+        "Offense",
+        "Corruption"
+      ],
+      "startingWeapons": [
+        "WOOD",
+        "FIBER"
+      ],
+      "unlockId": null,
+      "unlockedByDefault": false,
+      "startingWeaponId": "venomcoil_weapon",
+      "startingWeaponName": "Venomcoil Signature Weapon"
+    }
+  ],
+  "evolutionGraph": {
+    "bogbound": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "bogbound",
+          "description": "splash puddle slow",
+          "exclusiveGroup": null,
+          "id": "bogbound.bog_splash",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pct": 20,
+                "radiusPx": 80,
+                "status": "slow"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Bog Splash",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_bog_splash",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "bogbound",
+          "description": "croak shockwave",
+          "exclusiveGroup": null,
+          "id": "bogbound.croakquake",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "radiusPx": 120,
+                "stun": 0.3
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Croakquake",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_croakquake",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "bogbound",
+          "description": "tongue grab; pull",
+          "exclusiveGroup": null,
+          "id": "bogbound.sticky_tongue",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "bogbound_tongue"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Sticky Tongue",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "bogbound_tongue",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "bogbound",
+          "description": "bigger legs; leap control",
+          "exclusiveGroup": null,
+          "id": "bogbound.titan_legs",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "knockbackPct": 6,
+                "moveSpeedPct": -2
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Titan Legs",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "bogbound_legs",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "bogbound",
+          "description": "armor bumps; thorns",
+          "exclusiveGroup": null,
+          "id": "bogbound.warty_plating",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "reflectPct": 4
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Warty Plating",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "bogbound_plating",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        }
+      ]
+    },
+    "branchsnap": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "branchsnap",
+          "description": "explosive peel; slippery patch",
+          "exclusiveGroup": null,
+          "id": "branchsnap.banana_bomb",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "projectileId": "banana_bomb",
+                "spawnHazard": "haz_slip"
+              },
+              "type": "spawn_projectile_pattern"
+            }
+          ],
+          "name": "Banana Bomb",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_banana_bomb",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "branchsnap",
+          "description": "overhead slam; shockwave cone",
+          "exclusiveGroup": null,
+          "id": "branchsnap.treebound_leap",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "coneDeg": 70,
+                "slam": true
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Treebound Leap",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "branchsnap_leap_mark",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "branchsnap",
+          "description": "intimidation aura",
+          "exclusiveGroup": null,
+          "id": "branchsnap.tribal_mask",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "pct": 6,
+                "radiusPx": 88,
+                "status": "weaken"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Tribal Mask",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "branchsnap_mask",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "branchsnap",
+          "description": "fast combo strikes",
+          "exclusiveGroup": null,
+          "id": "branchsnap.twin_clubs",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "branchsnap_clubs"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Twin Clubs",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "branchsnap_club_pair",
+              "priority": 1,
+              "slot": "MAIN_HAND"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "branchsnap",
+          "description": "swing dash attack via tether",
+          "exclusiveGroup": null,
+          "id": "branchsnap.vine_grapple",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "rangePx": 140,
+                "tether": true
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Vine Grapple",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "branchsnap_vine",
+              "priority": 1,
+              "slot": "MAIN_HAND"
+            }
+          ]
+        }
+      ]
+    },
+    "buzzgrave": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "buzzgrave",
+          "description": "hive on back spawns bees",
+          "exclusiveGroup": null,
+          "id": "buzzgrave.hiveback",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onTimer",
+                "period": 2.5,
+                "spawn": "bee_swarm"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Hiveback",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "buzzgrave_hive",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "buzzgrave",
+          "description": "slow cloud zone",
+          "exclusiveGroup": null,
+          "id": "buzzgrave.pollen_cloud",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pct": 18,
+                "radiusPx": 95,
+                "status": "slow"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Pollen Cloud",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_pollen_cloud",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "buzzgrave",
+          "description": "team buff pulse",
+          "exclusiveGroup": null,
+          "id": "buzzgrave.queens_pulse",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "buff": "haste",
+                "pct": 4,
+                "radiusPx": 120
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Queen's Pulse",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_queen_pulse",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "buzzgrave",
+          "description": "rapid stinger shots",
+          "exclusiveGroup": null,
+          "id": "buzzgrave.stinger_barrage",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "buzzgrave_stinger"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Stinger Barrage",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_stinger",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "buzzgrave",
+          "description": "visible shield shell",
+          "exclusiveGroup": null,
+          "id": "buzzgrave.wax_shield",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "shieldPct": 6
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Wax Shield",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "buzzgrave_wax",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        }
+      ]
+    },
+    "clackjaw": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "clackjaw",
+          "description": "barnacle shell; armor",
+          "exclusiveGroup": null,
+          "id": "clackjaw.barnacle_shell",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "armorPct": 5
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Barnacle Shell Overlay",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "clackjaw_barnacle_shell",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "clackjaw",
+          "description": "bigger claws; melee weapon upgrade",
+          "exclusiveGroup": null,
+          "id": "clackjaw.claw_crusher",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "damagePct": 8,
+                "weaponId": "clackjaw_claw"
+              },
+              "type": "upgrade_weapon"
+            }
+          ],
+          "name": "Claw Crusher",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "clackjaw_claw_guard",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "clackjaw",
+          "description": "coral spikes; reflect damage",
+          "exclusiveGroup": null,
+          "id": "clackjaw.coral_spikes",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "reflectPct": 6
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Coral Spikes",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "clackjaw_coral_spikes",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "clackjaw",
+          "description": "guard pulse releases bubbles",
+          "exclusiveGroup": null,
+          "id": "clackjaw.reef_guard_pulse",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "radiusPx": 84,
+                "status": "slow"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Reef Guard Pulse",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_bubble_pulse",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "clackjaw",
+          "description": "iconic shell crown; bulk up",
+          "exclusiveGroup": null,
+          "id": "clackjaw.reefwarden_form",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "hpPct": 6
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Reefwarden Form",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "clackjaw_crown",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        }
+      ]
+    },
+    "dreadrex": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "dreadrex",
+          "description": "prestige cosmetic only",
+          "exclusiveGroup": null,
+          "id": "dreadrex.abyssal_prestige",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "cosmeticOnly": true
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Abyssal Dreadrex",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "dreadrex_abyssal",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "dreadrex",
+          "description": "jaw glow; bite crit",
+          "exclusiveGroup": null,
+          "id": "dreadrex.bio_jaw_glow",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "critPct": 2
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Bioluminescent Jaw Glow",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "dreadrex_jaw_glow",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "dreadrex",
+          "description": "coral crest silhouette",
+          "exclusiveGroup": null,
+          "id": "dreadrex.coral_crest",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "damagePct": 3
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Coral Crest Growth",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "dreadrex_crest",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "dreadrex",
+          "description": "roar sends ripple wave",
+          "exclusiveGroup": null,
+          "id": "dreadrex.ripple_roar",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pattern": "wave",
+                "projectileId": "ripple_wave"
+              },
+              "type": "spawn_projectile_pattern"
+            }
+          ],
+          "name": "Ripple Roar",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_ripple_wave",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "dreadrex",
+          "description": "splash stomp",
+          "exclusiveGroup": null,
+          "id": "dreadrex.seafoam_stomp",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "damage": 14,
+                "radiusPx": 100
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Seafoam Stomp",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_seafoam_stomp",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        }
+      ]
+    },
+    "emberpelt": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "emberpelt",
+          "description": "dash leaves ember trail",
+          "exclusiveGroup": null,
+          "id": "emberpelt.ember_dash",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "speedPct": 25,
+                "trailVfx": "vfx_ember_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Ember Dash",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_ember_trail",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "emberpelt",
+          "description": "tail ignites; burn on hit",
+          "exclusiveGroup": null,
+          "id": "emberpelt.flame_tail",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "dur": 2,
+                "event": "onHit",
+                "status": "burn"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Flame Tail",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "emberpelt_flame_tail",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "emberpelt",
+          "description": "limited orbitals (cap 2)",
+          "exclusiveGroup": null,
+          "id": "emberpelt.foxfire_orbs",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "count": 2,
+                "orbVfx": "vfx_foxfire_orb"
+              },
+              "type": "orbitals"
+            }
+          ],
+          "name": "Foxfire Orbs",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "emberpelt_orb",
+              "priority": 1,
+              "slot": "ORBIT"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "emberpelt",
+          "description": "afterimage decoy on dash",
+          "exclusiveGroup": null,
+          "id": "emberpelt.twin_afterimage",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onDash",
+                "spawn": "afterimage"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Twin Afterimage",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "emberpelt_afterimage",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "emberpelt",
+          "description": "crit sparks; burst on kill",
+          "exclusiveGroup": null,
+          "id": "emberpelt.wild_spark",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onKill",
+                "spawn": "vfx_spark_burst"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Wild Spark",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "emberpelt_spark_crest",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        }
+      ]
+    },
+    "glimmerscale": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "glimmerscale",
+          "description": "stance burst projectile pattern",
+          "exclusiveGroup": null,
+          "id": "glimmerscale.chromatic_burst",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pattern": "radial4",
+                "projectileId": "chromatic_shard"
+              },
+              "type": "spawn_projectile_pattern"
+            }
+          ],
+          "name": "Chromatic Burst",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_chromatic_shard",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "glimmerscale",
+          "description": "shed illusion on hit",
+          "exclusiveGroup": null,
+          "id": "glimmerscale.illusion_shed",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onHit",
+                "spawn": "illusion_clone"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Illusion Shed",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "glimmerscale_shed",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "glimmerscale",
+          "description": "color frill; stance swap indicator",
+          "exclusiveGroup": null,
+          "id": "glimmerscale.prism_frill",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "stance": true
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Prism Frill",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "glimmerscale_frill",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "glimmerscale",
+          "description": "partial projectile reflect",
+          "exclusiveGroup": null,
+          "id": "glimmerscale.reflective_hide",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "reflectPct": 5
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Reflective Hide",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "glimmerscale_hide",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "glimmerscale",
+          "description": "cone poke; apply mark",
+          "exclusiveGroup": null,
+          "id": "glimmerscale.split_tongue",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "glimmerscale_tongue"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Split Tongue",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "glimmerscale_tongue",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        }
+      ]
+    },
+    "grugnar": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "grugnar",
+          "description": "cleave arc widens visibly",
+          "exclusiveGroup": null,
+          "id": "grugnar.bone_axe_upgrade",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "arcWidthDeg": 15,
+                "weaponId": "grugnar_axe"
+              },
+              "type": "upgrade_weapon"
+            }
+          ],
+          "name": "Bone Axe Upgrade",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "grugnar_axe_bone_t2",
+              "priority": 1,
+              "slot": "MAIN_HAND"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "grugnar",
+          "description": "throws heavy projectile with crater VFX",
+          "exclusiveGroup": null,
+          "id": "grugnar.boulder_toss",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "grugnar_boulder"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Boulder Toss",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_boulder_large",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "grugnar",
+          "description": "visible bulk; knockback reduction",
+          "exclusiveGroup": null,
+          "id": "grugnar.mammoth_pelt",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "knockbackReductionPct": 20
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Mammoth Pelt Cloak",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "grugnar_pelt_heavy",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "grugnar",
+          "description": "ally aura emitter",
+          "exclusiveGroup": null,
+          "id": "grugnar.totem_backpiece",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "buff": "dr",
+                "pct": 5,
+                "radiusPx": 80
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Totem Pole Backpiece",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "grugnar_totem_small",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "grugnar",
+          "description": "damage boost after kill; visible glow",
+          "exclusiveGroup": null,
+          "id": "grugnar.war_paint",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "buff": "damage",
+                "dur": 4,
+                "event": "onKill",
+                "pct": 10
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "War Paint Marks",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "grugnar_warpaint",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        }
+      ]
+    },
+    "hollowhoot": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "hollowhoot",
+          "description": "short blink with feather trail",
+          "exclusiveGroup": null,
+          "id": "hollowhoot.blink_feather",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "blink": true,
+                "trailVfx": "vfx_feather_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Blink Feather",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "hollowhoot_feather",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "hollowhoot",
+          "description": "halo aura; reveal",
+          "exclusiveGroup": null,
+          "id": "hollowhoot.moon_halo",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "effect": "reveal",
+                "event": "always",
+                "radiusPx": 110
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Moon Halo",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "hollowhoot_halo",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "hollowhoot",
+          "description": "lantern prop; rune zone",
+          "exclusiveGroup": null,
+          "id": "hollowhoot.owl_lantern",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "radiusPx": 80,
+                "status": "mark"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Owl Lantern",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "hollowhoot_lantern",
+              "priority": 1,
+              "slot": "MAIN_HAND"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "hollowhoot",
+          "description": "line cone scream attack",
+          "exclusiveGroup": null,
+          "id": "hollowhoot.piercing_screech",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "hollowhoot_screech"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Piercing Screech",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_screech_cone",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "hollowhoot",
+          "description": "runic wings; glide dash",
+          "exclusiveGroup": null,
+          "id": "hollowhoot.rune_wings",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "speedPct": 20
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Rune Wings",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "hollowhoot_rune_wings",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        }
+      ]
+    },
+    "inkscourge": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "inkscourge",
+          "description": "floating eye familiar reveals enemies",
+          "exclusiveGroup": null,
+          "id": "inkscourge.abyss_eye",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "effect": "reveal",
+                "event": "always",
+                "radiusPx": 120
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Abyss Eye",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "inkscourge_eye",
+              "priority": 1,
+              "slot": "ORBIT"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "inkscourge",
+          "description": "dark splash cloud blocks vision briefly",
+          "exclusiveGroup": null,
+          "id": "inkscourge.ink_burst",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "dur": 0.8,
+                "radiusPx": 90,
+                "status": "blind"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Ink Burst",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_ink_cloud",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "inkscourge",
+          "description": "slippery puddle terrain",
+          "exclusiveGroup": null,
+          "id": "inkscourge.slick_field",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "dur": 1.2,
+                "radiusPx": 100,
+                "status": "slip"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Slick Field",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_slick_puddle",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "inkscourge",
+          "description": "extra limb; wide sweep attack",
+          "exclusiveGroup": null,
+          "id": "inkscourge.tentacle_lash",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "inkscourge_lash"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Tentacle Lash",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "inkscourge_tentacle",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "inkscourge",
+          "description": "ink propulsion dash leaves trail",
+          "exclusiveGroup": null,
+          "id": "inkscourge.void_jet",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "speedPct": 30,
+                "trailVfx": "vfx_ink_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Void Jet",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "inkscourge_jet",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        }
+      ]
+    },
+    "nightzip": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "nightzip",
+          "description": "wind slash projectile",
+          "exclusiveGroup": null,
+          "id": "nightzip.current_slash",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "nightzip_slash"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Current Slash",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_current_slash",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "nightzip",
+          "description": "dash leaves foam trail",
+          "exclusiveGroup": null,
+          "id": "nightzip.foam_dash",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "speedPct": 28,
+                "trailVfx": "vfx_foam_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Foam Dash",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_foam_trail",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "nightzip",
+          "description": "iconic wing tips + aura ring",
+          "exclusiveGroup": null,
+          "id": "nightzip.moon_current_form",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pct": 12,
+                "radiusPx": 95,
+                "status": "slow"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Moon Current Form",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_moon_ring",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "nightzip",
+          "description": "glow accents; crit up",
+          "exclusiveGroup": null,
+          "id": "nightzip.moon_glow",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "critPct": 2
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Moon Glow",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "nightzip_glow",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "nightzip",
+          "description": "translucent tide wings",
+          "exclusiveGroup": null,
+          "id": "nightzip.tide_wings",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "moveSpeedPct": 4
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Tide Wings",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "nightzip_wings",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        }
+      ]
+    },
+    "quillthorn": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "quillthorn",
+          "description": "aura damages attackers",
+          "exclusiveGroup": null,
+          "id": "quillthorn.barbed_aura",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "radiusPx": 70,
+                "reflectPct": 4
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Barbed Aura",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_barbed_ring",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "quillthorn",
+          "description": "metal quills; tank form",
+          "exclusiveGroup": null,
+          "id": "quillthorn.iron_quills",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "armorPct": 8
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Iron Quills",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "quillthorn_iron_quills",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "quillthorn",
+          "description": "roll attack; hits multiple",
+          "exclusiveGroup": null,
+          "id": "quillthorn.rolling_barrage",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "damage": 12,
+                "roll": true
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Rolling Barrage",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_roll_dust",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "quillthorn",
+          "description": "spikes visible; reflect",
+          "exclusiveGroup": null,
+          "id": "quillthorn.spiked_carapace",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "reflectPct": 7
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Spiked Carapace",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "quillthorn_carapace",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "quillthorn",
+          "description": "falling spikes zone",
+          "exclusiveGroup": null,
+          "id": "quillthorn.thorn_rain",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "pattern": "rain",
+                "projectileId": "thorn_spike"
+              },
+              "type": "spawn_projectile_pattern"
+            }
+          ],
+          "name": "Thorn Rain",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "proj_thorn_spike",
+              "priority": 1,
+              "slot": "PROJECTILE"
+            }
+          ]
+        }
+      ]
+    },
+    "rumblepaw": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "rumblepaw",
+          "description": "front-heavy mass; slam hitbox wider",
+          "exclusiveGroup": null,
+          "id": "rumblepaw.big_forearms",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "meleeRangePx": 8
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Big Forearms",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "rumblepaw_forearms",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "rumblepaw",
+          "description": "heavy uppercut knocks back",
+          "exclusiveGroup": null,
+          "id": "rumblepaw.breaker_uppercut",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "rumblepaw_uppercut"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Breaker Uppercut",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "rumblepaw_knuckle_guard",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "rumblepaw",
+          "description": "bulk grows; stomp splash; anti-humanoid lock",
+          "exclusiveGroup": null,
+          "id": "rumblepaw.brine_brawler_form",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "knockbackPct": 10
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Brine Brawler Form",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "rumblepaw_back_bulk",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "rumblepaw",
+          "description": "sea-salt fur highlights; rage ring enabled",
+          "exclusiveGroup": null,
+          "id": "rumblepaw.brine_fur",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "hpPct": 3
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Brine Fur Highlights",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "rumblepaw_brine_fur",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "rumblepaw",
+          "description": "rage aura becomes swirling tide ring",
+          "exclusiveGroup": null,
+          "id": "rumblepaw.tide_rage_ring",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "event": "onRage",
+                "vfx": "vfx_tide_ring"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Tide Rage Ring",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_tide_ring",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        }
+      ]
+    },
+    "shellspire": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "shellspire",
+          "description": "team buff aura; flag on shell",
+          "exclusiveGroup": null,
+          "id": "shellspire.banner_mast",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "buff": "team",
+                "pct": 4,
+                "radiusPx": 110
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Banner Mast",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "shellspire_banner",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "shellspire",
+          "description": "coral turret auto shots",
+          "exclusiveGroup": null,
+          "id": "shellspire.cannon_coral",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "weaponId": "shellspire_turret"
+              },
+              "type": "grant_weapon"
+            }
+          ],
+          "name": "Cannon Coral",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "shellspire_cannon_coral",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "shellspire",
+          "description": "tuck into shell; aura shield expands",
+          "exclusiveGroup": null,
+          "id": "shellspire.fortify_mode",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "buff": "shield",
+                "pct": 6,
+                "radiusPx": 90
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Fortify Mode",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_shield_aura",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "shellspire",
+          "description": "damage when hit",
+          "exclusiveGroup": null,
+          "id": "shellspire.spiked_dome",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "reflectPct": 8
+              },
+              "type": "damage_reflect"
+            }
+          ],
+          "name": "Spiked Dome",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "shellspire_spikes",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "shellspire",
+          "description": "stacked shell layers; deflect angle",
+          "exclusiveGroup": null,
+          "id": "shellspire.tower_shell",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "deflectAngleDeg": 10
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Tower Shell",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "shellspire_tower_shell",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        }
+      ]
+    },
+    "sporeling": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "sporeling",
+          "description": "thicker stalk legs; speed up",
+          "exclusiveGroup": null,
+          "id": "sporeling.mycelium_legs",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "moveSpeedPct": 4
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Mycelium Legs",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "sporeling_mycelium",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "sporeling",
+          "description": "coral growth on back; summon pod",
+          "exclusiveGroup": null,
+          "id": "sporeling.reef_growth",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "event": "onKill",
+                "spawn": "spore_pod"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Reef Growth",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "sporeling_reef_back",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "sporeling",
+          "description": "spore puffs as plankton lights (readable)",
+          "exclusiveGroup": null,
+          "id": "sporeling.spore_puff",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "pattern": "burst",
+                "projectileId": "spore_puff"
+              },
+              "type": "spawn_projectile_pattern"
+            }
+          ],
+          "name": "Spore Puff",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_spore_puff",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "sporeling",
+          "description": "coral mushroom cap; plankton-light spores",
+          "exclusiveGroup": null,
+          "id": "sporeling.tidecap_cap",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "dotPct": 5
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Tidecap Bloom Cap",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "sporeling_cap_t1",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "sporeling",
+          "description": "cap becomes iconic; bigger spore ring",
+          "exclusiveGroup": null,
+          "id": "sporeling.tidecap_overbloom",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "radiusPx": 110,
+                "status": "slow"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Tidecap Overbloom",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "sporeling_cap_side",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        }
+      ]
+    },
+    "thornhart": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "thornhart",
+          "description": "massive antlers; wider charge hitbox",
+          "exclusiveGroup": null,
+          "id": "thornhart.crown_antlers",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "chargeWidthPx": 12
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Crown Antlers",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "thornhart_antlers_t1",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "thornhart",
+          "description": "plant banner; defensive aura zone",
+          "exclusiveGroup": null,
+          "id": "thornhart.rooted_standard",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "buff": "defense",
+                "radiusPx": 96
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Rooted Standard",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "thornhart_banner",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "thornhart",
+          "description": "stomp circle cleanses allies",
+          "exclusiveGroup": null,
+          "id": "thornhart.sacred_hoof",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "cleanse": true,
+                "radiusPx": 80
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Sacred Hoof",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_sacred_circle",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "thornhart",
+          "description": "flowers bloom; heal pulse when struck",
+          "exclusiveGroup": null,
+          "id": "thornhart.thorn_bloom",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "effect": "healPulse",
+                "event": "onHit"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Thorn Bloom",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "thornhart_bloom",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "thornhart",
+          "description": "leaf trail charge; pushes enemies",
+          "exclusiveGroup": null,
+          "id": "thornhart.verdant_charge",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "knockback": 1.1,
+                "trailVfx": "vfx_leaf_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Verdant Charge",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "thornhart_side_thorns",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        }
+      ]
+    },
+    "tundrum": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "tundrum",
+          "description": "ornate tusks + heavy stomp VFX (no noise)",
+          "exclusiveGroup": null,
+          "id": "tundrum.driftbreaker_crown",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "event": "onStomp",
+                "spawn": "vfx_heavy_stomp"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Driftbreaker Crown",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "tundrum_crown",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "tundrum",
+          "description": "frost/shell inlays, armor up",
+          "exclusiveGroup": null,
+          "id": "tundrum.shell_inlay",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "armorPct": 5
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Shell Inlays",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "tundrum_shell_inlay",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "tundrum",
+          "description": "stomp creates shockwave ring",
+          "exclusiveGroup": null,
+          "id": "tundrum.stomp_shock",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "damage": 10,
+                "radiusPx": 72
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Stomp Shockwave",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_stomp_ring",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "tundrum",
+          "description": "charge attack with clean trail (gated by tusks_t1)",
+          "exclusiveGroup": null,
+          "id": "tundrum.tidewake_charge",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "speedPct": 35,
+                "trailVfx": "vfx_tidewake_trail"
+              },
+              "type": "dash_or_charge"
+            }
+          ],
+          "name": "Tidewake Charge",
+          "prereqs": [
+            "tundrum.tusks_t1"
+          ],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "tundrum_charge_fin",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "tundrum",
+          "description": "tusks unlock; required for charge line",
+          "exclusiveGroup": null,
+          "id": "tundrum.tusks_t1",
+          "isExperimental": false,
+          "isLaunch": true,
+          "modules": [
+            {
+              "params": {
+                "damagePct": 3
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Tusks I",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "tundrum_tusks_t1",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        }
+      ]
+    },
+    "venomcoil": {
+      "nodes": [
+        {
+          "branch": null,
+          "creatureId": "venomcoil",
+          "description": "roots enemies briefly",
+          "exclusiveGroup": null,
+          "id": "venomcoil.coil_trap",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "dur": 1,
+                "radiusPx": 64,
+                "status": "root"
+              },
+              "type": "area_pulse"
+            }
+          ],
+          "name": "Coil Trap",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "vfx_root_ring",
+              "priority": 1,
+              "slot": "AURA"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "venomcoil",
+          "description": "shed skin decoy on dodge",
+          "exclusiveGroup": null,
+          "id": "venomcoil.molt_shell",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onDash",
+                "spawn": "decoy_skin"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Molt Shell",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "III",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "venomcoil_molt",
+              "priority": 1,
+              "slot": "HEAD_SIDE"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "venomcoil",
+          "description": "fear pulse on hit",
+          "exclusiveGroup": null,
+          "id": "venomcoil.rattle_spine",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "dur": 0.6,
+                "event": "onCrit",
+                "status": "fear"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Rattle Spine",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "II",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "venomcoil_rattle",
+              "priority": 1,
+              "slot": "BACK"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "venomcoil",
+          "description": "cobra flare; poison cone widens",
+          "exclusiveGroup": null,
+          "id": "venomcoil.spined_hood",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "poisonConePct": 10
+              },
+              "type": "stat_mod"
+            }
+          ],
+          "name": "Spined Hood",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "venomcoil_hood",
+              "priority": 1,
+              "slot": "HEAD_TOP"
+            }
+          ]
+        },
+        {
+          "branch": null,
+          "creatureId": "venomcoil",
+          "description": "glowing sacs; leaves toxic puddles",
+          "exclusiveGroup": null,
+          "id": "venomcoil.venom_glands",
+          "isExperimental": true,
+          "isLaunch": false,
+          "modules": [
+            {
+              "params": {
+                "event": "onHit",
+                "spawn": "haz_toxic_puddle"
+              },
+              "type": "proc_on_event"
+            }
+          ],
+          "name": "Venom Glands",
+          "prereqs": [],
+          "rarity": null,
+          "sfxIds": null,
+          "tier": "I",
+          "uiSort": null,
+          "unlockKeyId": null,
+          "vfxIds": null,
+          "visuals": [
+            {
+              "attachmentSpriteId": "venomcoil_glands",
+              "priority": 1,
+              "slot": "CHEST"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "launchScope": {
+    "creatures": [
+      "branchsnap",
+      "clackjaw",
+      "rumblepaw",
+      "sporeling",
+      "thornhart",
+      "tundrum"
+    ],
+    "stages": [
+      "bubble_bog",
+      "clockwork_carnival",
+      "crystal_caves",
+      "meadow_market",
+      "treetop_glade"
+    ],
+    "weaponFamilies": [
+      "FIBER",
+      "STONE",
+      "WOOD"
+    ]
+  },
+  "mutations": [
+    {
+      "attachmentSpriteId": "attach/tusks_t1",
+      "description": "Longer reach and heavier hits.",
+      "effects": [
+        {
+          "bonusDamage": 0.6,
+          "bonusRange": 0.5,
+          "type": "projectile_mod"
+        }
+      ],
+      "id": "MUT_TEST_01",
+      "kind": "BUFF",
+      "name": "Tusks+",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "CHEST",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "ground"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "FRONT",
+          "attachmentId": "tusks_t1",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": 0,
+          "replacesGroup": "tusks",
+          "scale": 1,
+          "spriteKey": "attach/tusks_t1",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        },
+        {
+          "scaleDelta": 0.02,
+          "type": "scale"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/tusks_t2",
+      "description": "Massive tusks amplify range and damage.",
+      "effects": [
+        {
+          "bonusDamage": 0.9,
+          "bonusRange": 0.9,
+          "type": "projectile_mod"
+        }
+      ],
+      "id": "MUT_TEST_02",
+      "kind": "BUFF",
+      "name": "Tusks++",
+      "pvpCost": 3,
+      "rarity": "uncommon",
+      "slot": "CHEST",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "ground",
+        "armor"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "FRONT",
+          "attachmentId": "tusks_t2",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": 0,
+          "replacesGroup": "tusks",
+          "scale": 1,
+          "spriteKey": "attach/tusks_t2",
+          "tier": 2,
+          "type": "attachment",
+          "vfxLayer": false
+        },
+        {
+          "scaleDelta": 0.04,
+          "type": "scale"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/plates",
+      "description": "Front plates deflect incoming hits.",
+      "effects": [
+        {
+          "type": "shield_wedge"
+        }
+      ],
+      "id": "MUT_TEST_03",
+      "kind": "BUFF",
+      "name": "Hide Plates",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "defense",
+        "armor"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "plates",
+          "canStack": false,
+          "layerOrder": 1,
+          "offsetX": 0,
+          "offsetY": -5,
+          "replacesGroup": "plates",
+          "scale": 1,
+          "spriteKey": "attach/plates",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/spikes",
+      "description": "Spikes retaliate on contact.",
+      "effects": [
+        {
+          "type": "spiked_hide"
+        }
+      ],
+      "id": "MUT_TEST_04",
+      "kind": "BUFF",
+      "name": "Rage Spikes",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "defense",
+        "brawler"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "spikes",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": -8,
+          "replacesGroup": "spikes",
+          "scale": 1,
+          "spriteKey": "attach/spikes",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/halo",
+      "description": "A spore ring damages nearby foes.",
+      "effects": [
+        {
+          "type": "aura"
+        }
+      ],
+      "id": "MUT_TEST_05",
+      "kind": "BUFF",
+      "name": "Spore Aura",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "AURA",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "spore"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "auraRadius": 28,
+          "spriteKey": "attach/halo",
+          "type": "aura"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "orbital/thin",
+      "description": "A protective stone circles you.",
+      "effects": [
+        {
+          "type": "orbital"
+        }
+      ],
+      "id": "MUT_TEST_06",
+      "kind": "BUFF",
+      "name": "Orbital Stone",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "ORBIT",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "defense",
+        "anchor"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "orbitals": 1,
+          "spriteKey": "orbital/thin",
+          "type": "orbital"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "orbital/thin",
+      "description": "Two orbitals keep enemies at bay.",
+      "effects": [
+        {
+          "type": "orbital"
+        }
+      ],
+      "id": "MUT_TEST_07",
+      "kind": "BUFF",
+      "name": "Shell Ring",
+      "pvpCost": 3,
+      "rarity": "uncommon",
+      "slot": "ORBIT",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "defense",
+        "anchor"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "orbitals": 2,
+          "spriteKey": "orbital/thin",
+          "type": "orbital"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "vfx/trail",
+      "description": "Leave a burning trail behind you.",
+      "effects": [
+        {
+          "type": "trail_hazard"
+        }
+      ],
+      "id": "MUT_TEST_08",
+      "kind": "BUFF",
+      "name": "Ground Trail",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "WAIST",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "ground"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "REAR",
+          "attachmentId": "trail",
+          "canStack": true,
+          "layerOrder": 5,
+          "offsetX": 0,
+          "offsetY": 16,
+          "replacesGroup": "trail",
+          "scale": 1,
+          "spriteKey": "vfx/trail",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": true
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/banner",
+      "description": "A banner terrifies nearby enemies.",
+      "effects": [
+        {
+          "type": "fear_pulse"
+        }
+      ],
+      "id": "MUT_TEST_09",
+      "kind": "BUFF",
+      "name": "Fear Banner",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "pack"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "banner",
+          "canStack": false,
+          "layerOrder": 3,
+          "offsetX": 0,
+          "offsetY": -16,
+          "replacesGroup": "banner",
+          "scale": 1,
+          "spriteKey": "attach/banner",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/core",
+      "description": "Release periodic knockback waves.",
+      "effects": [
+        {
+          "type": "knock_pulse"
+        }
+      ],
+      "id": "MUT_TEST_10",
+      "kind": "BUFF",
+      "name": "Knock Pulse",
+      "pvpCost": 3,
+      "rarity": "uncommon",
+      "slot": "HEAD_TOP",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "brawler"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "HEAD",
+          "attachmentId": "shock_core",
+          "canStack": false,
+          "layerOrder": 4,
+          "offsetX": 0,
+          "offsetY": -16,
+          "replacesGroup": "core",
+          "scale": 1,
+          "spriteKey": "attach/core",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": true
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "vfx/root",
+      "description": "Roots pulse to stagger enemies.",
+      "effects": [
+        {
+          "type": "root_field"
+        }
+      ],
+      "id": "MUT_TEST_11",
+      "kind": "BUFF",
+      "name": "Root Field",
+      "pvpCost": 3,
+      "rarity": "uncommon",
+      "slot": "AURA",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "spore"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "AURA",
+          "attachmentId": "root",
+          "canStack": true,
+          "layerOrder": 5,
+          "offsetX": 0,
+          "offsetY": 0,
+          "replacesGroup": "root",
+          "scale": 1,
+          "spriteKey": "vfx/root",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": true
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "orbital/blood",
+      "description": "A volatile orb circles you.",
+      "effects": [
+        {
+          "type": "blood_orbital"
+        }
+      ],
+      "id": "MUT_TEST_12",
+      "kind": "BUFF",
+      "name": "Blood Orbital",
+      "pvpCost": 4,
+      "rarity": "rare",
+      "slot": "ORBIT",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "corruption"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "orbitals": 1,
+          "spriteKey": "orbital/blood",
+          "type": "orbital"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/shield",
+      "description": "Front wedge reduces incoming damage.",
+      "effects": [
+        {
+          "type": "shield_wedge"
+        }
+      ],
+      "id": "MUT_TEST_13",
+      "kind": "BUFF",
+      "name": "Shield Wedge",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "CHEST",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "defense",
+        "hide"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "FRONT",
+          "attachmentId": "shield",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": 11,
+          "replacesGroup": "shield",
+          "scale": 1,
+          "spriteKey": "attach/shield",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/halo",
+      "description": "A halo boosts your presence.",
+      "effects": [
+        {
+          "type": "aura"
+        }
+      ],
+      "id": "MUT_TEST_14",
+      "kind": "BUFF",
+      "name": "Rally Halo",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "AURA",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "pack"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "auraRadius": 22,
+          "spriteKey": "attach/halo",
+          "type": "aura"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/core",
+      "description": "Shock pulses stagger close enemies.",
+      "effects": [
+        {
+          "type": "shock_core"
+        }
+      ],
+      "id": "MUT_TEST_15",
+      "kind": "BUFF",
+      "name": "Shock Core",
+      "pvpCost": 4,
+      "rarity": "rare",
+      "slot": "HEAD_TOP",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "brawler"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "HEAD",
+          "attachmentId": "shock",
+          "canStack": false,
+          "layerOrder": 4,
+          "offsetX": 0,
+          "offsetY": -13,
+          "replacesGroup": "core",
+          "scale": 1,
+          "spriteKey": "attach/core",
+          "tier": 2,
+          "type": "attachment",
+          "vfxLayer": true
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "vfx/corrupt",
+      "description": "Unstable power with self-risk.",
+      "effects": [
+        {
+          "bonusDamage": 1.4,
+          "type": "corruption_risk"
+        }
+      ],
+      "id": "MUT_TEST_16",
+      "kind": "BUFF",
+      "name": "Corrupt Core",
+      "pvpCost": 4,
+      "rarity": "corrupt",
+      "slot": "HEAD_TOP",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "corruption",
+        "hybrid"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "HEAD",
+          "attachmentId": "corrupt",
+          "canStack": true,
+          "layerOrder": 5,
+          "offsetX": 0,
+          "offsetY": -16,
+          "replacesGroup": "corrupt",
+          "scale": 1,
+          "spriteKey": "vfx/corrupt",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": true
+        },
+        {
+          "scaleDelta": 0.05,
+          "type": "scale"
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/core",
+      "description": "Extra projectile in your volley.",
+      "effects": [
+        {
+          "bonusDamage": 0.4,
+          "extraProjectiles": 1,
+          "type": "projectile_mod"
+        }
+      ],
+      "id": "MUT_TEST_17",
+      "kind": "BUFF",
+      "name": "Rapid Bolts",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "flight"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "core",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": -11,
+          "replacesGroup": "core",
+          "scale": 0.9,
+          "spriteKey": "attach/core",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/spikes",
+      "description": "Boost your close-range arc.",
+      "effects": [
+        {
+          "bonusDamage": 0.4,
+          "bonusRange": 0.4,
+          "type": "cone_cleave"
+        }
+      ],
+      "id": "MUT_TEST_18",
+      "kind": "BUFF",
+      "name": "Wide Cleave",
+      "pvpCost": 2,
+      "rarity": "common",
+      "slot": "SHOULDER_L",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "brawler"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "LEFT_SIDE",
+          "attachmentId": "spikes",
+          "canStack": true,
+          "layerOrder": 2,
+          "offsetX": -11,
+          "offsetY": 0,
+          "replacesGroup": "cleave",
+          "scale": 0.8,
+          "spriteKey": "attach/spikes",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/banner",
+      "description": "A taller banner widens fear pulses.",
+      "effects": [
+        {
+          "type": "fear_pulse"
+        }
+      ],
+      "id": "MUT_TEST_19",
+      "kind": "BUFF",
+      "name": "Banner of Fear",
+      "pvpCost": 3,
+      "rarity": "uncommon",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "utility",
+        "pack",
+        "hybrid"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "banner_big",
+          "canStack": false,
+          "layerOrder": 3,
+          "offsetX": 0,
+          "offsetY": -21,
+          "replacesGroup": "banner",
+          "scale": 1.2,
+          "spriteKey": "attach/banner",
+          "tier": 2,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/halo",
+      "description": "A risky halo damages you but empowers attacks.",
+      "effects": [
+        {
+          "bonusDamage": 1,
+          "type": "corruption_risk"
+        },
+        {
+          "type": "aura"
+        }
+      ],
+      "id": "MUT_TEST_20",
+      "kind": "BUFF",
+      "name": "Blood Halo",
+      "pvpCost": 4,
+      "rarity": "corrupt",
+      "slot": "AURA",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "offense",
+        "corruption"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "auraRadius": 34,
+          "spriteKey": "attach/halo",
+          "type": "aura"
+        },
+        {
+          "anchor": "HEAD",
+          "attachmentId": "corrupt",
+          "canStack": true,
+          "layerOrder": 5,
+          "offsetX": 0,
+          "offsetY": -16,
+          "replacesGroup": "corrupt",
+          "scale": 1,
+          "spriteKey": "vfx/corrupt",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": true
+        }
+      ],
+      "weaponId": null
+    },
+    {
+      "attachmentSpriteId": "attach/banner",
+      "description": "Fiber lash that whips from the back.",
+      "effects": [],
+      "id": "MUT_WPN_FIBER_WHIP",
+      "kind": "WEAPON",
+      "name": "Whip Spine",
+      "pvpCost": 4,
+      "rarity": "uncommon",
+      "slot": "BACK",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "weapon",
+        "utility"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "BACK",
+          "attachmentId": "banner",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 0,
+          "offsetY": -10,
+          "replacesGroup": "whip",
+          "scale": 0.9,
+          "spriteKey": "attach/banner",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": "FIBER"
+    },
+    {
+      "attachmentSpriteId": "attach/shield",
+      "description": "Stone cleaver mounted on the forearm.",
+      "effects": [],
+      "id": "MUT_WPN_STONE_HAMMER",
+      "kind": "WEAPON",
+      "name": "Axe Arm",
+      "pvpCost": 4,
+      "rarity": "uncommon",
+      "slot": "ARM_L",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "weapon",
+        "offense"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "LEFT_SIDE",
+          "attachmentId": "shield",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": -10,
+          "offsetY": 2,
+          "replacesGroup": "arm_weapon",
+          "scale": 0.9,
+          "spriteKey": "attach/shield",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": "STONE"
+    },
+    {
+      "attachmentSpriteId": "attach/core",
+      "description": "Bone-mounted blade for close fights.",
+      "effects": [],
+      "id": "MUT_WPN_WOOD_ARM",
+      "kind": "WEAPON",
+      "name": "Knife Arm",
+      "pvpCost": 4,
+      "rarity": "common",
+      "slot": "ARM_R",
+      "stacking": {
+        "maxStacks": 1,
+        "visualStacks": 1
+      },
+      "tags": [
+        "weapon",
+        "offense"
+      ],
+      "type": "BODY_MOD",
+      "visual_bindings": [
+        {
+          "anchor": "RIGHT_SIDE",
+          "attachmentId": "core",
+          "canStack": false,
+          "layerOrder": 2,
+          "offsetX": 8,
+          "offsetY": 0,
+          "replacesGroup": "arm_weapon",
+          "scale": 0.9,
+          "spriteKey": "attach/core",
+          "tier": 1,
+          "type": "attachment",
+          "vfxLayer": false
+        }
+      ],
+      "weaponId": "WOOD"
+    }
+  ],
+  "schemaVersion": 1,
+  "slotContracts": [
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "tundrum",
+      "forbiddenSlotsJson": "[]",
+      "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP.",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 0}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "rumblepaw",
+      "forbiddenSlotsJson": "[]",
+      "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP.",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "thornhart",
+      "forbiddenSlotsJson": "[]",
+      "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP.",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "sporeling",
+      "forbiddenSlotsJson": "[]",
+      "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP.",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "clackjaw",
+      "forbiddenSlotsJson": "[]",
+      "notes": "Quadruped: forbid humanoid/biped. AURA is PvE-only or tamed in PvP.",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "branchsnap",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "grugnar",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "emberpelt",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "venomcoil",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "shellspire",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "inkscourge",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "glimmerscale",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "buzzgrave",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "hollowhoot",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "bogbound",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "quillthorn",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "nightzip",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    },
+    {
+      "allowedSlotsJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]",
+      "creatureId": "dreadrex",
+      "forbiddenSlotsJson": "[]",
+      "slotCapsJson": "{\"HEAD_TOP\": 1, \"HEAD_SIDE\": 1, \"CHEST\": 1, \"BACK\": 1, \"AURA\": 1, \"MAIN_HAND\": 1, \"PROJECTILE\": 1, \"ORBIT\": 2}",
+      "visualPriorityOrderJson": "[\"HEAD_TOP\", \"HEAD_SIDE\", \"CHEST\", \"BACK\", \"AURA\", \"MAIN_HAND\", \"PROJECTILE\", \"ORBIT\"]"
+    }
+  ],
+  "stages": [
+    {
+      "bossId": "bubble_bog_boss",
+      "hazardsText": "Bubble vents (displacement), Mud geyser (brief root), Leech swarm (drag tether slow)",
+      "id": "bubble_bog",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: boardwalk chain; Lane B: open bog deep water lanes with islands; Lane C: mud berm path; Pocket1: lily-pad island (moving); Pocket2: cattail thicket",
+      "name": "Bubble Bog",
+      "physicsProfile": "Water: deep common; Props: medium floating pads/driftwood; Blocker density: medium; Dash scaling reduced in deep water",
+      "tone": "silly swamp bubbles, high drag"
+    },
+    {
+      "bossId": "clockwork_carnival_boss",
+      "hazardsText": "Conveyors (force fields), Pop-up mallets (telegraphed smash), Confetti cannons (VFX limited via caps)",
+      "id": "clockwork_carnival",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: conveyor lane; Lane B: central carousel rotating cover; Lane C: gate maze timed doors; Pocket1: ticket booth nook; Pocket2: bumper-car ring",
+      "name": "Clockwork Carnival",
+      "physicsProfile": "Water: none; Props: high (bumper cars heavy); Blocker density: high dynamic; External forces high",
+      "tone": "bright carnival machines, whimsical danger"
+    },
+    {
+      "bossId": "crystal_caves_boss",
+      "hazardsText": "Bounce crystals (reflect knockback/some projectiles), Cave drips (slippery 0.6s), Crystal burst (radial shards telegraph ring)",
+      "id": "crystal_caves",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: left corridor narrow; Lane B: center chamber; Lane C: right corridor with timed crystal gates; Pocket1: bounce crystal alcove; Pocket2: loop tunnel",
+      "name": "Crystal Caves",
+      "physicsProfile": "Water: puddles only; Props: low static blockers; Blocker density: medium-high; Special: bounce surfaces",
+      "tone": "magical crystals, pinball movement"
+    },
+    {
+      "bossId": "haylord_bramblehoof",
+      "hazardsText": "Rolling barrels (knockback), Beehive posts (bee cloud slow), Market lanterns (fire puddle)",
+      "id": "meadow_market",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: fence line + stalls; Lane B: open plaza; Lane C: creek + bridges; Pocket1: hay-bale courtyard; Pocket2: wagon loop",
+      "name": "Meadow Market",
+      "physicsProfile": "Water: shallow only; Props: high, low mass; Blocker density: low-medium; Projectile occlusion: medium",
+      "tone": "bright, playful, safe onboarding"
+    },
+    {
+      "bossId": "treetop_glade_boss",
+      "hazardsText": "Falling pinecones (small stun), Spiderweb patches (sticky slow, burnable), Squirrel stampede (harmless shove)",
+      "id": "treetop_glade",
+      "isExperimental": false,
+      "isLaunch": true,
+      "layout": "Lane A: elevated boardwalk; Lane B: forest interior zig-zag; Lane C: streambed shallow\u2192deep; Pocket1: mushroom circle; Pocket2: hollow log cul-de-sac",
+      "name": "Treetop Glade",
+      "physicsProfile": "Water: mixed shallow/deep; Props: medium, logs can roll (heavy); Blocker density: high; Turning friction: higher in leaf piles",
+      "tone": "cozy woodland, teaches pathing/LOS"
+    }
+  ],
+  "weaponFamilies": [
+    {
+      "displayName": "Fiber",
+      "experimental": false,
+      "id": "FIBER",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 7,
+        "fireRateMul": 1.15,
+        "pierce": 1,
+        "speed": 600,
+        "spread": 0.18
+      },
+      "sfx": {
+        "fire": "sfx_fiber_fire",
+        "hit": "sfx_fiber_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    },
+    {
+      "displayName": "Stone",
+      "experimental": false,
+      "id": "STONE",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 12,
+        "fireRateMul": 0.85,
+        "pierce": 0,
+        "speed": 480,
+        "spread": 0.2
+      },
+      "sfx": {
+        "fire": "sfx_stone_fire",
+        "hit": "sfx_stone_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    },
+    {
+      "displayName": "Wood",
+      "experimental": false,
+      "id": "WOOD",
+      "isLaunch": true,
+      "projectile": {
+        "damage": 9,
+        "fireRateMul": 1.05,
+        "pierce": 0,
+        "speed": 560,
+        "spread": 0.22
+      },
+      "sfx": {
+        "fire": "sfx_wood_fire",
+        "hit": "sfx_wood_hit"
+      },
+      "vfx": {
+        "hit": "vfx_hit",
+        "muzzle": "vfx_muzzle"
+      }
+    }
+  ],
+  "weapons": [
+    {
+      "weaponId": "tundrum_weapon",
+      "creatureId": "tundrum",
+      "displayName": "Tundrum Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "rumblepaw_weapon",
+      "creatureId": "rumblepaw",
+      "displayName": "Rumblepaw Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "thornhart_weapon",
+      "creatureId": "thornhart",
+      "displayName": "Thornhart Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "sporeling_weapon",
+      "creatureId": "sporeling",
+      "displayName": "Sporeling Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "clackjaw_weapon",
+      "creatureId": "clackjaw",
+      "displayName": "Clackjaw Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "branchsnap_weapon",
+      "creatureId": "branchsnap",
+      "displayName": "Branchsnap Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "dreadrex_weapon",
+      "creatureId": "dreadrex",
+      "displayName": "Dreadrex Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "nightzip_weapon",
+      "creatureId": "nightzip",
+      "displayName": "Nightzip Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "grugnar_weapon",
+      "creatureId": "grugnar",
+      "displayName": "Grugnar Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "venomcoil_weapon",
+      "creatureId": "venomcoil",
+      "displayName": "Venomcoil Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "shellspire_weapon",
+      "creatureId": "shellspire",
+      "displayName": "Shellspire Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "inksourge_weapon",
+      "creatureId": "inksourge",
+      "displayName": "Inksourge Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "emberpelt_weapon",
+      "creatureId": "emberpelt",
+      "displayName": "Emberpelt Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "glimmerscale_weapon",
+      "creatureId": "glimmerscale",
+      "displayName": "Glimmerscale Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "buzzgrave_weapon",
+      "creatureId": "buzzgrave",
+      "displayName": "Buzzgrave Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "hollowhoot_weapon",
+      "creatureId": "hollowhoot",
+      "displayName": "Hollowhoot Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "bogbound_weapon",
+      "creatureId": "bogbound",
+      "displayName": "Bogbound Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    },
+    {
+      "weaponId": "quillthorn_weapon",
+      "creatureId": "quillthorn",
+      "displayName": "Quillthorn Signature Weapon",
+      "family": "unique",
+      "isLaunch": true
+    }
+  ]
+}

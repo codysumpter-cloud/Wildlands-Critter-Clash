@@ -1,0 +1,4038 @@
+{
+  "aliases": {},
+  "assets": [
+    {
+      "id": "attachment.back_plates.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/back_plates.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.banner_big.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/banner_big.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.banner.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/banner.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.bark_shield.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/bark_shield.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.bone_banner.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/bone_banner.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.chitin_fan.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/chitin_fan.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.claw_blade.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/claw_blade.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.coral_horns.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/coral_horns.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.corrupt_eye_core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/corrupt_eye_core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/corrupt.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.crystal_growth.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/crystal_growth.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.dorsal_fin.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/dorsal_fin.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.ear_tuft.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/ear_tuft.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.eye_stalks.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/eye_stalks.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.fungus_cap_glow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/fungus_cap_glow.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.glow_gem.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/glow_gem.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.halo_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/halo_ring.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.halo.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/halo.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.ice_frill.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/ice_frill.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.jaw_plate.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/jaw_plate.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.lantern.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/lantern.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.moss_growth.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/moss_growth.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.mud_pouch.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/mud_pouch.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orb_cluster.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/orb_cluster.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orbital_skull.sprite",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/attachments/orbital_skull.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orbital_stone.sprite",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/attachments/orbital_stone.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orbital/blood.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/orbital/blood.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.orbital/thin.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/orbital/thin.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.plates.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/plates.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.rib_cage.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/rib_cage.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.root_crown.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/root_crown.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/root.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.scrap_armor.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/scrap_armor.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shell_ridge.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shell_ridge.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shell_spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shell_spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shield.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shield.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shock_core.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shock_core.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shock.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shock.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.shoulder_spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/shoulder_spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.spikes.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/spikes.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.spore_pods.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/spore_pods.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.tail_spike.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/tail_spike.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.thorn_vines.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/thorn_vines.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/trail.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.tusks_large.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/tusks_large.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.tusks_small.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/tusks_small.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.tusks_t1.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/tusks_t1.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.tusks_t2.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/tusks_t2.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/corrupt.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/root.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.vfx/trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/vfx/trail.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "attachment.wing_fins.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/attachments/wing_fins.png",
+      "tags": [
+        "attachment",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "boss.bubble_bog_boss.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 96,
+        "cols": 8,
+        "h": 640,
+        "rows": 10,
+        "w": 768
+      },
+      "path": "assets/bosses/bubble_bog_boss.png",
+      "tags": [
+        "boss",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "boss.clockwork_carnival_boss.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 96,
+        "cols": 8,
+        "h": 640,
+        "rows": 10,
+        "w": 768
+      },
+      "path": "assets/bosses/clockwork_carnival_boss.png",
+      "tags": [
+        "boss",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "boss.crystal_caves_boss.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 96,
+        "cols": 8,
+        "h": 640,
+        "rows": 10,
+        "w": 768
+      },
+      "path": "assets/bosses/crystal_caves_boss.png",
+      "tags": [
+        "boss",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "boss.haylord_bramblehoof.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 96,
+        "cols": 8,
+        "h": 640,
+        "rows": 10,
+        "w": 768
+      },
+      "path": "assets/bosses/haylord_bramblehoof.png",
+      "tags": [
+        "boss",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "boss.treetop_glade_boss.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 96,
+        "cols": 8,
+        "h": 640,
+        "rows": 10,
+        "w": 768
+      },
+      "path": "assets/bosses/treetop_glade_boss.png",
+      "tags": [
+        "boss",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "core.grass",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/grass.png",
+      "tags": [
+        "core",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "core.projectile",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/projectile.png",
+      "tags": [
+        "core",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "enemy.enemy_blight_howler.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_blight_howler.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_bog_strider.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_bog_strider.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_bonecrawler.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_bonecrawler.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_brambleguard.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_brambleguard.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_cinder_imp.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_cinder_imp.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_crypt_brute.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_crypt_brute.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_deepmaw_leviathan.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_deepmaw_leviathan.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_flame_husk.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_flame_husk.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_inferno_stalker.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_inferno_stalker.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_mirrling.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_mirrling.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_ossuary_titan.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_ossuary_titan.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_rootling.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_rootling.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_spore_wisp.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_spore_wisp.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_thorn_colossus.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_thorn_colossus.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "enemy.enemy_voidroot_abomination.sheet",
+      "meta": {
+        "cellH": 64,
+        "cellW": 64,
+        "cols": 6,
+        "h": 320,
+        "w": 384,
+        "rows": 5
+      },
+      "path": "assets/enemies/enemy_voidroot_abomination.png",
+      "tags": [
+        "enemy",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "item.coin.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/items/coin.png",
+      "tags": [
+        "item",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "item.fiber.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/items/fiber.png",
+      "tags": [
+        "item",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "item.stone.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/items/stone.png",
+      "tags": [
+        "item",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "item.wood.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/items/wood.png",
+      "tags": [
+        "item",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "orbital.blood_thick.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/orbital/blood_thick.png",
+      "tags": [
+        "orbital",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "orbital.blood.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/orbital/blood.png",
+      "tags": [
+        "orbital",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "orbital.thick.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/orbital/thick.png",
+      "tags": [
+        "orbital",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "orbital.thin.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/orbital/thin.png",
+      "tags": [
+        "orbital",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "pickup.chest.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/pickup/chest.png",
+      "tags": [
+        "pickup",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "pickup.essence.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/pickup/essence.png",
+      "tags": [
+        "pickup",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "pickup.relic.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/pickup/relic.png",
+      "tags": [
+        "pickup",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "player.bogbound.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/bogbound.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.bogbound.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/bogbound_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.branchsnap.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/branchsnap.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.branchsnap.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/branchsnap_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.buzzgrave.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/buzzgrave.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.buzzgrave.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/buzzgrave_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.clackjaw.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/clackjaw.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.clackjaw.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/clackjaw_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.dreadrex.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/dreadrex.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.dreadrex.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/dreadrex_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.emberpelt.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/emberpelt.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.emberpelt.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/emberpelt_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.glimmerscale.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/glimmerscale.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.glimmerscale.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/glimmerscale_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.grugnar.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/grugnar.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.grugnar.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/grugnar_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.hollowhoot.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/hollowhoot.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.hollowhoot.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/hollowhoot_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.inkscourge.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/inkscourge.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.inkscourge.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/inkscourge_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.nightzip.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/nightzip.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.nightzip.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/nightzip_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.quillthorn.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/quillthorn.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.quillthorn.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/quillthorn_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.rumblepaw.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/rumblepaw.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.rumblepaw.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/rumblepaw_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.shellspire.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/shellspire.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.shellspire.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/shellspire_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.sporeling.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/sporeling.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.sporeling.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/sporeling_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.thornhart.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/thornhart.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.thornhart.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/thornhart_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.tundrum.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/tundrum.png",
+      "tags": [
+        "player",
+        "icon",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.tundrum.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/tundrum_sheet.png",
+      "tags": [
+        "player",
+        "launch"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "player.venomcoil.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/icons/venomcoil.png",
+      "tags": [
+        "player",
+        "icon",
+        "experimental"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "player.venomcoil.sheet",
+      "meta": {
+        "cellH": 96,
+        "cellW": 96,
+        "cols": 6,
+        "h": 480,
+        "rows": 5,
+        "w": 576
+      },
+      "path": "assets/players/venomcoil_sheet.png",
+      "tags": [
+        "player",
+        "experimental"
+      ],
+      "type": "spritesheet"
+    },
+    {
+      "id": "projectile.claw_slash_arc.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/claw_slash_arc.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "projectile.corruption_shard.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/corruption_shard.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "projectile.fang_bolt.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/fang_bolt.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "projectile.fear_wave.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/fear_wave.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "projectile.heal_pulse.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/heal_pulse.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "projectile.spore_blob.image",
+      "meta": {
+        "h": 16,
+        "w": 16
+      },
+      "path": "assets/projectiles/spore_blob.png",
+      "tags": [
+        "projectile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.bone_pile.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/bone_pile.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.boulder.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/boulder.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.crate.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/crate.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.fence_segment.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/fence_segment.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.monolith.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/monolith.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_market_stall.image",
+      "meta": {
+        "h": 96,
+        "w": 128
+      },
+      "path": "assets/props/prop_market_stall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_rock_large.image",
+      "meta": {
+        "h": 96,
+        "w": 96
+      },
+      "path": "assets/props/prop_rock_large.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_rock_small.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/prop_rock_small.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_ruin_pillar.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/prop_ruin_pillar.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_stump_blocker.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/prop_stump_blocker.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.prop_thorn_bramble_wall.image",
+      "meta": {
+        "h": 64,
+        "w": 128
+      },
+      "path": "assets/props/prop_thorn_bramble_wall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.rock.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/rock.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.ruin_pillar.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/ruin_pillar.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.ruin_wall.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/ruin_wall.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.stump.image",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/props/stump.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.totem.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/totem.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.tree_oak.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/tree_oak.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "prop.tree_pine.image",
+      "meta": {
+        "h": 128,
+        "w": 64
+      },
+      "path": "assets/props/tree_pine.png",
+      "tags": [
+        "prop",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "sfx.boss_death_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_death_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_death_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_death_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_death_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_death_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_death_stinger_stage1_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_death_stinger_stage1_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_death_stinger_stage1_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_death_stinger_stage1_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_intro_stinger_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_intro_stinger_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_intro_stinger_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_intro_stinger_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_burst_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_burst_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_burst_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_burst_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_burst_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_burst_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_shift_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_shift_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_shift_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_shift_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_phase_shift_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_phase_shift_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_roar_haylord_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_roar_haylord_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_roar_haylord_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_roar_haylord_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_slam_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_slam_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_slam_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_slam_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_slam_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_slam_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_slam_3",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_slam_3.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_spawn_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_spawn_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.boss_spawn_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/boss_spawn_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.chest_open",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/chest_open.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.chest_open_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/chest_open_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.chest_open_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/chest_open_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.crit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/crit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.crit_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/crit_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.crit_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/crit_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.crit_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/crit_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.crit_3",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/crit_3.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.dash",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/dash.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.dash_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/dash_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.dash_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/dash_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.death",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/death.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.death_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/death_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.death_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/death_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit_3",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit_3.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.hit_4",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/hit_4.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_big",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_big.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_big_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_big_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_big_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_big_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small_3",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small_3.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.kill_small_4",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/kill_small_4.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.levelup",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/levelup.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.levelup_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/levelup_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.levelup_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/levelup_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.menu_ambience",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/menu_ambience.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.pickup",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/pickup.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.pickup_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/pickup_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.pickup_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/pickup_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.pickup_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/pickup_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.pickup_3",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/pickup_3.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_common",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_common.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_common_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_common_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_common_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_common_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_epic",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_epic.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_epic_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_epic_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_epic_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_epic_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_rare",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_rare.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_rare_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_rare_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.rarity_rare_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/rarity_rare_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.relic_extract_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/relic_extract_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.relic_extract_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/relic_extract_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.relic_extract_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/relic_extract_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.relic_fail_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/relic_fail_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.relic_fail_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/relic_fail_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.stage_unlock_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/stage_unlock_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.stage_unlock_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/stage_unlock_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.telegraph_arrow_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/telegraph_arrow_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.telegraph_arrow_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/telegraph_arrow_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.telegraph_ring_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/telegraph_ring_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.telegraph_ring_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/telegraph_ring_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_click",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_click.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_click_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_click_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_click_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_click_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_click_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_click_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_hover",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_hover.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_hover_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_hover_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_hover_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_hover_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.ui_hover_2",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/ui_hover_2.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.wave_shift",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/wave_shift.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.wave_shift_0",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/wave_shift_0.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "sfx.wave_shift_1",
+      "meta": {
+        "ext": "wav"
+      },
+      "path": "assets/audio/wave_shift_1.wav",
+      "tags": [
+        "sfx",
+        "experimental"
+      ],
+      "type": "audio"
+    },
+    {
+      "id": "tile.conveyor_arrow.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/conveyor_arrow.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.corrupt_soil.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/corrupt_soil.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.crystal_bounce.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/crystal_bounce.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.deep_water.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/deep_water.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.dirt.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/dirt.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.grass.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/grass.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.ice.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/ice.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.mud.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/mud.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.sand.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/sand.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.shallow_water.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/shallow_water.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.snow.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/snow.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.stone.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/stone.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.swamp_muck.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/swamp_muck.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "tile.thorns.image",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/tiles/thorns.png",
+      "tags": [
+        "tile",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "ui.missing.image",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/ui/missing.png",
+      "tags": [
+        "ui",
+        "experimental"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.arena_shockwave.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/arena_shockwave.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.aura_pulse.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/aura_pulse.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.boss_impact.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/boss_impact.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.boss_intro_burst_stage1.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/boss_intro_burst_stage1.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.boss_intro_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/boss_intro_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.boss_phase_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/boss_phase_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.boss_phase_shift.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/boss_phase_shift.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.bounce_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/bounce_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.burn_scorch.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/burn_scorch.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.chest_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/chest_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.corrupt_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/corrupt_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.corrupt.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/corrupt.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.crit_star.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/crit_star.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.dash_trail.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/dash_trail.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.death_pop_big.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/death_pop_big.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.death_pop_small.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/death_pop_small.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.explosion_pop.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/explosion_pop.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.fear_ripple.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/fear_ripple.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.frost_puff.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/frost_puff.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.haylord_charge_arrow_yellow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/haylord_charge_arrow_yellow.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.haylord_phase_burst_amber.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/haylord_phase_burst_amber.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.haylord_slam_ring_orange.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/haylord_slam_ring_orange.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.heal_spark.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/heal_spark.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.hit_spark.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/hit_spark.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.hit_star.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/hit_star.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.knock_wave.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/knock_wave.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.leaf_swoosh.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/leaf_swoosh.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.levelup_burst.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/levelup_burst.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.pickup_glint.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/pickup_glint.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.puff_smoke.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/puff_smoke.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.relic_charge.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/relic_charge.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.root_snare.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/root_snare.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.root.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/root.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.shield_flash.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/shield_flash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.shock_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/shock_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.sparkle.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/sparkle.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.stomp_crack.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/stomp_crack.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.telegraph_arrow.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/telegraph_arrow.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.telegraph_ring.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/telegraph_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.teleport_flash.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/teleport_flash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.trail.sprite",
+      "meta": {
+        "h": 64,
+        "w": 64
+      },
+      "path": "assets/vfx/trail.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.vfx_dust.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/vfx_dust.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.vfx_hit.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/vfx_hit.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.vfx_muzzle.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/vfx_muzzle.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.vfx_ring.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/vfx_ring.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.vfx_slash.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/vfx_slash.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "vfx.wave_banner_pop.sprite",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/vfx/wave_banner_pop.png",
+      "tags": [
+        "vfx",
+        "launch"
+      ],
+      "type": "image"
+    },
+    {
+      "id": "weaponFamily.family_fiber.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_fiber.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_stone.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_stone.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.family_wood.icon",
+      "meta": {
+        "h": 32,
+        "w": 32
+      },
+      "path": "assets/weapons/family_wood.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_fiber.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/weapon_fiber.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_stone.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/weapon_stone.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    },
+    {
+      "id": "weaponFamily.weapon_wood.icon",
+      "meta": {
+        "h": 48,
+        "w": 48
+      },
+      "path": "assets/weapons/weapon_wood.png",
+      "tags": [
+        "weaponFamily",
+        "launch"
+      ],
+      "type": "icon"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WILDLANDS : CRITTER CLASH — Play</title>
+  <link rel="stylesheet" href="wildlands_theme.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="wrap">
+    <div id="topbar">
+      <div class="title">WILDLANDS : CRITTER CLASH — Web Demo</div>
+      <div class="hint">WASD / Arrow Keys move · Mouse aims · Left click shoots · Space dash · Q active · R restart</div>
+      <div class="topbarRight">
+        <button id="btnFullscreen" class="btnTop" title="Fullscreen">Fullscreen</button>
+      </div>
+    </div>
+
+    <div id="gameHost" aria-label="Game View">
+      <canvas id="game" width="960" height="540"></canvas>
+    </div>
+
+    <!-- MAIN MENU (diorama + character showcase + right-side stack) -->
+    <div id="mainMenu" class="">
+      <div class="mmFrame" role="application" aria-label="Main Menu">
+        <div class="mmLogo" id="mmLogo">
+          <img id="mmLogoImg" class="mmLogoImg" alt="WILDLANDS : CRITTER CLASH" />
+          <div id="mmLogoText" class="mmLogoText">WILDLANDS : CRITTER CLASH</div>
+        </div>
+
+        <div class="mmBody">
+          <div class="mmShowcase" aria-label="Character Showcase">
+            <div class="mmShowcasePlate">
+              <div class="mmShowcaseName" id="mmShowcaseName">—</div>
+              <div class="mmShowcaseHint">Last used (or Favorite)</div>
+            </div>
+          </div>
+
+          <div class="mmMenu" aria-label="Menu">
+            <div id="mmButtons" class="mmButtons"></div>
+            <div class="mmMeta">
+              <div class="mmMetaLine">↑/↓ navigate · Enter confirm · Esc back</div>
+              <div class="mmMetaLine">Pixel-perfect scaling is enforced (integer scale).</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mmFooter">
+          <div class="mmFooterLeft">v7 alpha web demo · assets from build zip</div>
+          <div class="mmFooterRight" id="mmFooterRight"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MASTERY (favorite character) -->
+    <div id="mastery" class="hidden">
+      <div class="panel mmPanel">
+        <div class="panelTitle">Mastery</div>
+        <div class="panelSub">Set a Favorite Character. If set, the Main Menu showcase uses Favorite instead of Last Used.</div>
+
+        <div class="row" style="justify-content: space-between; flex-wrap: wrap;">
+          <div>
+            <div class="sectionTitle">Favorite</div>
+            <div class="panelHint" id="favState">—</div>
+          </div>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <button id="btnSetFavorite" class="btnPrimary">Set as Favorite</button>
+            <button id="btnClearFavorite" class="btnPrimary">Clear Favorite</button>
+            <button id="btnBackFromMastery" class="btnPrimary">Back</button>
+          </div>
+        </div>
+
+<div class="masteryLayout">
+  <div class="masteryLeft">
+    <div class="sectionTitle">Characters</div>
+    <div id="masteryCreatureList" class="choices"></div>
+  </div>
+
+  <div class="masteryRight">
+    <div class="sectionTitle">Details</div>
+    <div id="masteryDetail" class="masteryDetail">
+      <div class="masteryHero">
+        <img id="masteryIcon" class="masteryIcon" alt="Creature icon" />
+        <div>
+          <div id="masteryName" class="masteryName">—</div>
+          <div id="masteryRole" class="masteryRole">—</div>
+        </div>
+      </div>
+
+      <div class="masteryGrid">
+        <div class="masteryBlock">
+          <div class="blockTitle">Starting Weapon</div>
+          <div id="masteryWeapon" class="blockBody">—</div>
+        </div>
+        <div class="masteryBlock">
+          <div class="blockTitle">Your Stats</div>
+          <div id="masteryStats" class="blockBody">—</div>
+        </div>
+      </div>
+
+      <div class="masteryBlock">
+        <div class="blockTitle">Evolution Line</div>
+        <div id="masteryEvolution" class="blockBody">—</div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+
+    <!-- SETTINGS (audio + ui) -->
+    <div id="settings" class="hidden">
+      <div class="panel mmPanel">
+        <div class="panelTitle">Settings</div>
+        <div class="panelSub">Audio + UI preferences (stored locally).</div>
+
+        <div class="row" style="flex-wrap: wrap;">
+          <label class="toggle"><input type="checkbox" id="toggleMute" /> Mute all audio</label>
+          <label class="toggle"><input type="checkbox" id="toggleReducedMotion" /> Reduced motion (lower particles + parallax)</label>
+          <label class="toggle"><input type="checkbox" id="toggleMinimalChrome" /> Minimal chrome (maximize play area)</label>
+          <label class="toggle"><input type="checkbox" id="toggleLowVfx" /> Low VFX (reduce trails/particles)</label>
+          <label class="toggle"><input type="checkbox" id="toggleScreenshake" /> Screenshake</label>
+          <label class="toggle"><input type="checkbox" id="toggleReducedFlashes" /> Reduced flashes (photosensitivity)</label>
+          <label class="toggle"><input type="checkbox" id="toggleAllowFit" /> Allow non-integer fit when too small (&lt;1×)</label>
+        </div>
+
+        <div class="row actions">
+          <button id="btnBackFromSettings" class="btnPrimary">Back</button>
+          <div class="panelHint">Tip: Reduced motion + Low VFX reduce projectile trails and menu particles.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- BAZAAR (gallery) -->
+    <div id="bazaar" class="hidden">
+      <div class="panel mmPanel">
+        <div class="panelTitle">Bazaar</div>
+        <div class="panelSub">Gallery preview of mutation attachments (no purchases yet). Uses real in-build assets.</div>
+
+        <div class="row actions" style="justify-content: space-between; flex-wrap: wrap;">
+          <div class="panelHint" id="bazaarHint">Select an item to preview its sprite.</div>
+          <button id="btnBackFromBazaar" class="btnPrimary">Back</button>
+        </div>
+
+        <div class="sectionTitle">Attachments</div>
+        <div id="bazaarAttachmentList" class="choices"></div>
+      </div>
+    </div>
+
+    <div id="overlay" class="hidden">
+      <div class="panel">
+        <div class="panelTitle" id="overlayTitle">Choose Mutation</div>
+        <div class="panelSub" id="overlaySub">Level up!</div>
+        <div id="choices" class="choices"></div>
+        <div class="panelHint">Click a card or press 1–3. (Esc to close)</div>
+      </div>
+    </div>
+
+    <div id="start" class="hidden">
+      <div class="panel">
+        <div class="panelTitle">WILDLANDS : CRITTER CLASH — Play</div>
+        <div class="panelSub">Pick your loadout, then press <b>PLAY</b> to start a run. Launch content is listed first; anything beyond launch scope is marked <b>Experimental</b>.</div>
+
+        <div class="row">
+          <label class="toggle">
+            <input type="checkbox" id="toggleExperimental" />
+            Show Experimental content
+          </label>
+        </div>
+
+        <div class="row">
+          <label class="toggle">
+            <input type="checkbox" id="togglePixelUpgrade" checked />
+            Pixel Upgrade Engine (players) — ON
+          </label>
+        </div>
+
+        <div class="grid3">
+          <div>
+            <div class="sectionTitle">Creature</div>
+            <div id="creatureList" class="choices"></div>
+          </div>
+          <div>
+            <div class="sectionTitle">Stage</div>
+            <div id="stageList" class="choices"></div>
+          </div>
+          <div>
+            <div class="sectionTitle">Starting Weapon</div>
+            <div id="weaponList" class="choices"></div>
+          </div>
+        </div>
+
+        <div class="row actions">
+          <button id="btnStartRun" class="btnPrimary" disabled>PLAY — Start Game</button>
+          <div class="panelHint">Select Creature + Stage + Weapon, then press PLAY. (In-game: R restarts)</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer">
+      <div><b>Goal:</b> Survive as long as you can. Enemies spawn in waves. Level-ups offer Evolution choices.</div>
+      <div class="tiny">This is a lightweight HTML5 prototype built from assets in your Unity zip (sprites/tiles). Not a Unity WebGL export.</div>
+    </div>
+  </div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+  <script src="data_bundle.js"></script>
+  <script src="game_bundle.js"></script>
+  <script>
+  // Dev-only build meta overlay (fail-soft). Enable with ?dev=1 or localStorage.WCC_DEV=1
+  (function(){
+    try{
+      const qs = new URLSearchParams(location.search);
+      if (qs.get('dev') === '1') localStorage.setItem('WCC_DEV','1');
+
+      // Optional toggle: F8 flips WCC_DEV and reloads.
+      window.addEventListener('keydown', (e)=>{
+        if (e.key !== 'F8') return;
+        const enabled = localStorage.getItem('WCC_DEV') === '1';
+        localStorage.setItem('WCC_DEV', enabled ? '0' : '1');
+        location.reload();
+      });
+
+      if (localStorage.getItem('WCC_DEV') !== '1') return;
+
+      // Non-blocking: overlay is best-effort; missing/malformed file is ignored.
+      Promise.resolve().then(async ()=>{
+        try{
+          const res = await fetch('runtime/build_meta.json', { cache: 'no-store' });
+          if (!res.ok) return;
+          const meta = await res.json();
+          if (!meta || typeof meta !== 'object') return;
+
+          const shaShort = (typeof meta.shaShort === 'string' && meta.shaShort) ? meta.shaShort : null;
+          const sha = (typeof meta.sha === 'string' && meta.sha) ? meta.sha : null;
+          const tag = (typeof meta.tag === 'string' && meta.tag) ? meta.tag : null;
+          const label = shaShort || sha || 'local';
+
+          const el = document.createElement('div');
+          el.id = 'dev-build-overlay';
+          el.style.position = 'fixed';
+          el.style.left = '8px';
+          el.style.bottom = '8px';
+          el.style.padding = '6px 8px';
+          el.style.font = '12px monospace';
+          el.style.background = 'rgba(0,0,0,0.55)';
+          el.style.color = '#fff';
+          el.style.zIndex = '9999';
+          el.style.borderRadius = '6px';
+          el.style.pointerEvents = 'none';
+          el.textContent = "Build: " + label + (tag ? " " + tag : "");
+
+          (document.body || document.documentElement).appendChild(el);
+        } catch(_){ /* ignore */ }
+      });
+    } catch(_){ /* ignore */ }
+  })();
+  </script>
+</body>
+</html>

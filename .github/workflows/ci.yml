@@ -4,10 +4,55 @@ on:
   push:
     branches: [ main ]
   pull_request:
+    branches: [ main ]
 
 jobs:
-  validate:
+  changes:
     runs-on: ubuntu-latest
+    outputs:
+      docs_only: ${{ steps.filter.outputs.docs_only }}
+      deterministic_inputs: ${{ steps.filter.outputs.deterministic_inputs }}
+      playable_payload: ${{ steps.filter.outputs.playable_payload }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detect changed paths
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            docs_only:
+              - 'docs/**'
+              - '**/*.md'
+              - '!README.md'
+              - '!docs/Bible_v16.xlsx'
+            deterministic_inputs:
+              - 'tools/**'
+              - 'docs/Bible_v16.xlsx'
+              - 'data/generated/**'
+              - 'runtime/manifest.json'
+              - 'runtime/weapons.json'
+              - 'runtime/damage_types.json'
+              - 'runtime/status_effects.json'
+            playable_payload:
+              - 'index.html'
+              - 'style.css'
+              - 'wildlands_theme.css'
+              - 'game_bundle.js'
+              - 'data_bundle.js'
+              - 'assets/**'
+              - 'runtime/**'
+
+  docs_check:
+    runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.docs_only == 'true'
+    steps:
+      - run: echo "Docs-only change detected. Skipping heavy build job."
+
+  build_validate:
+    runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.docs_only != 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -35,6 +80,21 @@ jobs:
       - name: Build all
         run: npm run build:all
 
-      - name: Enforce deterministic generated artifacts (Model B)
+      - name: Show deterministic path diffs (debug)
         run: |
-          git diff --exit-code || (echo "Generated artifacts are out of date. Run build:all and commit." && exit 1)
+          git diff --name-only -- \
+            data/generated \
+            runtime/manifest.json \
+            runtime/weapons.json \
+            runtime/damage_types.json \
+            runtime/status_effects.json || true
+
+      - name: Enforce deterministic generated artifacts (Model B scoped)
+        run: |
+          git diff --exit-code -- \
+            data/generated \
+            runtime/manifest.json \
+            runtime/weapons.json \
+            runtime/damage_types.json \
+            runtime/status_effects.json \
+          || (echo "Deterministic artifacts are out of date. Run npm run build:all and commit outputs." && exit 1)

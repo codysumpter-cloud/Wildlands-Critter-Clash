@@ -8,6 +8,7 @@
     "build:runtime": "node tools/build_runtime.js",
     "validate": "python3 tools/validate.py",
     "build:all": "npm run build:bible && npm run build:runtime && npm run validate",
-    "release:itch": "python3 tools/package_release.py"
+    "package:playable": "python3 tools/package_release.py",
+    "release:itch": "npm run package:playable"
   }
 }

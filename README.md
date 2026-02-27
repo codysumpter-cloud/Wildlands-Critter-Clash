@@ -12,7 +12,7 @@ Web-based game project with a Bible-driven data pipeline (v16 schema) for determ
 ## Repository Structure
 
 - `assets/` - source art/audio/design assets
-- `dev_with_release/` - development and release orchestration files
+- `release/` - release artifacts and packaging outputs
 - `tools/` - Python/Node build and validation scripts
 - `data/generated/` - generated intermediate outputs from Bible import
 - `runtime/` - runtime-ready JSON/assets consumed by the web game

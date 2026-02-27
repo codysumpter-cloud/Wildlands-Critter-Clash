@@ -7,7 +7,10 @@
   },
   "scripts": {
     "dev": "python3 -m http.server 8000",
+    "doctor": "node tools/doctor.js",
     "build": "npm run bible:import && npm run assets:rebuild && npm run build:runtime",
+    "build:all": "npm run doctor && npm run build",
+    "release:itch": "npm run doctor && npm run itch:pack",
     "bible:import": "python3 tools/bible_import_optional.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated",
     "bible:import:force": "python3 tools/bible_import.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated",
     "assets:rebuild": "node tools/assets_rebuild.js && node tools/build_runtime.js",

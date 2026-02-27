@@ -28,6 +28,7 @@
     "generate:vfx": "node tools/generateVfx.js",
     "generate:sfx": "node tools/generateSfx.js",
     "world:server": "node server-world/world-server.js",
-    "world:smoke": "node tools/world_smoke.js"
+    "world:smoke": "node tools/world_smoke.js",
+    "world:soak": "node tools/world_soak.js"
   }
 }

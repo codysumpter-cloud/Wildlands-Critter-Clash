@@ -30,3 +30,8 @@
 - [x] 10+ session playtest logs
 - [x] Top 10 balancing fixes
 - [x] Stability + net perf pass
+
+## M6 — Scale + Observability
+- [x] Server metrics endpoint
+- [x] 16-client soak test
+- [x] Preserve smoke test pass after instrumentation

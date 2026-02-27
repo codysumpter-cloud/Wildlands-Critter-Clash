@@ -40,8 +40,41 @@ function createWorldServer({ port = 8799, levelCap = LEVEL_CAP_DEFAULT } = {}) {
   const ghosts = new Map();
   const territory = new Map(world.zones.map((z) => [z.id, { controller: null, pressure: 0 }]));
   let apex = { playerId: null, level: 0, xp: 0, apexScore: 0 };
+  const startedAt = now();
+  const metrics = {
+    ticks: { sim: 0, state: 0, objective: 0 },
+    avgMs: { sim: 0, state: 0, objective: 0 },
+    maxMs: { sim: 0, state: 0, objective: 0 }
+  };
+
+  function trackTick(name, durationMs) {
+    metrics.ticks[name]++;
+    const n = metrics.ticks[name];
+    metrics.avgMs[name] = ((metrics.avgMs[name] * (n - 1)) + durationMs) / n;
+    metrics.maxMs[name] = Math.max(metrics.maxMs[name], durationMs);
+  }
 
   const server = http.createServer((req, res) => {
+    if (req.url === '/metrics') {
+      const payload = {
+        ok: true,
+        service: 'wildlands-world',
+        port,
+        levelCap,
+        ts: now(),
+        uptimeMs: now() - startedAt,
+        players: {
+          total: players.size,
+          connected: sockets.size,
+          ghosts: ghosts.size
+        },
+        metrics
+      };
+      res.writeHead(200, { 'content-type': 'application/json' });
+      res.end(JSON.stringify(payload));
+      return;
+    }
+
     res.writeHead(200, { 'content-type': 'application/json' });
     res.end(JSON.stringify({ ok: true, service: 'wildlands-world', port, players: players.size, levelCap, ts: now() }));
   });
@@ -294,7 +327,8 @@ function createWorldServer({ port = 8799, levelCap = LEVEL_CAP_DEFAULT } = {}) {
   });
 
   const simTick = setInterval(() => {
-    const t = now();
+    const t0 = now();
+    const t = t0;
     for (const p of players.values()) {
       if (p.dead) {
         if (t >= p.respawnAt) {
@@ -318,12 +352,20 @@ function createWorldServer({ port = 8799, levelCap = LEVEL_CAP_DEFAULT } = {}) {
     }
 
     updateApex();
+    trackTick('sim', now() - t0);
   }, 100);
 
-  const stateTick = setInterval(broadcastState, 250);
+  const stateTick = setInterval(() => {
+    const t0 = now();
+    broadcastState();
+    trackTick('state', now() - t0);
+  }, 250);
+
   const objectiveTick = setInterval(() => {
+    const t0 = now();
     tickResourcesAndTerritory();
     updateApex();
+    trackTick('objective', now() - t0);
   }, 1000);
 
   server.listen(port);

@@ -17,6 +17,7 @@
     "validate": "node tools/run_python.js tools/bible_import.py --xlsx Wildlands_Data_Bible_v15_newbuild_phase2_full_extraction.xlsx --out data/generated --validate-only",
     "build:runtime": "node tools/build_runtime.js",
     "release": "node tools/release.js",
+    "play:pack": "node tools/make_play_package.js",
     "itch:pack": "npm run release && python3 tools/itch_pack.py",
 
     "validate:assets": "node tools/validateAssets.js",

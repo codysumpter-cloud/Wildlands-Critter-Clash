@@ -6,9 +6,9 @@
 - [x] Lock packaging command and output structure
 
 ## M1 — Core Integrity
-- [ ] Runtime starts from clean checkout
-- [ ] Data Bible import/validation passes
-- [ ] Build package generated reproducibly
+- [x] Runtime starts from clean checkout
+- [x] Data Bible import/validation passes
+- [x] Build package generated reproducibly
 
 ## M2 — Server World Skeleton
 - [ ] Zone graph + resource ticks

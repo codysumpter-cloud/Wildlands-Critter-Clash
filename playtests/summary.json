@@ -1,0 +1,62 @@
+﻿[
+    {
+        "session":  "01",
+        "timestamp":  "2026-02-27T12:26:48",
+        "status":  "pass",
+        "durationMs":  11399
+    },
+    {
+        "session":  "02",
+        "timestamp":  "2026-02-27T12:27:00",
+        "status":  "pass",
+        "durationMs":  11376
+    },
+    {
+        "session":  "03",
+        "timestamp":  "2026-02-27T12:27:11",
+        "status":  "pass",
+        "durationMs":  11406
+    },
+    {
+        "session":  "04",
+        "timestamp":  "2026-02-27T12:27:22",
+        "status":  "pass",
+        "durationMs":  11372
+    },
+    {
+        "session":  "05",
+        "timestamp":  "2026-02-27T12:27:34",
+        "status":  "pass",
+        "durationMs":  11394
+    },
+    {
+        "session":  "06",
+        "timestamp":  "2026-02-27T12:27:45",
+        "status":  "pass",
+        "durationMs":  11390
+    },
+    {
+        "session":  "07",
+        "timestamp":  "2026-02-27T12:27:57",
+        "status":  "pass",
+        "durationMs":  11382
+    },
+    {
+        "session":  "08",
+        "timestamp":  "2026-02-27T12:28:08",
+        "status":  "pass",
+        "durationMs":  11387
+    },
+    {
+        "session":  "09",
+        "timestamp":  "2026-02-27T12:28:19",
+        "status":  "pass",
+        "durationMs":  11399
+    },
+    {
+        "session":  "10",
+        "timestamp":  "2026-02-27T12:28:31",
+        "status":  "pass",
+        "durationMs":  11385
+    }
+]

@@ -27,6 +27,6 @@
 - [x] Territory/resource pressure objective
 
 ## M5 — Playtest + Balance
-- [ ] 10+ session playtest logs
-- [ ] Top 10 balancing fixes
-- [ ] Stability + net perf pass
+- [x] 10+ session playtest logs
+- [x] Top 10 balancing fixes
+- [x] Stability + net perf pass

@@ -56,7 +56,7 @@ No manual secrets are required for CI.
 ## Python requirement note
 
 - **Players/testers:** no Python needed if you use shipped runtime/release files.
-- Build a player bundle with: `npm run play:pack` (outputs `out/play-no-python`, preferring `release/` artifacts when present).
+- Build a player bundle with: `npm run play:pack` (outputs `out/play-no-python`, uses `release/` artifacts only when bundle sanity checks pass).
 - Build + zip a shareable player bundle with: `npm run play:pack:zip` (outputs `out/play-no-python.zip`).
 - **Builders/contributors:** Python 3 is required for Bible import/validation scripts.
 - npm scripts now auto-try `python3`, `python`, then `py -3` for better cross-platform setup.

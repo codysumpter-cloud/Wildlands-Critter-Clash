@@ -29,7 +29,12 @@ function main() {
   ensure(out);
 
   const releaseDir = path.join(root, 'release');
-  const useRelease = fs.existsSync(path.join(releaseDir, 'game_bundle.js')) && fs.existsSync(path.join(releaseDir, 'runtime'));
+  let useRelease = false;
+  if (fs.existsSync(path.join(releaseDir, 'game_bundle.js')) && fs.existsSync(path.join(releaseDir, 'runtime'))) {
+    const gb = fs.readFileSync(path.join(releaseDir, 'game_bundle.js'), 'utf8');
+    // Guard against stale/incomplete bundles in release/.
+    useRelease = gb.includes('function updateWeapons(');
+  }
 
   // Required runtime files (already built artifacts)
   const requiredRoot = ['PLAY_WILDLANDS.html', 'PLAY_WILDLANDS_WINDOWS.bat', 'README_PLUG_AND_PLAY.txt'];

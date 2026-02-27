@@ -9,10 +9,15 @@ if (argv.length === 0) {
 
 const script = argv[0];
 const scriptArgs = argv.slice(1);
+const localPy = process.env.LOCALAPPDATA
+  ? `${process.env.LOCALAPPDATA}\\Programs\\Python\\Python311\\python.exe`
+  : null;
+
 const candidates = [
+  ...(localPy ? [{ cmd: localPy, args: [script, ...scriptArgs] }] : []),
+  { cmd: 'py', args: ['-3', script, ...scriptArgs] },
   { cmd: 'python3', args: [script, ...scriptArgs] },
-  { cmd: 'python', args: [script, ...scriptArgs] },
-  { cmd: 'py', args: ['-3', script, ...scriptArgs] }
+  { cmd: 'python', args: [script, ...scriptArgs] }
 ];
 
 for (const c of candidates) {

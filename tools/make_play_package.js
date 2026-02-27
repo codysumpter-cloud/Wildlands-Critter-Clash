@@ -28,23 +28,22 @@ function main() {
   rmrf(out);
   ensure(out);
 
+  const releaseDir = path.join(root, 'release');
+  const useRelease = fs.existsSync(path.join(releaseDir, 'game_bundle.js')) && fs.existsSync(path.join(releaseDir, 'runtime'));
+
   // Required runtime files (already built artifacts)
-  const required = [
-    'PLAY_WILDLANDS.html',
-    'PLAY_WILDLANDS_WINDOWS.bat',
-    'README_PLUG_AND_PLAY.txt',
-    'index.html',
-    'style.css',
-    'game_bundle.js',
-    'data_bundle.js',
-    'runtime',
-    'assets'
-  ];
-  required.forEach((r) => must(root, r));
+  const requiredRoot = ['PLAY_WILDLANDS.html', 'PLAY_WILDLANDS_WINDOWS.bat', 'README_PLUG_AND_PLAY.txt'];
+  requiredRoot.forEach((r) => must(root, r));
+
+  const requiredRuntime = ['index.html', 'style.css', 'game_bundle.js', 'data_bundle.js', 'runtime', 'assets'];
+  requiredRuntime.forEach((r) => must(useRelease ? releaseDir : root, r));
 
   // Core files
-  for (const f of ['PLAY_WILDLANDS.html', 'PLAY_WILDLANDS_WINDOWS.bat', 'README_PLUG_AND_PLAY.txt', 'index.html', 'style.css', 'game_bundle.js', 'data_bundle.js']) {
+  for (const f of ['PLAY_WILDLANDS.html', 'PLAY_WILDLANDS_WINDOWS.bat', 'README_PLUG_AND_PLAY.txt']) {
     copyFile(path.join(root, f), path.join(out, f));
+  }
+  for (const f of ['index.html', 'style.css', 'game_bundle.js', 'data_bundle.js']) {
+    copyFile(path.join(useRelease ? releaseDir : root, f), path.join(out, f));
   }
 
   // Optional convenience launchers/themes
@@ -53,11 +52,11 @@ function main() {
   }
 
   // Runtime content
-  copyDir(path.join(root, 'runtime'), path.join(out, 'runtime'));
-  copyDir(path.join(root, 'assets'), path.join(out, 'assets'));
+  copyDir(path.join(useRelease ? releaseDir : root, 'runtime'), path.join(out, 'runtime'));
+  copyDir(path.join(useRelease ? releaseDir : root, 'assets'), path.join(out, 'assets'));
 
   // Optional net configs/docs
-  copyDir(path.join(root, 'data', 'net'), path.join(out, 'data', 'net'));
+  copyDir(path.join(useRelease ? releaseDir : root, 'data', 'net'), path.join(out, 'data', 'net'));
   if (fs.existsSync(path.join(root, 'RELEASE_NOTES.md'))) {
     copyFile(path.join(root, 'RELEASE_NOTES.md'), path.join(out, 'RELEASE_NOTES.md'));
   }

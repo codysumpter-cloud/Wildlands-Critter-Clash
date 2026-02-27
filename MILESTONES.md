@@ -11,9 +11,9 @@
 - [x] Build package generated reproducibly
 
 ## M2 — Server World Skeleton
-- [ ] Zone graph + resource ticks
-- [ ] Player state replication
-- [ ] Reconnect/resync behavior
+- [x] Zone graph + resource ticks
+- [x] Player state replication
+- [x] Reconnect/resync behavior
 
 ## M3 — PvP Darwin Loop
 - [ ] Spawn as Darwin

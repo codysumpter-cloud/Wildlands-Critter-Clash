@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "dependencies": {
-    "pngjs": "^7.0.0"
+    "pngjs": "^7.0.0",
+    "ws": "^8.18.0"
   },
   "scripts": {
     "dev": "python3 -m http.server 8000",
@@ -25,6 +26,8 @@
     "generate:mutations": "node tools/generateMutationParts.js",
     "generate:weapons": "node tools/generateWeapons.js",
     "generate:vfx": "node tools/generateVfx.js",
-    "generate:sfx": "node tools/generateSfx.js"
+    "generate:sfx": "node tools/generateSfx.js",
+    "world:server": "node server-world/world-server.js",
+    "world:smoke": "node tools/world_smoke.js"
   }
 }

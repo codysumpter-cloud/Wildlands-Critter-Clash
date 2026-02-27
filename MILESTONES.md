@@ -16,10 +16,10 @@
 - [x] Reconnect/resync behavior
 
 ## M3 — PvP Darwin Loop
-- [ ] Spawn as Darwin
-- [ ] XP from feeding/combat
-- [ ] Evolution draft at level-up
-- [ ] Death/respawn + persistence rules
+- [x] Spawn as Darwin
+- [x] XP from feeding/combat
+- [x] Evolution draft at level-up
+- [x] Death/respawn + persistence rules
 
 ## M4 — Apex Loop
 - [ ] Level cap (configurable, target 100)

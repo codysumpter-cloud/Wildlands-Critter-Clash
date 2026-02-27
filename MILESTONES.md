@@ -35,3 +35,8 @@
 - [x] Server metrics endpoint
 - [x] 16-client soak test
 - [x] Preserve smoke test pass after instrumentation
+
+## M7 — Client Hookup
+- [x] Client-to-world server bridge in playable page
+- [x] Live HUD sync (Darwin/apex/territory/player state)
+- [x] Input replication + 2-window local verification path

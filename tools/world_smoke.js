@@ -5,7 +5,7 @@ function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
 async function run() {
   const port = 8899;
-  const srv = createWorldServer({ port });
+  const srv = createWorldServer({ port, levelCap: 100 });
 
   const events = [];
   let welcome;
@@ -26,6 +26,8 @@ async function run() {
 
   ws.send(JSON.stringify({ type: 'join', name: 'smoke' }));
   await sleep(700);
+
+  // Feed for XP and level-up draft
   ws.send(JSON.stringify({ type: 'feed', amount: 120 }));
   await sleep(700);
 
@@ -33,17 +35,27 @@ async function run() {
     throw new Error(`missing evolutionDraft (seen: ${events.map((e) => e.type).join(',')})`);
   }
 
+  // Choose evolution
   ws.send(JSON.stringify({ type: 'chooseEvolution', choice: draft.options[0] }));
   await sleep(300);
-  ws.send(JSON.stringify({ type: 'combatHit', damage: 999, xp: 0 }));
 
+  // Trigger death/respawn
+  ws.send(JSON.stringify({ type: 'combatHit', damage: 999, xp: 0 }));
   await sleep(6000);
 
-  const need = ['welcome', 'spawn', 'evolutionDraft', 'evolutionChosen', 'death', 'respawn'];
+  // Territory pressure + apex objective
+  ws.send(JSON.stringify({ type: 'moveZone', zoneId: 'bog-fen' }));
+  await sleep(2200);
+
+  const need = ['welcome', 'spawn', 'evolutionDraft', 'evolutionChosen', 'death', 'respawn', 'territoryUpdate', 'apexUpdate'];
   const have = new Set(events.map((e) => e.type));
   for (const n of need) {
     if (!have.has(n)) throw new Error(`missing event: ${n} (seen: ${[...have].join(',')})`);
   }
+
+  // level cap should be exposed in snapshot
+  const snap1 = events.find((e) => e.type === 'snapshot');
+  if (!snap1 || snap1.levelCap !== 100) throw new Error('levelCap missing or incorrect in snapshot');
 
   ws.close();
 

@@ -7,19 +7,11 @@ function rid(n = 8) { return crypto.randomBytes(n).toString('hex'); }
 
 const XP_PER_LEVEL = 100;
 const RESPAWN_MS = 5000;
-const LEVEL_CAP = 100;
+const LEVEL_CAP_DEFAULT = 100;
 
 const EVOLUTION_POOL = [
-  'swift-fins',
-  'iron-carapace',
-  'venom-spurs',
-  'lunge-jets',
-  'echo-sense',
-  'blood-siphon',
-  'chitin-spikes',
-  'feral-mandible',
-  'tidal-grip',
-  'frost-plating'
+  'swift-fins', 'iron-carapace', 'venom-spurs', 'lunge-jets', 'echo-sense',
+  'blood-siphon', 'chitin-spikes', 'feral-mandible', 'tidal-grip', 'frost-plating'
 ];
 
 function createZoneGraph() {
@@ -34,51 +26,47 @@ function createZoneGraph() {
 }
 
 function sampleDraft(playerId, level) {
-  // deterministic-ish selection for testability
   const seed = [...`${playerId}:${level}`].reduce((a, c) => a + c.charCodeAt(0), 0);
   const picks = [];
-  for (let i = 0; i < 3; i++) {
-    picks.push(EVOLUTION_POOL[(seed + i * 3) % EVOLUTION_POOL.length]);
-  }
+  for (let i = 0; i < 3; i++) picks.push(EVOLUTION_POOL[(seed + i * 3) % EVOLUTION_POOL.length]);
   return [...new Set(picks)];
 }
 
-function createWorldServer({ port = 8799 } = {}) {
+function createWorldServer({ port = 8799, levelCap = LEVEL_CAP_DEFAULT } = {}) {
   const world = createZoneGraph();
-  const players = new Map(); // playerId -> state
-  const byToken = new Map(); // token -> playerId
-  const sockets = new Map(); // playerId -> ws
-  const ghosts = new Map(); // playerId -> expiresAt
+  const players = new Map();
+  const byToken = new Map();
+  const sockets = new Map();
+  const ghosts = new Map();
+  const territory = new Map(world.zones.map((z) => [z.id, { controller: null, pressure: 0 }]));
+  let apex = { playerId: null, level: 0, xp: 0, apexScore: 0 };
 
   const server = http.createServer((req, res) => {
     res.writeHead(200, { 'content-type': 'application/json' });
-    res.end(JSON.stringify({ ok: true, service: 'wildlands-world', port, players: players.size, ts: now() }));
+    res.end(JSON.stringify({ ok: true, service: 'wildlands-world', port, players: players.size, levelCap, ts: now() }));
   });
 
   const wss = new WebSocketServer({ server });
 
-  function findSpawnZone() {
-    return world.zones[0].id;
-  }
+  function findSpawnZone() { return world.zones[0].id; }
 
   function spawnDarwinState(playerId, reconnectToken) {
     return {
       playerId,
       reconnectToken,
       species: 'darwin',
-      x: 0,
-      y: 0,
+      x: 0, y: 0,
       zoneId: findSpawnZone(),
       level: 1,
       xp: 0,
       hp: 100,
       maxHp: 100,
-      vx: 0,
-      vy: 0,
+      vx: 0, vy: 0,
       dead: false,
       respawnAt: 0,
       evolutions: [],
-      pendingDraft: null
+      pendingDraft: null,
+      apexScore: 0
     };
   }
 
@@ -86,8 +74,7 @@ function createWorldServer({ port = 8799 } = {}) {
     return {
       playerId: p.playerId,
       species: p.species,
-      x: p.x,
-      y: p.y,
+      x: p.x, y: p.y,
       zoneId: p.zoneId,
       level: p.level,
       xp: p.xp,
@@ -96,6 +83,7 @@ function createWorldServer({ port = 8799 } = {}) {
       dead: p.dead,
       evolutions: p.evolutions,
       pendingDraft: p.pendingDraft,
+      apexScore: p.apexScore,
       connected: sockets.has(p.playerId)
     };
   }
@@ -106,6 +94,9 @@ function createWorldServer({ port = 8799 } = {}) {
       ts: now(),
       self: playerId,
       world,
+      levelCap,
+      apex,
+      territory: Object.fromEntries(territory),
       players: [...players.values()].map(publicPlayer)
     };
   }
@@ -115,23 +106,86 @@ function createWorldServer({ port = 8799 } = {}) {
     if (ws && ws.readyState === ws.OPEN) ws.send(JSON.stringify(payload));
   }
 
+  function broadcast(obj) {
+    const payload = JSON.stringify(obj);
+    for (const ws of sockets.values()) if (ws.readyState === ws.OPEN) ws.send(payload);
+  }
+
   function broadcastState() {
-    const payload = JSON.stringify({
+    broadcast({
       type: 'stateDelta',
       ts: now(),
+      apex,
+      territory: Object.fromEntries(territory),
       players: [...players.values()].map(publicPlayer)
     });
-    for (const ws of sockets.values()) {
-      if (ws.readyState === ws.OPEN) ws.send(payload);
+  }
+
+  function updateApex() {
+    let best = null;
+    for (const p of players.values()) {
+      if (p.dead) continue;
+      if (!best) { best = p; continue; }
+      if (p.level !== best.level) { if (p.level > best.level) best = p; continue; }
+      if (p.xp !== best.xp) { if (p.xp > best.xp) best = p; continue; }
+      if (p.apexScore > best.apexScore) best = p;
+    }
+
+    const next = best
+      ? { playerId: best.playerId, level: best.level, xp: best.xp, apexScore: best.apexScore }
+      : { playerId: null, level: 0, xp: 0, apexScore: 0 };
+
+    if (next.playerId !== apex.playerId || next.level !== apex.level || next.xp !== apex.xp || next.apexScore !== apex.apexScore) {
+      apex = next;
+      broadcast({ type: 'apexUpdate', ts: now(), apex });
     }
   }
 
-  function tickResources() {
+  function tickResourcesAndTerritory() {
+    const zoneOccupants = new Map(world.zones.map((z) => [z.id, []]));
+    for (const p of players.values()) {
+      if (!p.dead && zoneOccupants.has(p.zoneId)) zoneOccupants.get(p.zoneId).push(p.playerId);
+    }
+
     for (const z of world.zones) {
-      for (const k of Object.keys(z.resources)) {
-        z.resources[k] = Math.min(250, z.resources[k] + 1);
+      const occupants = zoneOccupants.get(z.id);
+      const t = territory.get(z.id);
+
+      // baseline regen
+      for (const k of Object.keys(z.resources)) z.resources[k] = Math.min(250, z.resources[k] + 1);
+
+      // territory pressure
+      if (occupants.length === 1) {
+        const owner = occupants[0];
+        if (t.controller === owner) t.pressure = Math.min(100, t.pressure + 10);
+        else {
+          t.pressure += 10;
+          if (t.pressure >= 30) {
+            t.controller = owner;
+            t.pressure = 30;
+          }
+        }
+      } else if (occupants.length === 0) {
+        t.pressure = Math.max(0, t.pressure - 4);
+        if (t.pressure === 0) t.controller = null;
+      } else {
+        // contested
+        t.pressure = Math.max(0, t.pressure - 6);
+      }
+
+      // objective/resource pressure: controllers drain biomass slower but gain apex score
+      if (t.controller) {
+        z.resources.biomass = Math.max(0, z.resources.biomass - 2);
+        const p = players.get(t.controller);
+        if (p && !p.dead) p.apexScore += 1;
+      }
+
+      if (z.resources.biomass <= 20) {
+        broadcast({ type: 'resourcePressure', ts: now(), zoneId: z.id, biomass: z.resources.biomass });
       }
     }
+
+    broadcast({ type: 'territoryUpdate', ts: now(), territory: Object.fromEntries(territory) });
   }
 
   function applyXp(playerId, amount) {
@@ -139,7 +193,7 @@ function createWorldServer({ port = 8799 } = {}) {
     if (!p || p.dead) return;
     p.xp += Math.max(0, Number(amount) || 0);
 
-    while (p.level < LEVEL_CAP && p.xp >= p.level * XP_PER_LEVEL) {
+    while (p.level < levelCap && p.xp >= p.level * XP_PER_LEVEL) {
       p.level += 1;
       p.maxHp += 8;
       p.hp = p.maxHp;
@@ -175,7 +229,6 @@ function createWorldServer({ port = 8799 } = {}) {
         const playerId = `p_${rid(4)}`;
         const reconnectToken = rid(16);
         const state = spawnDarwinState(playerId, reconnectToken);
-
         players.set(playerId, state);
         byToken.set(reconnectToken, playerId);
         attachPlayer(ws, playerId, false);
@@ -194,14 +247,18 @@ function createWorldServer({ port = 8799 } = {}) {
         return;
       }
 
+      if (msg.type === 'moveZone') {
+        const zoneId = String(msg.zoneId || '');
+        if (world.zones.some((z) => z.id === zoneId)) p.zoneId = zoneId;
+        return;
+      }
+
       if (msg.type === 'feed') {
-        // feeding grants small XP packets
         applyXp(pid, Number(msg.amount || 10));
         return;
       }
 
       if (msg.type === 'combatHit') {
-        // combat gives XP and can apply damage for death loop testing
         applyXp(pid, Number(msg.xp || 20));
         const dmg = Math.max(0, Number(msg.damage || 0));
         if (dmg > 0 && !p.dead) {
@@ -225,9 +282,7 @@ function createWorldServer({ port = 8799 } = {}) {
         return;
       }
 
-      if (msg.type === 'resync') {
-        ws.send(JSON.stringify(snapshotFor(pid)));
-      }
+      if (msg.type === 'resync') ws.send(JSON.stringify(snapshotFor(pid)));
     });
 
     ws.on('close', () => {
@@ -245,8 +300,7 @@ function createWorldServer({ port = 8799 } = {}) {
         if (t >= p.respawnAt) {
           p.dead = false;
           p.hp = p.maxHp;
-          p.x = 0;
-          p.y = 0;
+          p.x = 0; p.y = 0;
           p.zoneId = findSpawnZone();
           sendToPlayer(p.playerId, { type: 'respawn', zoneId: p.zoneId, hp: p.hp });
         }
@@ -262,10 +316,15 @@ function createWorldServer({ port = 8799 } = {}) {
         players.delete(pid);
       }
     }
+
+    updateApex();
   }, 100);
 
   const stateTick = setInterval(broadcastState, 250);
-  const resourceTick = setInterval(tickResources, 1000);
+  const objectiveTick = setInterval(() => {
+    tickResourcesAndTerritory();
+    updateApex();
+  }, 1000);
 
   server.listen(port);
 
@@ -274,7 +333,7 @@ function createWorldServer({ port = 8799 } = {}) {
     close: () => {
       clearInterval(simTick);
       clearInterval(stateTick);
-      clearInterval(resourceTick);
+      clearInterval(objectiveTick);
       wss.close();
       server.close();
     }
@@ -283,8 +342,9 @@ function createWorldServer({ port = 8799 } = {}) {
 
 if (require.main === module) {
   const port = process.env.WORLD_PORT ? Number(process.env.WORLD_PORT) : 8799;
-  createWorldServer({ port });
-  console.log(`wildlands-world listening on :${port}`);
+  const levelCap = process.env.LEVEL_CAP ? Number(process.env.LEVEL_CAP) : LEVEL_CAP_DEFAULT;
+  createWorldServer({ port, levelCap });
+  console.log(`wildlands-world listening on :${port} (levelCap=${levelCap})`);
 }
 
 module.exports = { createWorldServer };

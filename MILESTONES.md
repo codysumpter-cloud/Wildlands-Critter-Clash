@@ -22,9 +22,9 @@
 - [x] Death/respawn + persistence rules
 
 ## M4 — Apex Loop
-- [ ] Level cap (configurable, target 100)
-- [ ] Apex designation and broadcast
-- [ ] Territory/resource pressure objective
+- [x] Level cap (configurable, target 100)
+- [x] Apex designation and broadcast
+- [x] Territory/resource pressure objective
 
 ## M5 — Playtest + Balance
 - [ ] 10+ session playtest logs

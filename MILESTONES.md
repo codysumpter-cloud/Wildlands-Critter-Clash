@@ -1,9 +1,9 @@
 # MILESTONES.md
 
 ## M0 — Freeze & Branch
-- [ ] Tag known-good baseline
-- [ ] Create reboot branch
-- [ ] Lock packaging command and output structure
+- [x] Tag known-good baseline
+- [x] Create reboot branch
+- [x] Lock packaging command and output structure
 
 ## M1 — Core Integrity
 - [ ] Runtime starts from clean checkout

@@ -52,3 +52,10 @@ On push/PR, CI:
 4. Enforces deterministic generated artifacts (`git diff --exit-code`)
 
 No manual secrets are required for CI.
+
+## Python requirement note
+
+- **Players/testers:** no Python needed if you use shipped runtime/release files.
+- **Builders/contributors:** Python 3 is required for Bible import/validation scripts.
+- npm scripts now auto-try `python3`, `python`, then `py -3` for better cross-platform setup.
+

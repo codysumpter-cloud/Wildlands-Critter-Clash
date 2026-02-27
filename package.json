@@ -18,6 +18,7 @@
     "build:runtime": "node tools/build_runtime.js",
     "release": "node tools/release.js",
     "play:pack": "node tools/make_play_package.js",
+    "play:pack:zip": "npm run play:pack && node tools/zip_play_package.js",
     "itch:pack": "npm run release && python3 tools/itch_pack.py",
 
     "validate:assets": "node tools/validateAssets.js",
